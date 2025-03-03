@@ -1,1 +1,227 @@
 @use 'global' as *;
+
+.footer {
+    background-color: $beige1;
+    padding-top: rem(47);
+}
+
+.footer__inner {
+
+}
+
+.inner {
+
+}
+
+.footer__body {
+
+}
+
+.footer__main {
+    margin: 0 auto rem(41);
+    max-width: rem(985);
+    color: $brown1;
+    display: flex;
+    align-items: center;
+    gap: rem(40);
+}
+
+.footer__meta {
+    // width: calc(rem(382) / rem(985) * 100%);
+    max-width: rem(382);
+}
+
+.footer__logo {
+    max-width: rem(382);
+}
+
+.footer__info {
+    margin-top: rem(18);
+}
+
+.footer__adress {
+    font-size: rem(17.6);
+    line-height: calc(22 / 17.6);
+    font-weight: $regular;
+}
+
+.footer__info-tel {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1em;
+}
+
+.footer__info-tel p {
+    letter-spacing: 0.13em;
+    font-size: rem(18);
+    line-height: calc(22 / 18);
+    font-weight: $regular;
+}
+
+.footer__flex {
+    display: flex;
+    align-items: center;
+    gap: rem(20);
+}
+
+.footer__tel {
+    display: flex;
+    align-items: center;
+    gap: rem(9);
+}
+
+.footer__tel>img {
+    max-width: rem(80);
+}
+
+.footer__number {
+    font-size: rem(25);
+    line-height: calc(29 / 25);
+    letter-spacing: 0.015em;
+}
+
+.footer__note {
+    font-size: rem(12);
+    line-height: calc(24 / 12);
+    letter-spacing: 0.06em;
+}
+
+.footer__btn {
+    max-width: rem(269);
+}
+
+//メールへのボタン
+.footer__contact {
+    display: inline-block;
+    width: 100%;
+    //テキスト
+    font-family: $second-font-family;
+    font-size: rem(15);
+    font-weight: $bold;
+    line-height: calc(20 / 15);
+    letter-spacing: 0.04em;
+    //ボタン
+    background-color: $white;
+    box-shadow: 0 2px 0 rgba($color: $brown2, $alpha: 0.7);
+    border-radius: rem(5);
+    padding: rem(3) rem(0) rem(6) rem(61);
+    //アイコン
+    position: relative;
+}
+
+.footer__contact span {
+    display: inline-block;
+    background:linear-gradient(transparent 62%, $yellow 62%, $yellow 82%, transparent 82%);
+    font-size: rem(13);
+    line-height: calc(22 / 13);
+}
+
+//アイコン
+.footer__contact::before,
+.footer__contact::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.footer__contact::before {
+    left: rem(10);
+    background: transparent url(../images/common/foot-ico.webp) no-repeat center center / cover;
+    width: rem(26);
+    height: rem(32);
+    z-index: 1;
+}
+
+.footer__contact::after {
+    left: 0;
+    background: transparent url(../images/common/foot-btn-bg.webp) no-repeat center center / cover;
+    width: rem(52);
+    height: rem(51);
+    z-index: 0;
+}
+
+.footer__nav {
+    margin: rem(40) auto rem(101);
+    max-width: rem(983);
+}
+
+.footer__items {
+    display: flex;
+    gap: rem(40);
+}
+
+.footer__item {
+
+}
+
+.footer__item:nth-of-type(2) {
+    width: calc(rem(302) / rem(983) * 100%);
+}
+
+.footer__item:nth-of-type(4) {
+    width: calc(rem(267) / rem(983) * 100%);
+}
+
+.footer__subTl {
+    text-align: center;
+    color: $black2;
+    font-size: rem(20);
+    line-height: calc(35 / 20);
+    letter-spacing: 0.02em;
+    padding: 0 rem(2);
+}
+
+.footer__contents {
+    display: flex;
+    justify-content: space-between;
+    padding-top: rem(8);
+    //ドット
+    background: -moz-linear-gradient(left, $orange1 2px, transparent 2px);
+    background: -webkit-linear-gradient(left, $orange1 2px, transparent 2px);
+    background: linear-gradient(to right, $orange1 2px, transparent 2px);
+    background-size: 7px 2px;
+    background-repeat: repeat-x;
+    background-position: left top;
+}
+
+.footer__link {
+    position: relative;
+    padding-left: rem(14);
+    font-size: rem(16);
+    font-weight: $regular;
+    line-height: calc(19 / 16);
+    padding: rem(9) 0;
+}
+
+.footer__link::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background: transparent url(../images/common/nav-ico.webp) no-repeat center center / cover;
+    width: rem(7);
+    height: rem(7);
+}
+
+.footer__link--circle::before {
+    background-image: none;
+    background-color: $brown1;
+    border-radius: 50%;
+    width: rem(6);
+    height: rem(6);
+}
+
+.footer__copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: $white;
+    text-align: center;
+    background-color: $brown1;
+    padding: rem(8) 0;
+    letter-spacing: 0.1em;
+    font-size: rem(16);
+    line-height: calc(40 / 16);
+}
