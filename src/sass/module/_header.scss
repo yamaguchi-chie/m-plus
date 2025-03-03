@@ -1,1 +1,104 @@
-@use 'global' as *;
+@use "global" as *;
+
+.header {
+    height: rem(100);
+    box-shadow: 3px 3px 0 rgba($color: $shadow1, $alpha: 0.3);
+    background-image: url(../images/common/head-bg.webp);
+    @include mq() {
+        border-width: 5px;
+    }
+}
+
+//スクロールしたら透過用
+.header.js-opacity {
+    opacity: 1;
+}
+
+.header__inner {
+    padding-right: $padding-pc;
+    height: inherit;
+    @include mq() {
+        padding-right: $padding-sp;
+    }
+}
+
+.header__body {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    // gap: rem(41);
+    // gap: 2.14vw;
+    align-items: center;
+}
+
+.header__logo {
+    max-width: rem(358);
+    width: 20%;
+    height: rem(124);
+    box-shadow: 2px 2px 0 rgba($color: $brown3, $alpha: 0.5);
+    background-color: $white;
+    border-radius: 0 0 rem(20) 0;
+    padding: rem(10) rem(20) rem(5);
+}
+
+.header__logo a {
+    display: inline-block;
+    max-width: rem(282);
+    padding-top: rem(19);
+}
+
+.header__main {
+    display: flex;
+    align-items: center;
+    height: inherit;
+    // width: calc(rem(1560) / rem(1854) * 100%);
+}
+
+.header__catch {
+    font-size: rem(17);
+    line-height: calc(30 / 17);
+    
+    @media screen and (max-width: 1519px) {
+        display: none;
+    }
+}
+
+.header__pc-nav {
+    margin-left: rem(35);
+    // margin-left: 1.8vw;
+    @include mq() {
+
+    }
+}
+
+.header__tel {
+    display: none;
+    @include mq(xl) {
+        margin-left: rem(14);
+        // margin-left: 0.7vw;
+        display: flex;
+        align-items: center;
+        gap: rem(9);
+    }
+}
+
+.header__tel>img {
+    max-width: rem(75);
+}
+
+.header__contents {
+    text-align: right;
+
+}
+
+.header__number {
+    font-size: rem(23);
+    line-height: calc(41 / 23);
+    letter-spacing: 0.06em;
+}
+
+.header__copy {
+    font-size: rem(12);
+    line-height: calc(23 / 12);
+    letter-spacing: 0.06em;
+}

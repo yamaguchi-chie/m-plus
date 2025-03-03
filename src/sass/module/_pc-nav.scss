@@ -1,0 +1,64 @@
+@use "global" as *;
+
+.pc-nav {
+    height: inherit;
+}
+
+.pc-nav__items {
+    display: flex;
+    height: inherit;
+    align-items: center;
+    flex-direction: inherit;
+}
+
+.pc-nav__item {
+    height: inherit;
+    position: relative;
+    
+    @include mq() {
+    }
+}
+
+.pc-nav__item:last-of-type::before,
+.pc-nav__item::after {
+    content: '';
+    height: rem(44);
+    width: 2px;
+    background: -moz-linear-gradient(top, $brown1 2px, transparent 2px);
+    background: -webkit-linear-gradient(top, $brown1 2px, transparent 2px);
+    background: linear-gradient(to bottom, $brown1 2px, transparent 2px);
+    background-size: 1px 7px;
+    background-repeat: repeat-y;
+    background-position: left bottom;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.pc-nav__item::after {
+    left: 0;
+}
+
+.pc-nav__item:last-of-type::before {
+    right: 0;
+}
+
+.pc-nav__item a {
+    text-align: center;
+    font-size: rem(17);
+    line-height: calc(29 / 17);
+    transition: .3s;
+    position: relative;
+    padding: 0 rem(28);
+    //上下中央揃え
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include mq() {
+    }
+}
+
+.pc-nav__item a:hover {
+
+}

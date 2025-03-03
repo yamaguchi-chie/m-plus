@@ -28,18 +28,28 @@
         <div class="header__body">
           <!-- logo  -->
           <h1 class="header__logo">
-            <a href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/logo.webp" alt="" width="" height="" loading="lazy" decoding="async"></a>
+            <a href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/head-logo.webp" alt="" width="" height="" loading="lazy" decoding="async"></a>
           </h1>
-          <!-- PCナビメニュー -->
-          <nav class="header__pc-nav pc-nav">
-            <ul class="pc-nav__items">
-              <li class="pc-nav__item"><a href="<?php echo esc_url(home_url()); ?>">top</a></li>
-              <li class="pc-nav__item"><a href="<?php echo esc_url(home_url("company")); ?>">company</a></li>
-              <li class="pc-nav__item"><a href="<?php echo esc_url(home_url("works")); ?>">works</a></li>
-              <li class="pc-nav__item"><a href="<?php echo esc_url(home_url("news")); ?>">news</a></li>
-              <li class="pc-nav__item"><a href="<?php echo esc_url(home_url("contact")); ?>">contact</a></li>
-            </ul>
-          </nav>
+          <div class="header__main">
+            <p class="header__catch">名古屋市・春日井市・小牧市の<br>リフォーム・リノベーションのことならエムプラスへ！</p>
+            <!-- PCナビメニュー -->
+            <nav class="header__pc-nav pc-nav">
+              <ul class="pc-nav__items">
+                <li class="pc-nav__item"><a href="<?php echo esc_url(home_url()); ?>">選ばれる理由</a></li>
+                <li class="pc-nav__item"><a href="<?php echo esc_url(home_url("menu")); ?>">リフォーム<br>メニュー</a></li>
+                <li class="pc-nav__item"><a href="<?php echo esc_url(home_url("flow")); ?>">リフォーム<br>の流れ</a></li>
+                <li class="pc-nav__item"><a href="<?php echo esc_url(home_url("company")); ?>">会社情報</a></li>
+                <li class="pc-nav__item"><a href="<?php echo esc_url(home_url("contact")); ?>">お問い合わせ</a></li>
+                </ul>
+              </nav>
+              <div class="header__tel">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/head-tel.webp" alt="" width="75" height="43" loading="lazy" decoding="async">
+                <div class="header__contents">
+                  <p class="header__number">0120<span>-</span>857<span>-</span>735</p>
+                  <p class="header__copy">【受付】平日9：00〜18：00</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -52,10 +62,10 @@
     <!-- ドロワーメニュー -->
     <nav class="sp-nav">
       <ul class="sp-nav__items">
-        <li class="sp-nav__item"><a href="<?php echo esc_url(home_url()); ?>">top</a></li>
-        <li class="sp-nav__item"><a href="<?php echo esc_url(home_url("company")); ?>">company</a></li>
-        <li class="sp-nav__item"><a href="<?php echo esc_url(home_url("works")); ?>">works</a></li>
-        <li class="sp-nav__item"><a href="<?php echo esc_url(home_url("news")); ?>">news</a></li>
-        <li class="sp-nav__item"><a href="<?php echo esc_url(home_url("contact")); ?>">contact</a></li>
+        <li class="sp-nav__item"><a href="<?php echo esc_url(home_url()); ?>">選ばれる理由</a></li>
+        <li class="sp-nav__item"><a href="<?php echo esc_url(home_url("menu")); ?>">リフォームメニュー</a></li>
+        <li class="sp-nav__item"><a href="<?php echo esc_url(home_url("flow")); ?>">リフォームの流れ</a></li>
+        <li class="sp-nav__item"><a href="<?php echo esc_url(home_url("company")); ?>">会社情報</a></li>
+        <li class="sp-nav__item"><a href="<?php echo esc_url(home_url("contact")); ?>">お問い合わせ</a></li>
       </ul>
     </nav>

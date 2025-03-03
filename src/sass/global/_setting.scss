@@ -47,11 +47,13 @@ $gray2: #020000;
 $gray3: #070300;
 $gray4: #999;
 $red: #FF1D25;
+$shadow1: #773000;
 
 
 body {
   font-family: $base-font-family;
   color: $black;
+  font-weight: $medium;
   background-color: $white;
 }
 
