@@ -1,0 +1,71 @@
+@use "sass:math";
+
+// インナー幅設定
+// コンテンツのインナー幅（最も共通の幅が多い部分）
+$inner: 1100px;
+// ※キュンパス幅ではなくインナーの幅を指す
+
+// 余白
+$padding-pc: 25px;
+$padding-sp: 20px;
+
+////////////////////
+// フォント設定
+////////////////////
+
+$base-font-family: "Kiwi Maru", serif;
+$second-font-family: "fot-tsukuardgothic-std", sans-serif;
+// ※検証ツールでしっかり反映されているか確認する
+
+// フォントウェイト
+$regular: 400;
+$medium: 500;
+$bold: 700;
+
+////////////////////
+// 色の指定
+////////////////////
+
+//色指定（共通性のあるものは出来る限り指定すると良い）
+$black: #4D4D4D;
+$white: #fff;
+$cream: #FFFEEE;
+$main: #463232;
+$brown1: #5F3C13;
+$brown2: #4C4035;
+$brown3: #492300;
+$beige1: #EFEBE7;
+$beige2: #FBF1E9;
+$beige3: #AF9D89;
+$orange1: #D06C15;
+$orange2: #FFA83F;
+$orange3: #D16C15;
+$orange4: #E8B58A;
+$blue: #4682FF;
+$gray1: #666;
+$gray2: #020000;
+$gray3: #070300;
+$gray4: #999;
+$red: #FF1D25;
+
+
+body {
+  font-family: $base-font-family;
+  color: $black;
+  background-color: $white;
+}
+
+body.js-open {
+  height: 100%;
+  overflow: hidden;
+}
+
+main {
+  flex: 1;
+}
+
+.main-wrap {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
