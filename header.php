@@ -35,7 +35,7 @@
             <!-- PCナビメニュー -->
             <nav class="header__pc-nav pc-nav">
               <ul class="pc-nav__items">
-                <li class="pc-nav__item"><a href="<?php echo esc_url(home_url()); ?>">選ばれる理由</a></li>
+                <li class="pc-nav__item"><a href="<?php echo esc_url(home_url("reason")); ?>">選ばれる理由</a></li>
                 <li class="pc-nav__item"><a href="<?php echo esc_url(home_url("menu")); ?>">リフォーム<br>メニュー</a></li>
                 <li class="pc-nav__item"><a href="<?php echo esc_url(home_url("flow")); ?>">リフォーム<br>の流れ</a></li>
                 <li class="pc-nav__item"><a href="<?php echo esc_url(home_url("company")); ?>">会社情報</a></li>
@@ -62,7 +62,7 @@
     <!-- ドロワーメニュー -->
     <nav class="sp-nav">
       <ul class="sp-nav__items">
-        <li class="sp-nav__item"><a href="<?php echo esc_url(home_url()); ?>">選ばれる理由</a></li>
+        <li class="sp-nav__item"><a href="<?php echo esc_url(home_url("reason")); ?>">選ばれる理由</a></li>
         <li class="sp-nav__item"><a href="<?php echo esc_url(home_url("menu")); ?>">リフォームメニュー</a></li>
         <li class="sp-nav__item"><a href="<?php echo esc_url(home_url("flow")); ?>">リフォームの流れ</a></li>
         <li class="sp-nav__item"><a href="<?php echo esc_url(home_url("company")); ?>">会社情報</a></li>
