@@ -6,18 +6,21 @@
     text-align: center;
     width: 100%;
     background-color: $orange5;
-    color: $orange3;
-    font-size: rem(24);
-    line-height: calc(34 / 24);
-    letter-spacing: 0.05em;
-    font-weight: $bold;
-    font-family: $second-font-family;
     box-shadow: 5px 5px 5px rgba($color: $gray2, $alpha: 0.3);
     border: 2px solid $white;
     padding: rem(39) rem(20) rem(38);
     border-radius: rem(10);
     transition: all .3s ease 0s;
     cursor: pointer;
+}
+
+.top-btn span {
+    color: $orange3;
+    font-size: rem(24);
+    line-height: calc(34 / 24);
+    letter-spacing: 0.05em;
+    font-weight: $bold;
+    font-family: $second-font-family;
 }
 
 // アイコン
@@ -50,6 +53,7 @@
     }
 }
 
+//トップページ メニューボタン
 .top-btn--menu {
     color: $brown1;
     background-color: $beige1;
@@ -62,4 +66,14 @@
 }
 .top-btn--menu::before {
     background-image: url(../images/top/btn1.webp);
+}
+
+//トップページ 流れボタン
+.top-btn--flow span {
+    padding-left: rem(27);
+}
+
+.top-btn--flow::before {
+    left: rem(35);
+    background-image: url(../images/top/btn2.webp);
 }
