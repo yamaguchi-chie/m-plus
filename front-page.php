@@ -52,7 +52,7 @@
                     <p class="top-reason__subTl">何でも相談できる街のリフォーム屋さん</p>
                 </div>
                 <p class="top-reason__txt">エムプラスは、相談できる街のリフォーム屋さんです。<br>名古屋市、春日井市、小牧市を中心に町の皆さんのお役にたちたいという想いから、皆さんの家の色んなお困りごとに「お応え」しています。<br>地域密着だからこそ、キメの細かい対応と高品質を実現できます。</p>
-                <div class="top-reason__btn"><a href="<?php echo esc_url(home_url("reason")); ?>" class="top-reason__link"><span>選ばれる理由</span></a></div>
+                <div class="top-reason__btn"><a href="<?php echo esc_url(home_url("reason")); ?>" class="top-btn"><span>選ばれる理由</span></a></div>
             </div>
             <div class="top-reason__img">
                 <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/reason.webp" alt="" width="" height="" loading="lazy" decoding="async">
@@ -64,10 +64,10 @@
 <section class="top-menu">
     <div class="top-menu__inner inner">
         <div class="top-menu__top">
-            <h2 class="top-menu__title"></h2>
-            <p class="top-menu__en"></p>
+            <h2 class="top-menu__title">リフォームメニュー</h2>
+            <p class="top-menu__en">Reform Menu</p>
         </div>
-        <p class="top-menu__catch"></p>
+        <p class="top-menu__catch">エムプラスのリフォーム料金プラン例をご紹介します。地元のリフォーム会社なので、<br>型にはまらない柔軟な対応も可能です。ご希望やご予算などお気軽にご相談ください。</p>
         <div class="top-menu__body">
             <ul class="menu-card-list">
                 <li class="menu-card-list__item menu-card">
@@ -161,6 +161,9 @@
                     </div>
                 </li>
             </ul>
+            <div class="top-menu__btn">
+            <a href="<?php echo esc_url(home_url("menu")); ?>" class="top-btn top-btn--menu"><span>リフォームメニュー<br>一覧を見る</span></a>
+            </div>
         </div>
     </div>
 </section>

@@ -72,56 +72,6 @@
     max-width: rem(419);
 }
 
-.top-reason__link {
-    display: inline-block;
-    position: relative;
-    text-align: center;
-    width: 100%;
-    background-color: $orange5;
-    color: $orange3;
-    font-size: rem(24);
-    line-height: calc(34 / 24);
-    letter-spacing: 0.05em;
-    font-weight: $bold;
-    font-family: $second-font-family;
-    box-shadow: 5px 5px 5px rgba($color: $gray2, $alpha: 0.3);
-    border: 2px solid $white;
-    padding: rem(39) rem(20) rem(38);
-    border-radius: rem(10);
-    transition: all .3s ease 0s;
-    cursor: pointer;
-}
-
-// アイコン
-.top-reason__link::before {
-    content: "";
-    display: block;
-    position: absolute;
-    transform: translateY(-50%);
-    width: rem(68);
-    height: rem(68);
-    background: transparent url(../images/top/btn4.webp) no-repeat center center / cover;
-    top: 50%;
-    left: rem(40);
-}
-
-// 矢印
-.top-reason__link::after {
-    display: inline-block;
-    content: '';
-    position: absolute;
-    top: 50%;
-    right: rem(26);
-    transform: translateY(-50%);
-    background: transparent url(../images/top/btn-arrow.webp) no-repeat center center / cover;
-    width: rem(11);
-    height: rem(11);
-
-    @include mq() {
-
-    }
-}
-
 .top-reason__img {
     aspect-ratio: 487/623;
     max-width: rem(487);
