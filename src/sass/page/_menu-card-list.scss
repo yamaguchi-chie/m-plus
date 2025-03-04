@@ -1,0 +1,12 @@
+@use 'global' as *;
+
+.menu-card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: rem(31);
+}
+
+.menu-card-list__item {
+    width:  calc(33.33% - calc(rem(31) * 2 / 3));
+    max-width: rem(326);
+}
