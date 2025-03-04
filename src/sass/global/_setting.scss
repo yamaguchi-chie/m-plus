@@ -18,6 +18,7 @@ $second-font-family: "fot-tsukuardgothic-std", sans-serif;
 // ※検証ツールでしっかり反映されているか確認する
 
 // フォントウェイト
+$demi-light: 200;
 $regular: 400;
 $medium: 500;
 $bold: 700;
@@ -29,6 +30,7 @@ $bold: 700;
 //色指定（共通性のあるものは出来る限り指定すると良い）
 $black: #4D4D4D;
 $black2: #000;
+$black3: #333;
 $white: #fff;
 $cream: #FFFEEE;
 $main: #463232;
@@ -47,6 +49,8 @@ $gray1: #666;
 $gray2: #020000;
 $gray3: #070300;
 $gray4: #999;
+$gray5: #B3B3B3;
+$gray6: #808080;
 $red: #FF1D25;
 $shadow1: #773000;
 $yellow: #FFFF00;
