@@ -195,7 +195,7 @@
         </div>
         <p class="top-company__catch">名古屋市や春日井市、小牧市を中心とした地域密着の<br>リフォーム・リノベーション会社・エムプラスです。<br>お客様との出会いとご縁、職人さんとの絆を大切にした<br>まごころを込めたリフォームを実現します。</p>
         <div class="top-company__btn">
-            <a href="<?php echo esc_url(home_url("company")); ?>" class="top-btn top-btn--flow"><span>会社について</span></a>
+            <a href="<?php echo esc_url(home_url("company")); ?>" class="top-btn top-btn--company"><span>会社について</span></a>
         </div>
     </div>
 </section>

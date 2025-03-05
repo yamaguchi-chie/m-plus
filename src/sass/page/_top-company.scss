@@ -1,11 +1,10 @@
 @use 'global' as *;
 
-.top-menu {
-    padding-top: rem(100);
-    padding-bottom: rem(110);
+.top-company {
+
 }
 
-.top-menu__inner {
+.top-company__inner {
 
 }
 
@@ -13,23 +12,24 @@
 
 }
 
-.top-menu__top {
+.top-company__top {
     text-align: center;
 }
 
-.top-menu__title {
+.top-company__title {
     color: $main;
     font-size: rem(30);
     line-height: calc(52 / 30);
-    letter-spacing: 1em;
-    margin-bottom: rem(20);
+    letter-spacing: .2em;
+    margin-bottom: rem(10);
     position: relative;
-    padding: 0 rem(134);
+    padding-left: rem(127);
+    padding-right: rem(119);
     display: inline-block;
 }
 
-.top-menu__title::before,
-.top-menu__title::after {
+.top-company__title::before,
+.top-company__title::after {
     content: '';
     position: absolute;
     top: 50%;
@@ -42,27 +42,28 @@
     aspect-ratio: 113/68;
 }
 
-.top-menu__title::before {
-    background-image: url(../images/top/2.webp);
+.top-company__title::before {
+    background-image: url(../images/top/6.webp);
     left: 0;
 }
 
-.top-menu__title::after {
-    background-image: url(../images/top/3.webp);
+.top-company__title::after {
+    background-image: url(../images/top/7.webp);
     right: 0;
 }
 
-.top-menu__en {
+.top-company__en {
     position: relative;
-    padding-top: rem(20);
+    text-transform: capitalize;
+    padding-top: rem(11);
     color: $brown1;
+    letter-spacing: 0.13em;
     font-size: rem(20);
     font-weight: $regular;
     line-height: calc(35 / 20);
-    letter-spacing: 0.05em;
 }
 
-.top-menu__en::before {
+.top-company__en::before {
     content: '';
     position: absolute;
     top: 0;
@@ -76,19 +77,15 @@
     border-radius: rem(1.5);
 }
 
-.top-menu__catch {
-    margin-top: rem(75);
+.top-company__catch {
+    margin-top: rem(56);
     text-align: center;
     font-size: rem(18);
     font-weight: $regular;
     line-height: calc(32 / 18);
 }
 
-.top-menu__body {
-    margin-top: rem(78);
-}
-
-.top-menu__btn {
-    margin: rem(70) auto 0;
+.top-company__btn {
+    margin: rem(56) auto 0;
     max-width: rem(467);
 }

@@ -55,10 +55,13 @@
 
 //トップページ メニューボタン
 .top-btn--menu {
-    color: $brown1;
     background-color: $beige1;
     border-radius: rem(58);
     padding: rem(22) rem(20);
+}
+
+.top-btn--menu span {
+    color: $brown1;
 }
 
 .top-btn--menu::after {
@@ -76,4 +79,23 @@
 .top-btn--flow::before {
     left: rem(35);
     background-image: url(../images/top/btn2.webp);
+}
+
+//トップページ 会社ボタン
+.top-btn--company {
+    background-color: $beige1;
+    border-radius: rem(58);
+    padding: rem(39) rem(20);
+}
+
+.top-btn--company span {
+    color: $brown1;
+}
+
+.top-btn--company::after {
+    background-image: url(../images/common/nav-ico.webp);
+}
+
+.top-btn--company::before {
+    background-image: url(../images/top/btn3.webp);
 }
