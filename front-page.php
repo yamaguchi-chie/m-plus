@@ -7,6 +7,7 @@
             <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/mv2.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
             <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/mv3.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
         </div>
+        <div class="swiper-pagination"></div>
     </div>
 </div>
 
