@@ -1,1 +1,60 @@
-@use 'global' as *;
+@use "global" as *;
+
+.header-hamburger {
+    position: fixed;
+    top: rem(17);
+    right: rem(22);
+    width: rem(24);
+    height: rem(13);
+    padding: rem(5) 0 rem(11);
+    z-index: 9999;
+    transition: .3s;
+    @include mq() {
+        display: none;
+    }
+}
+
+.header-hamburger.js-open {
+    right: rem(12);
+}
+
+.header-hamburger>span {
+    opacity: 0.5;
+}
+.header-hamburger>span.js-opacity {
+    opacity: 1;
+}
+
+.header-hamburger span:nth-child(1),
+.header-hamburger span:nth-child(2),
+.header-hamburger span:nth-child(3) {
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    transition: all .3s ease 0s;
+}
+
+.header-hamburger span:nth-child(1){
+    top: 0;
+    &.js-open {
+        transform: rotate(-45deg);
+        top: 50%;
+    }
+}
+
+.header-hamburger span:nth-child(2){
+    top: 50%;
+    &.js-open {
+       display: none;
+    }
+}
+
+.header-hamburger span:nth-child(3){
+    top: 100%;
+    &.js-open {
+        transform: rotate(45deg);
+        top: 50%;
+    }
+}

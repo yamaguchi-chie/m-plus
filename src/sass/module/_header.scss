@@ -4,6 +4,8 @@
     height: rem(100);
     box-shadow: 3px 3px 0 rgba($color: $shadow1, $alpha: 0.3);
     background-image: url(../images/common/head-bg.webp);
+    position: relative;
+    z-index: 2;
     @include mq() {
         border-width: 5px;
     }

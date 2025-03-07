@@ -1,7 +1,14 @@
 <?php get_header(); ?>
 
-<div class="logo"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/logo_big.svg" alt="" width="" height="" loading="lazy" decoding="async"></div>
-
+<div class="mv">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/mv1.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
+            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/mv2.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
+            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/mv3.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
+        </div>
+    </div>
+</div>
 
 <section class="news">
     <div class="news__inner inner">
