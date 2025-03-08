@@ -11,6 +11,26 @@
     </div>
 </div>
 
+<div class="wave">
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/" version="1.1" viewBox="0 0 1920 255.1"> -->
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/" version="1.1" viewBox="0 0 1920 300" width="1920" height="300">
+    <defs>
+        <clipPath id="clippath">
+          <rect width="1920" height="255.1" style="fill: none;"/>
+          <rect width="900" height="300" style="fill: none;"/>
+        </clipPath>
+      </defs>
+      <g id="_新着情報">
+        <g style="clip-path: url(#clippath);">
+          <path d="M1003.9,20.7C581.7,63.5,406.5,77.7-37.5,33.3v222.6h2000V46.5c-199.3-33.7-537.2-68.6-958.6-25.8Z"/>
+        </g>
+      </g>
+    </svg> -->
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/" version="1.1" viewBox="0 0 1920 255" width="1920" height="255">
+        <path d="M1003.9,20.7C581.7,63.5,406.5,77.7-37.5,33.3v222.6h2000V46.5c-199.3-33.7-537.2-68.6-958.6-25.8Z"/>
+    </svg> -->
+</div>
+
 <section class="news">
     <div class="news__inner inner">
         <div class="news__body">
