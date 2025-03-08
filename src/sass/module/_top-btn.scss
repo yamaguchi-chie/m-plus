@@ -88,6 +88,9 @@
 //トップページ 流れボタン
 .top-btn--flow span {
     padding-left: rem(27);
+    @include mq() {
+        padding-left: 0;
+    }
 }
 
 .top-btn--flow::before {

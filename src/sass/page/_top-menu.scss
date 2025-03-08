@@ -29,9 +29,9 @@
     padding: 0 rem(124);
     display: inline-block;
     @include mq() {
-    padding: 0 rem(54);
-    font-size: rem(21);
-    margin-bottom: rem(16);
+        padding: 0 rem(54);
+        font-size: rem(21);
+        margin-bottom: rem(16);
     }
 }
 
