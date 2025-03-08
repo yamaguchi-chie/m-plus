@@ -260,7 +260,7 @@
             <h2 class="top-facturer__title">対応メーカー</h2>
             <p class="top-facturer__en">Manufacturer</p>
         </div>
-        <p class="top-facturer__catch">下記メーカーやその他メーカーもご対応可能です。<br>独自の保証期間もあります。<br>詳細はお気軽にお問い合わせください。</p>
+        <p class="top-facturer__catch">下記メーカーやその他メーカーもご対応可能です。<br class="u-desktop">独自の保証期間もあります。<br class="u-desktop">詳細はお気軽にお問い合わせください。</p>
         <ul class="top-facturer__list">
             <li class="top-facturer__item"><p class="top-facturer__txt">Takara standard<span>（タカラスタンダード）</span></p></li>
             <li class="top-facturer__item"><p class="top-facturer__txt">LIXIL（リクシル）</p></li>
