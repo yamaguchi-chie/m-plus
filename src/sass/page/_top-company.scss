@@ -26,6 +26,9 @@
     padding-left: rem(127);
     padding-right: rem(119);
     display: inline-block;
+    @include mq() {
+        font-size: rem(21);
+    }
 }
 
 .top-company__title::before,
@@ -61,6 +64,9 @@
     font-size: rem(20);
     font-weight: $regular;
     line-height: calc(35 / 20);
+    @include mq() {
+        font-size: rem(14);
+    }
 }
 
 .top-company__en::before {
@@ -83,6 +89,9 @@
     font-size: rem(18);
     font-weight: $regular;
     line-height: calc(32 / 18);
+    @include mq() {
+        font-size: rem(16);
+    }
 }
 
 .top-company__btn {

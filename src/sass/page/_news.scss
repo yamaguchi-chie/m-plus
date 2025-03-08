@@ -3,6 +3,10 @@
 .news {
     padding-top: rem(105);
     margin-bottom: rem(100);
+    @include mq() {
+        padding-top: rem(80);
+        margin-bottom: rem(80);
+    }
 }
 
 .news__body {
@@ -30,6 +34,9 @@
     letter-spacing: 0.2em;
     color: $black3;
     position: relative;
+    @include mq() {
+        font-size: rem(21);
+    }
 }
 
 .news__title span {
@@ -39,6 +46,9 @@
     font-size: rem(14);
     line-height: calc(32 / 14);
     letter-spacing: 0.2em;
+    @include mq() {
+        font-size: rem(12);
+    }
 }
 
 .news__title::before {

@@ -37,6 +37,9 @@
     line-height: calc(52 / 30);
     letter-spacing: 0.2em;
     font-family: $second-font-family;
+    @include mq() {
+        font-size: rem(21);
+    }
 }
 
 .top-area__title::before {

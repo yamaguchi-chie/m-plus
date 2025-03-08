@@ -26,6 +26,9 @@
     position: relative;
     padding: 0 rem(124);
     display: inline-block;
+    @include mq() {
+        font-size: rem(21);
+    }
 }
 
 .top-menu__title::before,
@@ -60,6 +63,9 @@
     font-weight: $regular;
     line-height: calc(35 / 20);
     letter-spacing: 0.05em;
+    @include mq() {
+        font-size: rem(14);
+    }
 }
 
 .top-menu__en::before {
@@ -82,6 +88,9 @@
     font-size: rem(18);
     font-weight: $regular;
     line-height: calc(32 / 18);
+    @include mq() {
+        font-size: rem(16);
+    }
 }
 
 .top-menu__body {

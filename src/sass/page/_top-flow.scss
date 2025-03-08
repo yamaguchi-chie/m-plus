@@ -23,6 +23,9 @@
     position: relative;
     padding: 0 rem(134);
     display: inline-block;
+    @include mq() {
+        font-size: rem(21);
+    }
 }
 
 .top-flow__title::before,
@@ -80,6 +83,9 @@
     font-size: rem(18);
     font-weight: $regular;
     line-height: calc(32 / 18);
+    @include mq() {
+        font-size: rem(16);
+    }
 }
 
 .top-flow__body {
