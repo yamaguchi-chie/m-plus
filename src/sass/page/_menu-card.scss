@@ -1,7 +1,7 @@
 @use 'global' as *;
 
 .menu-card {
-    padding: rem(20) rem(3) rem(3);
+    padding: rem(12) rem(3) rem(3);
     background-color: $white;
     border-radius: rem(53);
     position: relative;
@@ -34,7 +34,7 @@
 }
 
 .menu-card__top {
-    padding-bottom: rem(22);
+    padding-bottom: rem(20);
 }
 
 .menu-card__title {
@@ -92,7 +92,7 @@
 .menu-card__contents {
     background-color: rgba($color: $white, $alpha: 0.8);
     border-radius: rem(20) 0 rem(47) 0;
-    padding: rem(18) rem(18) rem(22);
+    padding: rem(18) rem(18) rem(25);
     max-width: rem(169);
     position: absolute;
     bottom: rem(9);
@@ -101,7 +101,7 @@
 
 .menu-card__subTl {
     background-color: $main;
-    padding: rem(3) rem(7);
+    padding: rem(3) rem(9);
     text-align: center;
     border-radius: rem(12);
     color: $white;
@@ -115,7 +115,7 @@
     display: flex;
     align-items: end;
     gap: rem(6);
-    margin-top: rem(10);
+    margin-top: rem(7);
 }
 
 .menu-card__price {

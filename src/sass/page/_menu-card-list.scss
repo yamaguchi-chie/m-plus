@@ -2,8 +2,10 @@
 
 .menu-card-list {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: rem(31);
+    column-gap: rem(31);
+    row-gap: rem(42);
 }
 
 .menu-card-list__item {
