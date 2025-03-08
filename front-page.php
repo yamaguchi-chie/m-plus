@@ -97,7 +97,7 @@
             <h2 class="top-menu__title">リフォームメニュー</h2>
             <p class="top-menu__en">Reform Menu</p>
         </div>
-        <p class="top-menu__catch">エムプラスのリフォーム料金プラン例をご紹介します。地元のリフォーム会社なので、<br>型にはまらない柔軟な対応も可能です。ご希望やご予算などお気軽にご相談ください。</p>
+        <p class="top-menu__catch">エムプラスのリフォーム料金プラン例をご紹介します。地元のリフォーム会社なので、<br class="u-desktop">型にはまらない柔軟な対応も可能です。ご希望やご予算などお気軽にご相談ください。</p>
         <div class="top-menu__body">
             <ul class="menu-card-list">
                 <li class="menu-card-list__item menu-card">
@@ -223,7 +223,7 @@
             <h2 class="top-company__title">会社情報・対応地域</h2>
             <p class="top-company__en">About Us／Area</p>
         </div>
-        <p class="top-company__catch">名古屋市や春日井市、小牧市を中心とした地域密着の<br>リフォーム・リノベーション会社・エムプラスです。<br>お客様との出会いとご縁、職人さんとの絆を大切にした<br>まごころを込めたリフォームを実現します。</p>
+        <p class="top-company__catch">名古屋市や春日井市、小牧市を中心とした地域密着の<br class="u-desktop">リフォーム・リノベーション会社・エムプラスです。<br>お客様との出会いとご縁、職人さんとの絆を大切にした<br class="u-desktop">まごころを込めたリフォームを実現します。</p>
         <div class="top-company__btn">
             <a href="<?php echo esc_url(home_url("company")); ?>" class="top-btn top-btn--company"><span>会社について</span></a>
         </div>
