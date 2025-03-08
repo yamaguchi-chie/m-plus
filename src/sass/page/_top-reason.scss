@@ -12,7 +12,9 @@
 
 .top-reason__inner.inner {
     max-width: rem(1200);
-
+    @include mq() {
+        max-width: rem(690);
+    }
 }
 
 .top-reason__body {

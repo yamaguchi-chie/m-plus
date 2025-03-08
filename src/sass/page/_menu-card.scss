@@ -5,6 +5,9 @@
     background-color: $white;
     border-radius: rem(53);
     position: relative;
+    @include mq() {
+        padding-top: rem(17);
+    }
 }
 
 .menu-card::before,
@@ -45,6 +48,9 @@
     line-height: 1;
     letter-spacing: 0.05em;
     font-family: $second-font-family;
+    @include mq() {
+        font-size: rem(22);
+    }
 }
 
 .menu-card__title span {
@@ -52,7 +58,9 @@
     font-size: rem(13);
     font-weight: $regular;
     line-height: calc(25 / 13);
-    
+    @include mq() {
+        font-size: rem(14);
+    }
 }
 
 .menu-card__img {
@@ -98,6 +106,9 @@
     position: absolute;
     bottom: rem(9);
     right: rem(10);
+    @include mq() {
+        padding: rem(16) rem(13) rem(18);
+    }
 }
 
 .menu-card__subTl {
@@ -110,6 +121,10 @@
     font-weight: $bold;
     line-height: calc(20 / 15);
     font-family: $second-font-family;
+    @include mq() {
+        font-size: rem(15);
+        padding: rem(4) rem(10);
+    }
 }
 
 .menu-card__meta {
@@ -117,6 +132,11 @@
     align-items: end;
     gap: rem(6);
     margin-top: rem(7);
+    @include mq() {
+        gap: rem(7);
+        margin-top: rem(10);
+        margin-left: rem(10);
+    }
 }
 
 .menu-card__price {
@@ -126,6 +146,9 @@
     line-height: 0.7;
     letter-spacing: 0.02em;
     font-family: $second-font-family;
+    @include mq() {
+        font-size: rem(42);
+    }
 }
 
 .menu-card__txt {
@@ -133,6 +156,9 @@
     font-weight: $bold;
     line-height: calc(19 / 20);
     letter-spacing: 0.02em;
+    @include mq() {
+        font-size: rem(18);
+    }
 }
 
 .menu-card__txt span {
@@ -141,4 +167,7 @@
     font-size: rem(12);
     font-weight: $regular;
     line-height: calc(15 / 12);
+    @include mq() {
+        font-size: rem(11);
+    }
 }

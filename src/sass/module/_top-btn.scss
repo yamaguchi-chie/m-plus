@@ -27,6 +27,9 @@
     font-weight: $bold;
     font-family: $second-font-family;
     margin-left: rem(19);
+    @include mq() {
+        font-size: rem(21);
+    }
 }
 
 // アイコン

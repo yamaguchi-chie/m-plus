@@ -6,9 +6,17 @@
     flex-wrap: wrap;
     column-gap: rem(31);
     row-gap: rem(42);
+    @include mq() {
+        flex-direction: column;
+        align-items: center;
+        gap: rem(28);
+    }
 }
 
 .menu-card-list__item {
     width:  calc(33.33% - calc(rem(31) * 2 / 3));
     max-width: rem(326);
+    @include mq() {
+        width: 100%;
+    }
 }
