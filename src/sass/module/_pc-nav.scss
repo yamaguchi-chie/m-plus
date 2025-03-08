@@ -2,6 +2,9 @@
 
 .pc-nav {
     height: inherit;
+    @include mq() {
+        display: none;
+    }
 }
 
 .pc-nav__items {

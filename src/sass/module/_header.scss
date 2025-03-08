@@ -8,6 +8,7 @@
     z-index: 2;
     @include mq() {
         border-width: 5px;
+        height: rem(60);
     }
 }
 
@@ -41,12 +42,21 @@
     background-color: $white;
     border-radius: 0 0 rem(20) 0;
     padding: rem(10) rem(20) rem(5);
+    @include mq() {
+        height: rem(84);
+        width: 50%;
+        padding: rem(7) rem(12) rem(5);
+    }
 }
 
 .header__logo a {
     display: inline-block;
     max-width: rem(282);
     padding-top: rem(19);
+    @include mq() {
+        max-width: rem(175);
+        padding-top: rem(20);
+    }
 }
 
 .header__main {
