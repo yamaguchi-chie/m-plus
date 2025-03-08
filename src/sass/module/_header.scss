@@ -9,6 +9,7 @@
     @include mq() {
         border-width: 5px;
         height: rem(60);
+        z-index: 999;
     }
 }
 

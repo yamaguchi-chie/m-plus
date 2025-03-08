@@ -61,6 +61,7 @@
     </button>
     <!-- ドロワーメニュー -->
     <nav class="sp-nav">
+      <p class="sp-nav__catch">名古屋市・春日井市・小牧市の<br>リフォーム・リノベーションのことなら<br>エムプラスへ！</p>
       <ul class="sp-nav__items">
         <li class="sp-nav__item"><a href="<?php echo esc_url(home_url("reason")); ?>">選ばれる理由</a></li>
         <li class="sp-nav__item"><a href="<?php echo esc_url(home_url("menu")); ?>">リフォームメニュー</a></li>
@@ -68,4 +69,11 @@
         <li class="sp-nav__item"><a href="<?php echo esc_url(home_url("company")); ?>">会社情報</a></li>
         <li class="sp-nav__item"><a href="<?php echo esc_url(home_url("contact")); ?>">お問い合わせ</a></li>
       </ul>
+      <div class="sp-nav__tel">
+        <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/head-tel.webp" alt="" width="75" height="43" loading="lazy" decoding="async">
+        <div class="sp-nav__contents">
+          <p class="sp-nav__number">0120<span>-</span>857<span>-</span>735</p>
+          <p class="sp-nav__copy">【受付】平日9：00〜18：00</p>
+        </div>
+      </div>
     </nav>

@@ -3,16 +3,16 @@
 .sp-nav {
     display: none;
     @include mq() {
+        display: block;
         transition: all .5s ease 0s;
-        padding-top: rem(192);
-        padding-bottom: rem(208);
+        padding: rem(100) rem(20) rem(120);
         overflow-y: scroll;
         height: 100vh;
         width: 100%;
         position: fixed;
         right: -105%;
         z-index: 888;
-        background-color: #111;
+        background-color: $beige2;
     }
 }
 
@@ -20,13 +20,58 @@
     right: 0%;
 }
 
-.sp-nav__item 
-a {
+.sp-nav__items {
+    margin-top: rem(32);
+}
+
+.sp-nav__catch {
+    @include mq() {
+        font-size: rem(17);
+        max-width: rem(400);
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+.sp-nav__item a {
     display: block;
     letter-spacing: .12em;
     padding: rem(16) 0 rem(15);
+    font-size: rem(16);
 }
 
 .sp-nav__items {
     text-align: center;
+    margin-top: rem(24);
+}
+
+.sp-nav__tel {
+    @include mq() {
+        margin-top: rem(40);
+        margin-left: rem(14);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: rem(9);
+    }
+}
+
+.sp-nav__tel>img {
+    max-width: rem(75);
+}
+
+.sp-nav__contents {
+    // text-align: right;
+}
+
+.sp-nav__number {
+    font-size: rem(23);
+    line-height: calc(29 / 23);
+    letter-spacing: 0.06em;
+}
+
+.sp-nav__copy {
+    font-size: rem(13);
+    line-height: calc(23 / 12);
+    letter-spacing: 0.06em;
 }

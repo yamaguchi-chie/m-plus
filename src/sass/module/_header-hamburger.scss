@@ -3,58 +3,53 @@
 .header-hamburger {
     display: none;
     @include mq() {
+        display: block;
         position: fixed;
-        top: rem(17);
-        right: rem(22);
-        width: rem(24);
-        height: rem(13);
+        top: 0;
+        right: 0;
+        width: rem(60);
+        height: rem(60);
         padding: rem(5) 0 rem(11);
         z-index: 9999;
         transition: .3s;
     }
 }
 
-.header-hamburger.js-open {
-    right: rem(12);
-}
-
-.header-hamburger>span {
-    opacity: 0.5;
-}
-.header-hamburger>span.js-opacity {
-    opacity: 1;
-}
-
 .header-hamburger span:nth-child(1),
 .header-hamburger span:nth-child(2),
 .header-hamburger span:nth-child(3) {
     display: block;
-    background-color: #fff;
+    background-color: $main;
     position: absolute;
-    width: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: rem(25);
     height: 2px;
     transition: all .3s ease 0s;
 }
 
 .header-hamburger span:nth-child(1){
-    top: 0;
-    &.js-open {
-        transform: rotate(-45deg);
-        top: 50%;
-    }
+    top: 36%;
+}
+
+.header-hamburger span:nth-child(1).js-open {
+    transform: translateX(-50%) rotate(-45deg);
+    top: 50%;
 }
 
 .header-hamburger span:nth-child(2){
     top: 50%;
-    &.js-open {
-       display: none;
-    }
+}
+
+.header-hamburger span:nth-child(2).js-open {
+   display: none;
 }
 
 .header-hamburger span:nth-child(3){
-    top: 100%;
-    &.js-open {
-        transform: rotate(45deg);
-        top: 50%;
-    }
+    top: 64%;
+}
+
+.header-hamburger span:nth-child(3).js-open {
+    transform: translateX(-50%) rotate(45deg);
+    top: 50%;
 }
