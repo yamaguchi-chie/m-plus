@@ -26,7 +26,7 @@
     display: inline-block;
     @include mq() {
         font-size: rem(21);
-        padding: 0 rem(54);
+        padding: 0 rem(43);
         margin-bottom: rem(16);
     }
 }

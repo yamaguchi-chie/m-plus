@@ -44,8 +44,8 @@
     top: 50%;
     left: rem(40);
     @include mq() {
-        width: rem(54);
-        height: rem(54);
+        width: rem(49);
+        height: rem(49);
         left: rem(20);
     }
 }
@@ -72,6 +72,9 @@
     background-color: $beige1;
     border-radius: rem(58);
     padding: rem(22) rem(20);
+    @include mq() {
+        padding: rem(24) rem(10);
+    }
 }
 
 .top-btn--menu span {
@@ -103,6 +106,9 @@
     background-color: $beige1;
     border-radius: rem(58);
     padding: rem(39) rem(20);
+    @include mq() {
+        padding: rem(28) rem(10);
+    }
 }
 
 .top-btn--company span {
@@ -115,4 +121,9 @@
 
 .top-btn--company::before {
     background-image: url(../images/top/btn3.webp);
+}
+
+.top-btn:hover {
+    transform: translate(5px);
+    box-shadow: 1px 1px 1px rgba($color: $gray2, $alpha: 0.3);
 }

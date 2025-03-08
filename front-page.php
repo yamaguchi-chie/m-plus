@@ -68,7 +68,6 @@
                 <?php endwhile; endif; ?>
                 <?php wp_reset_postdata(); ?>
             </ul>
-        
         </div>
     </div>
 </section>

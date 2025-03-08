@@ -97,6 +97,10 @@
     }
 }
 
+.news__link:hover {
+    opacity: 0.7;
+}
+
 .news__link::before,
 .news__link::after {
     content: '';
@@ -194,6 +198,10 @@
         flex-direction: column;
         gap: rem(8);
     }
+}
+
+.news__item a:hover {
+    opacity: 0.7;
 }
 
 .news__meta {
