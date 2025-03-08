@@ -78,7 +78,7 @@
         <div class="top-reason__body">
             <div class="top-reason__contents">
                 <div class="top-reason__top">
-                    <h2 class="top-reason__title">リフォームのことならエムプラスにお任せ！</h2>
+                    <h2 class="top-reason__title">リフォームのことなら<br class="u-mobile">エムプラスにお任せ！</h2>
                     <p class="top-reason__subTl">何でも相談できる街のリフォーム屋さん</p>
                 </div>
                 <p class="top-reason__txt">エムプラスは、相談できる街のリフォーム屋さんです。<br>名古屋市、春日井市、小牧市を中心に町の皆さんのお役にたちたいという想いから、皆さんの家の色んなお困りごとに「お応え」しています。<br>地域密着だからこそ、キメの細かい対応と高品質を実現できます。</p>

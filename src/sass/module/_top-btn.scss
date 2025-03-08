@@ -12,6 +12,10 @@
     border-radius: rem(10);
     transition: all .3s ease 0s;
     cursor: pointer;
+    @include mq() {
+        box-shadow: 3px 3px 3px rgba($color: $gray2, $alpha: 0.3);
+        padding: rem(30) rem(10);
+    }
 }
 
 .top-btn span {
@@ -36,6 +40,11 @@
     background: transparent url(../images/top/btn4.webp) no-repeat center center / cover;
     top: 50%;
     left: rem(40);
+    @include mq() {
+        width: rem(54);
+        height: rem(54);
+        left: rem(20);
+    }
 }
 
 // 矢印

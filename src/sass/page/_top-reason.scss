@@ -4,6 +4,10 @@
     padding-top: rem(105);
     padding-bottom: rem(106);
     background: transparent url(../images/top/reason-bg.webp) no-repeat center center / cover;
+    @include mq() {
+        padding-top: rem(60);
+        padding-bottom: rem(90);
+    }
 }
 
 .top-reason__inner.inner {
@@ -15,6 +19,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    @include mq() {
+        flex-direction: column;
+    }
 }
 
 .top-reason__contents {
@@ -22,12 +29,23 @@
     max-width: rem(500);
     width: 48.1667%;
     margin-top: rem(-14);
+    @include mq() {
+        width: 100%;
+        margin: 0;
+        display: contents;
+    }
 }
 
 .top-reason__top {
     padding-bottom: rem(40);
     margin-bottom: rem(30);
     position: relative;
+    @include mq() {
+        padding-bottom: rem(32);
+        margin-bottom: rem(24);
+        padding-top: rem(64);
+        text-align: center;
+    }
 }
 
 .top-reason__top::before {
@@ -38,6 +56,12 @@
     width: rem(65);
     height: rem(5);
     background: transparent url(../images/top/reason-line.webp) no-repeat center center / cover;
+    @include mq() {
+        width: rem(55);
+        height: rem(3);
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
 
 .top-reason__top::after {
@@ -50,6 +74,13 @@
     background: transparent url(../images/top/1.webp) no-repeat center center / cover;
     width: rem(113);
     height: rem(68);
+    @include mq() {
+        width: rem(100);
+        height: rem(55);
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
 
 .top-reason__title {
@@ -65,18 +96,30 @@
     font-size: rem(18);
     line-height: calc(40 / 18);
     color: $orange3;
+    @include mq() {
+        font-size: rem(16);
+    }
 }
 
 .top-reason__txt {
     font-size: rem(18);
     font-weight: $regular;
     line-height: calc(32 / 18);
+    @include mq() {
+        font-size: rem(16);
+    }
 }
 
 .top-reason__btn {
     margin-top: rem(68);
     max-width: rem(419);
     margin-left: 1%;
+    @include mq() {
+        margin-top: rem(42);
+        order: 1;
+        margin-left: 0;
+        width: 100%;
+    }
 }
 
 .top-reason__img {
@@ -84,4 +127,9 @@
     max-width: rem(487);
     // width: calc(rem(487) / rem(1200) * 100%);
     width: 42.583333%;
+    @include mq() {
+        width: 100%;
+        order: 0;
+        margin-top: rem(32);
+    }
 }
