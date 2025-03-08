@@ -17,6 +17,10 @@
     box-shadow: 0 0 5px rgba($color: $gray2, $alpha: 0.2);
     padding: rem(35) rem(20) rem(38) rem(50);
     border-radius: rem(10);
+    @include mq() {
+        padding: rem(40) rem(25) rem(40) rem(10);
+        max-width: rem(650);
+    }
 }
 
 .news__top {
@@ -26,6 +30,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @include mq() {
+        align-items: end;
+    }
 }
 
 .news__title {
@@ -36,6 +43,7 @@
     position: relative;
     @include mq() {
         font-size: rem(21);
+        padding-left: rem(58);
     }
 }
 
@@ -47,7 +55,9 @@
     line-height: calc(32 / 14);
     letter-spacing: 0.2em;
     @include mq() {
+        display: block;
         font-size: rem(12);
+        padding-left: 0;
     }
 }
 
@@ -60,10 +70,18 @@
     top: 33%;
     left: rem(-86);
     transform: translateY(-50%);
+    @include mq() {
+        width: rem(50);
+        height: rem(32);
+        left: 0;
+    }
 }
 
 .news__btn {
     transform: translateY(-11px);
+    @include mq() {
+        transform: translateY(0);
+    }
 }
 
 .news__link {
@@ -73,6 +91,10 @@
     font-size: rem(15);
     font-weight: $demi-light;
     letter-spacing: 0.05em;
+    @include mq() {
+        font-size: rem(14);
+        padding-right: rem(20);
+    }
 }
 
 .news__link::before,
@@ -82,6 +104,9 @@
     top: 50%;
     transform: translateY(-50%);
     right: rem(-20);
+    @include mq() {
+        right: 0;
+    }
 }
 
 .news__link::before {
@@ -90,6 +115,10 @@
     height: rem(15);
     border-radius: 50%;
     background-color: $orange3;
+    @include mq() {
+        width: rem(14);
+        height: rem(14);
+    }
 }
 
 .news__link::after {
@@ -103,15 +132,24 @@
     border: 1px solid $white;
     border-left: 0;
     border-bottom: 0;
+    @include mq() {
+        right: rem(4);
+    }
 }
 
 .news__items {
     max-width: rem(816);
     margin: rem(25) auto 0;
+    @include mq() {
+        padding-left: rem(15);
+    }
 }
 
 .news__item {
     position: relative;
+    @include mq() {
+        padding-right: rem(20);
+    }
 }
 
 .news__item::before {
@@ -136,6 +174,9 @@
     top: 44%;
     right: 0;
     transform: translateY(-50%);
+    @include mq() {
+        font-size: rem(16);
+    }
 }
 
 .news__item + .news__item {
@@ -148,6 +189,11 @@
     gap: rem(20);
     padding-top: rem(3);
     padding-bottom: rem(7);
+    @include mq() {
+        align-items: start;
+        flex-direction: column;
+        gap: rem(8);
+    }
 }
 
 .news__meta {
