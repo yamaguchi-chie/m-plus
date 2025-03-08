@@ -18,7 +18,8 @@
 }
 
 .footer__main {
-    margin: 0 auto rem(41);
+    margin-right: auto;
+    margin-left: auto;
     max-width: rem(985);
     color: $brown1;
     display: flex;
@@ -27,7 +28,7 @@
 }
 
 .footer__meta {
-    // width: calc(rem(382) / rem(985) * 100%);
+    width: calc(calc(rem(382) + rem(40)) / rem(985) * 100%);
     max-width: rem(382);
 }
 
@@ -36,7 +37,7 @@
 }
 
 .footer__info {
-    margin-top: rem(18);
+    margin-top: rem(16);
 }
 
 .footer__adress {
@@ -49,10 +50,11 @@
     display: flex;
     flex-wrap: wrap;
     column-gap: 1em;
+    margin-top: rem(5);
 }
 
 .footer__info-tel p {
-    letter-spacing: 0.13em;
+    letter-spacing: 0.01em;
     font-size: rem(18);
     line-height: calc(22 / 18);
     font-weight: $regular;
@@ -61,7 +63,8 @@
 .footer__flex {
     display: flex;
     align-items: center;
-    gap: rem(20);
+    gap: rem(24);
+    width: calc(100% - calc(calc(rem(382) + rem(40)) / rem(985) * 100%));
 }
 
 .footer__tel {
@@ -88,6 +91,7 @@
 
 .footer__btn {
     max-width: rem(269);
+    width: calc(100% - calc(rem(272)));
 }
 
 //メールへのボタン
@@ -99,21 +103,22 @@
     font-size: rem(15);
     font-weight: $bold;
     line-height: calc(20 / 15);
-    letter-spacing: 0.04em;
+    letter-spacing: 0.1em;
     //ボタン
     background-color: $white;
     box-shadow: 0 2px 0 rgba($color: $brown2, $alpha: 0.7);
     border-radius: rem(5);
-    padding: rem(3) rem(0) rem(6) rem(61);
+    padding: rem(0) rem(0) rem(6) rem(62);
     //アイコン
     position: relative;
 }
 
-.footer__contact span {
+.footer__contact span:not(.footer__contact-arrow) {
     display: inline-block;
     background:linear-gradient(transparent 62%, $yellow 62%, $yellow 82%, transparent 82%);
     font-size: rem(13);
     line-height: calc(22 / 13);
+    letter-spacing: -0.05em;
 }
 
 //アイコン
@@ -126,7 +131,7 @@
 }
 
 .footer__contact::before {
-    left: rem(10);
+    left: rem(12);
     background: transparent url(../images/common/foot-ico.webp) no-repeat center center / cover;
     width: rem(26);
     height: rem(32);
@@ -141,8 +146,20 @@
     z-index: 0;
 }
 
+.footer__contact-arrow {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: rem(7);
+    transform: translateY(-50%);
+    background: transparent url(../images/common/nav-ico.webp) no-repeat center center / cover;
+    width: rem(7);
+    height: rem(7);
+    z-index: 2;
+}
+
 .footer__nav {
-    margin: rem(40) auto rem(101);
+    margin: rem(27) auto rem(60);
     max-width: rem(983);
 }
 
@@ -169,7 +186,7 @@
     font-size: rem(20);
     line-height: calc(35 / 20);
     letter-spacing: 0.02em;
-    padding: 0 rem(2);
+    padding: 0 rem(2) rem(6);
 }
 
 .footer__contents {
@@ -177,21 +194,18 @@
     justify-content: space-between;
     padding-top: rem(8);
     //ドット
-    background: -moz-linear-gradient(left, $orange1 2px, transparent 2px);
-    background: -webkit-linear-gradient(left, $orange1 2px, transparent 2px);
-    background: linear-gradient(to right, $orange1 2px, transparent 2px);
-    background-size: 7px 2px;
-    background-repeat: repeat-x;
+    background-image: radial-gradient(circle, $orange1 1px, transparent 1px);
     background-position: left top;
+    background-repeat: repeat-x;
+    background-size: 7px 2px;
 }
 
 .footer__link {
     position: relative;
-    padding-left: rem(14);
     font-size: rem(16);
     font-weight: $regular;
     line-height: calc(19 / 16);
-    padding: rem(9) 0;
+    padding: rem(7) 0 rem(7) rem(14);
 }
 
 .footer__link::before {
