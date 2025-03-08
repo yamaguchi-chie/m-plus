@@ -11,12 +11,12 @@
     margin-left: auto;
     background-color: $white;
     box-shadow: 0 0 5px rgba($color: $gray2, $alpha: 0.2);
-    padding: rem(40) rem(20) rem(30) rem(20);
+    padding: rem(35) rem(20) rem(38) rem(50);
     border-radius: rem(10);
 }
 
 .news__top {
-    max-width: rem(809);
+    max-width: rem(813);
     margin-right: auto;
     margin-left: auto;
     display: flex;
@@ -34,10 +34,11 @@
 
 .news__title span {
     display: inline-block;
-    padding-left: 1em;
+    padding-left: rem(24);
     color: $gray1;
     font-size: rem(14);
     line-height: calc(32 / 14);
+    letter-spacing: 0.2em;
 }
 
 .news__title::before {
@@ -46,22 +47,21 @@
     width: rem(74);
     height: rem(50);
     position: absolute;
-    top: 50%;
+    top: 33%;
     left: rem(-86);
     transform: translateY(-50%);
 }
 
 .news__btn {
-
+    transform: translateY(-11px);
 }
 
 .news__link {
     position: relative;
     text-decoration: underline;
     color: $blue;
-    font-size: rem(14);
+    font-size: rem(15);
     font-weight: $demi-light;
-    line-height: calc(60 / 14);
     letter-spacing: 0.05em;
 }
 
@@ -96,16 +96,12 @@
 }
 
 .news__items {
-    max-width: rem(809);
-    margin-right: auto;
-    margin-left: auto;
+    max-width: rem(816);
+    margin: rem(25) auto 0;
 }
 
 .news__item {
-    display: flex;
-    gap: rem(20);
     position: relative;
-    padding-top: rem(10);
 }
 
 .news__item::before {
@@ -125,10 +121,9 @@
 .news__item::after {
     content: '＞';
     color: $gray6;
-    font-size: rem(14);
-    line-height: calc(61 / 14);
+    font-size: rem(20);
     position: absolute;
-    top: 50%;
+    top: 44%;
     right: 0;
     transform: translateY(-50%);
 }
@@ -137,13 +132,21 @@
     margin-top: rem(27);
 }
 
+.news__item a {
+    display: flex;
+    align-items: center;
+    gap: rem(20);
+    padding-top: rem(3);
+    padding-bottom: rem(7);
+}
+
 .news__meta {
 
 }
 
 .news__time {
     font-size: rem(14);
-    line-height: calc(61 / 14);
+    // line-height: calc(61 / 14);
 }
 
 .news__contents {
@@ -152,7 +155,7 @@
 
 .news__txt {
     font-size: rem(14);
-    line-height: calc(61 / 14);
+    // line-height: calc(61 / 14);
     color: $blue;
     font-weight: $demi-light;
     text-decoration: underline;

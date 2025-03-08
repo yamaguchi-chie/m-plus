@@ -49,19 +49,21 @@
                 while($the_query->have_posts()) :
                 $the_query->the_post(); ?>
                     <li class="news__item">
-                        <div class="news__meta">
-                            <time datetime="<?php the_time('c'); ?>" class="news__time"><?php the_time('Y.n.j'); ?></time>
-                        </div>
-                        <div class="news__contents">
-                            <p class="news__txt txt"><?php
-                                if ( mb_strlen( $post->post_title, 'UTF-8' ) > 28 ) {
-                                $title = mb_substr( $post->post_title, 0, 28, 'UTF-8' );
-                                    echo $title . '…';
-                                } else {
-                                    echo $post->post_title;
-                                }
-                                ?></p>
-                        </div>
+                        <a href="<?php the_permalink(); ?>">
+                            <div class="news__meta">
+                                <time datetime="<?php the_time('c'); ?>" class="news__time"><?php the_modified_date('Y.m.d'); ?></time>
+                            </div>
+                            <div class="news__contents">
+                                <p class="news__txt txt"><?php
+                                    if ( mb_strlen( $post->post_title, 'UTF-8' ) > 28 ) {
+                                    $title = mb_substr( $post->post_title, 0, 28, 'UTF-8' );
+                                        echo $title . '…';
+                                    } else {
+                                        echo $post->post_title;
+                                    }
+                                    ?></p>
+                            </div>
+                        </a>
                     </li>
                 <?php endwhile; endif; ?>
                 <?php wp_reset_postdata(); ?>

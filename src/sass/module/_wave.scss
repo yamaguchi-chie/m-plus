@@ -6,8 +6,8 @@
 	// background-color:#fff;
     z-index: 99;
     position: relative;
-    height: 255px;
-    width: 1920px;
+    // height: 255px;
+    // width: 1920px;
     // width: rem(300);
     // height: rem(300);
 
@@ -41,7 +41,7 @@
 
 .wave svg path {
 
-	fill: red;
+	// fill: red;
 	animation: wave linear 4s infinite;
 }
 
@@ -64,6 +64,6 @@
 	// to {
 	// 	transform:translate(-66.66%);
 	// }
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
+    // 0% { transform: translateX(0); }
+    // 100% { transform: translateX(-50%); }
 }
