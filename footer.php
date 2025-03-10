@@ -14,7 +14,7 @@
           </div>
           <div class="footer__flex">
             <div class="footer__tel">
-                <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/foot-tel.webp" alt="" width="80" height="48" loading="lazy" decoding="async">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/foot-tel.webp" alt="" loading="lazy" decoding="async">
                 <div class="footer__tel-wrap">
                   <p class="footer__number">0120<span>-</span>857<span>-</span>735</p>
                   <p class="footer__note">【受付】平日9：00〜18：00</p>

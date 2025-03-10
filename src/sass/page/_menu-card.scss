@@ -1,6 +1,7 @@
 @use 'global' as *;
 
 .menu-card {
+    display: block;
     padding: rem(12) rem(3) rem(3);
     background-color: $white;
     border-radius: rem(53);

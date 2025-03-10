@@ -95,6 +95,7 @@
 
 .footer__tel>img {
     max-width: rem(80);
+    aspect-ratio: 80/48;
     @include mq() {
     }
 }
@@ -274,6 +275,7 @@
     font-weight: $regular;
     line-height: calc(19 / 16);
     padding: rem(7) 0 rem(7) rem(14);
+    transition: all .3s ease 0s;
     @include mq() {
         font-size: rem(15);
     }
@@ -304,6 +306,10 @@
         width: rem(5);
         height: rem(5);
     }
+}
+
+.footer__link:hover {
+    color: $orange3;
 }
 
 .footer__copyright {

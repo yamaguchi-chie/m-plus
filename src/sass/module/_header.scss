@@ -38,11 +38,14 @@
 .header__logo {
     max-width: rem(358);
     width: 20%;
-    height: rem(124);
+    // height: rem(124);
+    height: calc(rem(124) / rem(100) * 100%);
     box-shadow: 2px 2px 0 rgba($color: $brown3, $alpha: 0.5);
     background-color: $white;
     border-radius: 0 0 rem(20) 0;
     padding: rem(10) rem(20) rem(5);
+    display: flex;
+    align-items: center;
     @include mq() {
         height: rem(84);
         width: 50%;
