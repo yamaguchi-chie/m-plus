@@ -20,9 +20,9 @@ var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
     loop: true,
     speed: 5000,
-    // autoplay: {
+    autoplay: {
 
-    // },
+    },
     pagination: {
         el: ".swiper-pagination",
     },

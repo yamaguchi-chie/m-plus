@@ -31,6 +31,9 @@
     max-width: rem(500);
     width: 48.1667%;
     margin-top: rem(-14);
+    @media screen and (max-width: 1399px) {
+        width: 52.1667%;
+    }
     @include mq() {
         width: 100%;
         margin: 0;
@@ -132,6 +135,9 @@
     max-width: rem(487);
     width: 42.583333%;
     position: relative;
+    @media screen and (max-width: 1399px) {
+        width: 39.5833%;
+    }
     @include mq() {
         width: 100%;
         order: 0;
