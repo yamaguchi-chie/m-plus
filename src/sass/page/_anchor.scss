@@ -1,0 +1,120 @@
+@use 'global' as *;
+
+.anchor {
+    background: url(../images/top/flow-bg.webp) center center / cover no-repeat;
+    padding-bottom: rem(63);
+}
+
+.anchor__wrap {
+    max-width: rem(1540);
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    z-index: 0;
+}
+
+.anchor__wrap::before,
+.anchor__wrap::after {
+    content: '';
+    position: absolute;
+    top: 8%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    aspect-ratio: 417/291;
+    max-width: rem(417);
+    width: calc(rem(417) / rem(1540) * 100%);
+}
+
+.anchor__wrap::before {
+    background-image: url(../images/reform-menu/anchor-left.webp);
+    left: 0;
+}
+
+.anchor__wrap::after {
+    background-image: url(../images/reform-menu/anchor-right.webp);
+    right: 0;
+}
+
+.anchor__inner {
+
+}
+
+.inner {
+
+}
+
+.anchor__body {
+    max-width: rem(595);
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.anchor__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: rem(52);
+    row-gap: rem(40);
+}
+
+.anchor__item {
+    width:  calc(33.33% - calc(rem(52) * 2 / 3));
+    max-width: rem(164);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 3px rgba($color: $gray2, $alpha: 0.3);
+    background-color: $orange5;
+    border: 1.5px solid $white;
+    border-radius: rem(10);
+    padding: rem(17) rem(0) rem(9);
+}
+
+.anchor__img {
+    aspect-ratio: 95/53;
+    max-width: rem(95);
+}
+
+.anchor__title {
+    font-size: rem(18);
+    font-weight: $bold;
+    // line-height: calc(30 / 18);
+    letter-spacing: -0.1em;
+    text-align: center;
+    font-family: $second-font-family;
+    color: $beige6;
+    padding-bottom: rem(22);
+    position: relative;
+}
+
+.anchor__title::before,
+.anchor__title::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.anchor__title::before {
+    z-index: 2;
+    display: block;
+    bottom: 0;
+    border: 1px solid $white;
+    width: rem(18);
+    height: rem(18);
+    border-radius: 50%;
+    background: -moz-linear-gradient(45deg, $orange6, $orange3);
+    background: -webkit-linear-gradient(45deg, $orange6, $orange3);
+    background: linear-gradient(to right, $orange6, $orange3);
+}
+
+.anchor__title::after {
+    background: transparent url(../images/top/menu/arrow.webp) no-repeat center center / cover;
+    width: rem(7.5);
+    height: rem(4);
+    bottom: rem(3);
+    z-index: 3;
+}
