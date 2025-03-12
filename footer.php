@@ -38,16 +38,16 @@
               <ul class="footer__contents">
                 <li>
                   <ul>
-                    <li class="footer__link"><a href="<?php echo esc_url(home_url("company")); ?>">キッチンリフォーム</a></li>
-                    <li class="footer__link"><a href="<?php echo esc_url(home_url("company")); ?>">浴室リフォーム</a></li>
-                    <li class="footer__link"><a href="<?php echo esc_url(home_url("company")); ?>">トイレリフォーム</a></li>
+                    <li class="footer__link"><a href="<?php echo esc_url(home_url("kitchen")); ?>">キッチンリフォーム</a></li>
+                    <li class="footer__link"><a href="<?php echo esc_url(home_url("bath")); ?>">浴室リフォーム</a></li>
+                    <li class="footer__link"><a href="<?php echo esc_url(home_url("toilet")); ?>">トイレリフォーム</a></li>
                   </ul>
                 </li>
                 <li>
                   <ul>
-                    <li class="footer__link"><a href="<?php echo esc_url(home_url("company")); ?>">洗面リフォーム</a></li>
-                    <li class="footer__link"><a href="<?php echo esc_url(home_url("company")); ?>">内装リフォーム</a></li>
-                    <li class="footer__link"><a href="<?php echo esc_url(home_url("company")); ?>">外装リフォーム</a></li>
+                    <li class="footer__link"><a href="<?php echo esc_url(home_url("washroom")); ?>">洗面リフォーム</a></li>
+                    <li class="footer__link"><a href="<?php echo esc_url(home_url("interior")); ?>">内装リフォーム</a></li>
+                    <li class="footer__link"><a href="<?php echo esc_url(home_url("exterior")); ?>">外装リフォーム</a></li>
                   </ul>
                 </li>
               </ul>

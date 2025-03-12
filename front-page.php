@@ -265,7 +265,9 @@
     </div>
 </section>
 
-<section class="top-facturer">
+<?php get_template_part('template/facturer'); ?>
+
+<!-- <section class="top-facturer">
     <div class="top-facturer__inner inner">
         <div class="top-facturer__top fade-in">
             <h2 class="top-facturer__title">対応メーカー</h2>
@@ -283,6 +285,6 @@
             <li class="top-facturer__item fade-in"><p class="top-facturer__txt">TOCLAS（トクラス）</p></li>
         </ul>
     </div>
-</section>
+</section> -->
 
 <?php get_footer(); ?>
