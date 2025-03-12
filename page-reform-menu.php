@@ -1,5 +1,14 @@
 <?php get_header(); ?>
 
+<section class="sub-mv sub-mv--menu">
+    <div class="sub-mv__inner inner">
+        <div class="sub-mv__top">
+            <h2 class="sub-mv__title">リフォームメニュー</h2>
+            <p class="sub-mv__en">Reform Menu</p>
+        </div>
+    </div>
+</section>
+
 <div class="anchor">
     <div class="anchor__wrap">
         <div class="anchor__inner inner">
