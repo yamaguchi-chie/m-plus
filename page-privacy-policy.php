@@ -41,16 +41,16 @@ $mainviews = [
                         <p class="privacy-policy__subTl">第３条（個人情報を収集・利用する目的）</p>
                     </dt>
                     <dd class="privacy-policy__contents">
-                        <p class="privacy-policy__text">当社が個人情報を収集・利用する目的は，以下のとおりです。</p>
+                        <p class="privacy-policy__text">当社が個人情報を収集・利用する目的は、以下のとおりです。</p>
                         <ul class="privacy-policy__list">
-                            <li class="privacy-policy__list-txt">［１］当社サービスの提供・運営のため</li>
-                            <li class="privacy-policy__list-txt">［２］ユーザーからのお問い合わせに回答するため（本人確認を行うことを含む）</li>
-                            <li class="privacy-policy__list-txt">［３］更新情報、キャンペーン等及び当社が提供する他のサービスの案内のメールを送付するため</li>
-                            <li class="privacy-policy__list-txt">［４］メンテナンス、重要なお知らせなど必要に応じたご連絡のため</li>
-                            <li class="privacy-policy__list-txt">［５］利用規約に違反したユーザーや、不正・不当な目的でサービスを利用しようとするユーザーの特定をし、ご利用をお断りするため</li>
-                            <li class="privacy-policy__list-txt">［６］ユーザーにご自身の登録情報の閲覧や変更、削除、ご利用状況の閲覧を行っていただくため</li>
-                            <li class="privacy-policy__list-txt">［７］有料サービスにおいて、ユーザーに利用料金を請求するため</li>
-                            <li class="privacy-policy__list-txt">［８］上記の利用目的に付随する目的</li>
+                            <li class="privacy-policy__list-txt"><p>［１］</p><p>当社サービスの提供・運営のため</p></li>
+                            <li class="privacy-policy__list-txt"><p>［２］</p><p>ユーザーからのお問い合わせに回答するため（本人確認を行うことを含む）</p></li>
+                            <li class="privacy-policy__list-txt"><p>［３］</p><p>更新情報、キャンペーン等及び当社が提供する他のサービスの案内のメールを送付するため</p></li>
+                            <li class="privacy-policy__list-txt"><p>［４］</p><p>メンテナンス、重要なお知らせなど必要に応じたご連絡のため</p></li>
+                            <li class="privacy-policy__list-txt"><p>［５］</p><p>利用規約に違反したユーザーや、不正・不当な目的でサービスを利用しようとするユーザーの特定をし、ご利用をお断りするため</p></li>
+                            <li class="privacy-policy__list-txt"><p>［６］</p><p>ユーザーにご自身の登録情報の閲覧や変更、削除、ご利用状況の閲覧を行っていただくため</p></li>
+                            <li class="privacy-policy__list-txt"><p>［７］</p><p>有料サービスにおいて、ユーザーに利用料金を請求するため</p></li>
+                            <li class="privacy-policy__list-txt"><p>［８］</p><p>上記の利用目的に付随する目的</p></li>
                         </ul>
                     </dd>
                 </div>
@@ -67,7 +67,7 @@ $mainviews = [
                         <p class="privacy-policy__subTl">第５条（個人情報の第三者提供）</p>
                     </dt>
                     <dd class="privacy-policy__contents">
-                        <p class="privacy-policy__text">当社は、次に掲げる場合を除いて，あらかじめユーザーの同意を得ることなく、第三者に個人情報を提供することはありません。<br>ただし、個人情報保護法その他の法令で認められる場合を除きます。</p>
+                        <p class="privacy-policy__text">当社は、次に掲げる場合を除いて、あらかじめユーザーの同意を得ることなく、第三者に個人情報を提供することはありません。<br>ただし、個人情報保護法その他の法令で認められる場合を除きます。</p>
                     </dd>
                 </div>
                 <div class="privacy-policy__item">
@@ -116,7 +116,7 @@ $mainviews = [
                     <dt class="privacy-policy__adressTl">《 住 所 》</dt>
                     <dd class="privacy-policy__adress-contents">
                         <p>〒462-0825 愛知県名古屋市北区大曽根3-10-7</p>
-                        <p> TEL:0120-857-735　 FAX:052-508-5032</p>
+                        <p> TEL:0120-857-735　 <br>FAX:052-508-5032</p>
                     </dd>
                 </div>
                 <div class="privacy-policy__adress">
