@@ -1,12 +1,16 @@
 <?php get_header(); ?>
-
-<section class="sub-mv sub-mv--menu">
-    <div class="sub-mv__inner inner">
-        <div class="sub-mv__top">
-            <h2 class="sub-mv__title">リフォームメニュー</h2>
-            <p class="sub-mv__en">Reform Menu</p>
-        </div>
-    </div>
+<?php
+$mainviews = [
+    [
+        'title' => 'リフォームメニュー',
+        'en' => 'Reform Menu',
+    ],
+];
+?>
+<section class="sub-mv <?php if (is_page('reform-menu')) {
+    echo 'sub-mv--menu';
+} ?>">
+<?php get_template_part('template/sub-mv', null, ['mainviews' => $mainviews]); ?>
 </section>
 
 <div class="anchor">
