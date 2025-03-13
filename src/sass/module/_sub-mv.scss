@@ -2,15 +2,14 @@
 
 .sub-mv {
     aspect-ratio: 1920/283;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: transparent url(../images/sub-mv/menu.webp) no-repeat center center / cover;
     position: relative;
     z-index: 2;
     @media screen and (max-width: 1399px) {
         aspect-ratio: 1920/343;
     }
     @include mq() {
+        background-image: url(../images/sub-mv/menu_sp.webp);
         aspect-ratio: 375/650;
     }
 }
@@ -73,13 +72,6 @@
 }
 
 //リフォームメニュー
-.sub-mv--menu {
-    background-image: url(../images/sub-mv/menu.webp);
-    @include mq() {
-        background-image: url(../images/sub-mv/menu_sp.webp);
-    }
-}
-
 .sub-mv--menu .sub-mv__title {
     padding: 0 rem(124);
     @include mq() {
@@ -100,5 +92,13 @@
     right: 0;
     @include mq() {
         right: rem(-20);
+    }
+}
+
+//プライバシーポリシー
+.sub-mv--privacy .sub-mv__title {
+    padding: 0;
+    @include mq() {
+        padding: 0;
     }
 }
