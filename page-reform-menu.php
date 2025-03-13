@@ -1,4 +1,17 @@
 <?php get_header(); ?>
+<?php
+$mainviews = [
+    [
+        'title' => 'リフォームメニュー',
+        'en' => 'Reform Menu',
+    ],
+];
+?>
+<section class="sub-mv <?php if (is_page('reform-menu')) {
+    echo 'sub-mv--menu';
+} ?>">
+<?php get_template_part('template/sub-mv', null, ['mainviews' => $mainviews]); ?>
+</section>
 
 <div class="anchor">
     <div class="anchor__wrap">
