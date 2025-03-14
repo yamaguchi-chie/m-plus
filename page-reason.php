@@ -26,8 +26,7 @@ $mainviews = [
 <section class="reason">
     <div class="reason__inner inner">
         <div class="reason__top fade-in">
-            <h2 class="reason__title">リフォームメニュー</h2>
-            <p class="reason__en">Reform Menu</p>
+            <h2 class="reason__title">エムプラスが選ばれる３つの理由</h2>
         </div>
         <div class="reason__body">
             <ul class="reason__list">
@@ -36,12 +35,36 @@ $mainviews = [
                     <div class="reason__contents">
                         <div class="reason__subTl">
                             <img class="reason__point" src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reason/point1.webp" alt="" width="" height="" loading="lazy" decoding="async">
-                            <h3 class="reason__h3"></h3>
+                            <h3 class="reason__h3">信頼</h3>
                         </div>
-                        <p class="reason__catch"></p>
-                        <p class="reason__text"></p>
+                        <p class="reason__catch">どんな小さなことでも気軽に相談OK！</p>
+                        <p class="reason__text">「こんなことで相談しても大丈夫かな？」と迷うようなことも、どうぞ気にせずお話しください！<br>ドアのガタつきや水漏れ修理、壁紙のちょっとした張り替えなど、 どんな小さなお困りごとでも大歓迎！<br>「こうしたいなぁ…」というぼんやりしたイメージでも大丈夫です。お客様と一緒に考えながら、 ピッタリの解決策をご提案します。</p>
                     </div>
                     <div class="reason__deco"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reason/deco1.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
+                </li>
+                <li class="reason__item reason__item--reserve">
+                    <div class="reason__photo"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reason/photo2.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
+                    <div class="reason__contents">
+                        <div class="reason__subTl">
+                            <img class="reason__point" src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reason/point2.webp" alt="" width="" height="" loading="lazy" decoding="async">
+                            <h3 class="reason__h3">速さ</h3>
+                        </div>
+                        <p class="reason__catch">スピード重視、丁寧に迅速対応します！</p>
+                        <p class="reason__text">「すぐに直したい！」「この日までに終わるかな？」そんなときもお任せください！<br>地域密着だからこそ、 スピーディーに対応できるのが強みです。<br>でも、スピードだけが売りではありません。<br>しっかり丁寧に作業して、ずっと安心できる仕上がり にします。「頼んでよかった！」と思っていただけるよう、心を込めて対応いたします。</p>
+                    </div>
+                    <div class="reason__deco"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reason/deco2.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
+                </li>
+                <li class="reason__item">
+                    <div class="reason__photo"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reason/photo3.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
+                    <div class="reason__contents">
+                        <div class="reason__subTl">
+                            <img class="reason__point" src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reason/point3.webp" alt="" width="" height="" loading="lazy" decoding="async">
+                            <h3 class="reason__h3">金額</h3>
+                        </div>
+                        <p class="reason__catch">ムリなくできる、安心価格のリフォーム！</p>
+                        <p class="reason__text">「リフォームって高そう…」<br>そんな不安、ありませんか？<br>私たちは、 本当に必要な工事だけを、お手頃な価格でご提案。 ムリな営業は絶対にしません！<br>ご予算に合わせて、 できること・できないことを正直にお伝えしながら、一番いい方法を一緒に考えます。<br>「思っていたより気軽にできた！」と<br>喜んでいただけるよう、全力でサポートします。</p>
+                    </div>
+                    <div class="reason__deco"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reason/deco3.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
                 </li>
             </ul>
         </div>
