@@ -1,0 +1,119 @@
+@use 'global' as *;
+
+.cta-btn {
+    display: inline-block;
+    width: 100%;
+    color: $white;
+    transition: all .3s ease 0s;
+    cursor: pointer;
+    border-radius: rem(15);
+    border: 1px solid $white;
+    box-shadow: 3px 3px rgba($color: $black3, $alpha: 0.3);
+}
+
+.cta-btn__contents {
+    font-size: rem(24);
+    font-weight: $bold;
+    line-height: calc(31 / 24);
+    font-family: $second-font-family;
+    text-shadow: 1.7px 1.7px 0px rgba($color: $black2, $alpha: 0.3);
+    //左のアイコン
+    padding-left: rem(105);
+    position: relative;
+}
+
+.cta-btn__contents::after {
+    content: "";
+    background-color: $white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: rem(95);
+    height: rem(95);
+    box-shadow: -2px -2px 1px rgba($color: $black2, $alpha: 0.3);
+}
+
+.cta-btn__contents::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: rem(10);
+    transform: translateY(-50%);
+    width: rem(72);
+    height: rem(38);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
+
+.cta-btn__tel {
+    font-size: rem(40);
+    line-height: calc(31 / 40);
+    letter-spacing: 0.03em;
+    padding-top: rem(11);
+}
+
+.cta-btn__note {
+    font-size: rem(22);
+    line-height: calc(31 / 22);
+    margin-top: rem(11);
+    margin-left: rem(-10);
+}
+
+.cta-btn__note span {
+    letter-spacing: 0.06em;
+}
+
+.cta-btn--tel {
+    background: -moz-linear-gradient(45deg, $beige4, $brown1);
+    background: -webkit-linear-gradient(45deg, $beige4, $brown1);
+    background: linear-gradient(to right, $beige4, $brown1);
+    padding: rem(14) rem(27) rem(15) rem(15);
+}
+
+.cta-btn--tel .cta-btn__contents::before {
+    background-image: url(../images/cta/ico-tel.webp);
+}
+
+.cta-btn--mail {
+    background: -moz-linear-gradient(45deg, $yellow4, $orange3);
+    background: -webkit-linear-gradient(45deg, $yellow4, $orange3);
+    background: linear-gradient(to right, $yellow4, $orange3);
+    position: relative;
+    padding: rem(24) rem(30) rem(24) rem(30);
+}
+
+.cta-btn--mail::after {
+    content: '';
+    position: absolute;
+    right: rem(7);
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+    border-width: rem(10) rem(18);
+    border-left-color: $white;
+    border-radius: rem(3);
+    filter: drop-shadow(2px 2px 0px rgba($color: $black2, $alpha: 0.3));
+}
+
+.cta-btn--mail .cta-btn__contents>span {
+    display: inline-block;
+    padding-left: rem(6);
+    text-align: center;
+    font-size: rem(34);
+    font-weight: $bold;
+    line-height: calc(48 / 34);
+    letter-spacing: 0.05em;
+    font-family: $second-font-family;
+    text-shadow: 2px 2px 2px rgba($color: $black2, $alpha: 0.3);
+}
+
+.cta-btn--mail .cta-btn__contents::before {
+    background-image: url(../images/cta/ico-mail.webp);
+}

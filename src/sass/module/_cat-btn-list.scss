@@ -1,0 +1,15 @@
+@use 'global' as *;
+
+.cta-btn-list {
+    display: flex;
+    justify-content: center;
+    gap: rem(26);
+    max-width: rem(959);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.cat-btn-list__item {
+    max-width: rem(466);
+    width:  calc(50% - calc(rem(20) / 2));
+}
