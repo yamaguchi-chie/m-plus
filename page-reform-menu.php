@@ -192,6 +192,7 @@ $mainviews = [
     </div>
 </section>
 
+<?php get_template_part('template/cta'); ?>
 <?php get_template_part('template/facturer'); ?>
 
 <?php get_footer(); ?>

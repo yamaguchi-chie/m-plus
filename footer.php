@@ -74,7 +74,7 @@
                 <li class="footer__link footer__link--circle"><a href="<?php echo esc_url(home_url("news")); ?>">新着情報一覧</a></li>
                 <li class="footer__link footer__link--circle"><a href="<?php echo esc_url(home_url("contact")); ?>">お問い合わせ</a></li>
                 <li class="footer__link footer__link--circle"><a href="<?php echo esc_url(home_url("privacy-policy")); ?>">プライバシーポリシー</a></li>
-                <li class="footer__link footer__link--circle"><a href="<?php echo esc_url(home_url("map")); ?>">サイトマップ</a></li>
+                <li class="footer__link footer__link--circle"><a href="<?php echo esc_url(home_url("sitemap")); ?>">サイトマップ</a></li>
                 </ul>
               </li>
               </ul>
