@@ -26,7 +26,7 @@ $mainviews = [
 <section class="sub-reason">
     <div class="sub-reason__inner inner">
         <div class="sub-reason__top fade-in">
-            <h2 class="sub-reason__title">エムプラスが選ばれる３つの理由</h2>
+            <h2 class="sub-reason__title">エムプラスが<br class="u-mobile">選ばれる３つの理由</h2>
         </div>
         <div class="sub-reason__body">
             <ul class="sub-reason__list">
@@ -34,7 +34,7 @@ $mainviews = [
                     <div class="sub-reason__photo"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reason/photo1.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
                     <div class="sub-reason__contents">
                         <div class="sub-reason__subTl">
-                            <img class="sub-reason__point" src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reason/point1.webp" alt="" width="" height="" loading="lazy" decoding="async">
+                            <div class="sub-reason__point"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reason/point1.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
                             <h3 class="sub-reason__h3">信頼</h3>
                         </div>
                         <p class="sub-reason__catch">どんな小さなことでも気軽に相談OK！</p>
@@ -42,11 +42,11 @@ $mainviews = [
                     </div>
                     <div class="sub-reason__deco"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reason/deco1.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
                 </li>
-                <li class="sub-reason__item reason__item--reserve">
+                <li class="sub-reason__item sub-reason__item--reserve">
                     <div class="sub-reason__photo"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reason/photo2.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
                     <div class="sub-reason__contents">
                         <div class="sub-reason__subTl">
-                            <img class="sub-reason__point" src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reason/point2.webp" alt="" width="" height="" loading="lazy" decoding="async">
+                            <div class="sub-reason__point"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reason/point2.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
                             <h3 class="sub-reason__h3">速さ</h3>
                         </div>
                         <p class="sub-reason__catch">スピード重視、丁寧に迅速対応します！</p>
@@ -58,7 +58,7 @@ $mainviews = [
                     <div class="sub-reason__photo"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reason/photo3.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
                     <div class="sub-reason__contents">
                         <div class="sub-reason__subTl">
-                            <img class="sub-reason__point" src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reason/point3.webp" alt="" width="" height="" loading="lazy" decoding="async">
+                            <div class="sub-reason__point"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reason/point3.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
                             <h3 class="sub-reason__h3">金額</h3>
                         </div>
                         <p class="sub-reason__catch">ムリなくできる、安心価格のリフォーム！</p>
