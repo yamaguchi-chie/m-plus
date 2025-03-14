@@ -1,10 +1,10 @@
 @use 'global' as *;
 
-.reason {
+.sub-reason {
     margin-top: rem(97);
 }
 
-.reason__inner {
+.sub-reason__inner {
 
 }
 
@@ -12,7 +12,7 @@
 
 }
 
-.reason__top {
+.sub-reason__top {
     text-align: center;
 }
 
@@ -20,7 +20,7 @@
 
 }
 
-.reason__title {
+.sub-reason__title {
     color: $orange3;
     text-align: center;
     font-size: rem(30);
@@ -36,8 +36,8 @@
     }
 }
 
-.reason__title::before,
-.reason__title::after {
+.sub-reason__title::before,
+.sub-reason__title::after {
     content: '';
     position: absolute;
     top: 50%;
@@ -53,7 +53,7 @@
     }
 }
 
-.reason__title::before {
+.sub-reason__title::before {
     background-image: url(../images/reason/1.webp);
     left: 0;
     @include mq() {
@@ -61,7 +61,7 @@
     }
 }
 
-.reason__title::after {
+.sub-reason__title::after {
     background-image: url(../images/reason/2.webp);
     right: 0;
     @include mq() {
@@ -69,19 +69,19 @@
     }
 }
 
-.reason__body {
+.sub-reason__body {
     margin-top: rem(97)
 }
 
-.reason__list {
+.sub-reason__list {
 
 }
 
-.reason__item + .reason__item {
+.sub-reason__item + .sub-reason__item {
     margin-top: rem(202);
 }
 
-.reason__item {
+.sub-reason__item {
     // max-width: rem(897);
     max-width: rem(966);
     margin-right: auto;
@@ -89,7 +89,7 @@
     position: relative;
 }
 
-.reason__photo {
+.sub-reason__photo {
     position: absolute;
     top: rem(-10);
     // left: rem(-4);
@@ -98,7 +98,7 @@
     max-width: rem(403);
 }
 
-.reason__contents {
+.sub-reason__contents {
     width: calc(rem(596) / rem(897) * 100%);
     max-width: rem(596);
     padding: rem(61) rem(40) rem(15) rem(97);
@@ -109,7 +109,7 @@
     margin-right: rem(35);
 }
 
-.reason__contents::after {
+.sub-reason__contents::after {
     content: '';
     background: transparent url(../images/reason/bg.webp) no-repeat center center / cover;
     aspect-ratio: 596/548;
@@ -121,17 +121,17 @@
     transform: translate(-50%, -50%);
 }
 
-.reason__subTl {
+.sub-reason__subTl {
     display: flex;
     gap: rem(61);
 }
 
-.reason__point {
+.sub-reason__point {
     aspect-ratio: 244/100;
     max-width: rem(244);
 }
 
-.reason__h3 {
+.sub-reason__h3 {
     font-size: rem(50);
     font-weight: $bold;
     font-family: $second-font-family;
@@ -140,7 +140,7 @@
     transform: translateY(-5%);
 }
 
-.reason__h3::before {
+.sub-reason__h3::before {
     content: '';
     background: transparent url(../images/reason/catch-bg.webp) no-repeat center center / cover;
     aspect-ratio: 163/156;
@@ -152,7 +152,7 @@
     transform: translate(-50%, -50%);
 }
 
-.reason__catch {
+.sub-reason__catch {
     margin-top: rem(25);
     color: $main;
     font-size: rem(24);
@@ -161,14 +161,14 @@
     background:linear-gradient(transparent 62%, $yellow 62%, $yellow 82%, transparent 82%);
 }
 
-.reason__text {
+.sub-reason__text {
     font-size: rem(18);
     font-weight: $regular;
     line-height: calc(32 / 18);
     margin-top: rem(20);
 }
 
-.reason__deco {
+.sub-reason__deco {
     position: absolute;
     bottom: -14%;
     left: 0;
@@ -176,18 +176,18 @@
     max-width: rem(352);
 }
 
-.reason__item--reserve .reason__contents {
+.sub-reason__item--reserve .sub-reason__contents {
     margin-right: auto;
     margin-left: rem(35);
     padding: rem(61) rem(97) rem(15) rem(40);
 }
 
-.reason__item--reserve .reason__photo {
+.sub-reason__item--reserve .sub-reason__photo {
     right: rem(2);
     left: auto;
 }
 
-.reason__item--reserve .reason__deco {
+.sub-reason__item--reserve .sub-reason__deco {
     right: 0;
     left: auto;
     bottom: -8%;
