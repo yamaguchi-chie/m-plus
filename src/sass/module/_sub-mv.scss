@@ -102,3 +102,27 @@
         padding: 0;
     }
 }
+
+//選ばれる理由
+.sub-mv--reason .sub-mv__title {
+    padding: 0 rem(141);
+    @include mq() {
+        padding: 0 rem(54);
+    }
+}
+
+.sub-mv--reason .sub-mv__title::before {
+    background-image: url(../images/top/1.webp);
+    left: 0;
+    @include mq() {
+        left: rem(-20);
+    }
+}
+
+.sub-mv--reason .sub-mv__title::after {
+    background-image: url(../images/reason/3.webp);
+    right: 0;
+    @include mq() {
+        right: rem(-20);
+    }
+}
