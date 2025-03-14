@@ -7,9 +7,19 @@
     max-width: rem(959);
     margin-right: auto;
     margin-left: auto;
+    @include mq() {
+        flex-direction: column;
+        gap: rem(32);
+        max-width: rem(650);
+        padding: 0 rem(15);
+    }
 }
 
 .cat-btn-list__item {
     max-width: rem(466);
     width:  calc(50% - calc(rem(20) / 2));
+    @include mq() {
+        width: 100%;
+        max-width: rem(430);
+    }
 }

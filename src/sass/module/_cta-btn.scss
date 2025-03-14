@@ -20,6 +20,10 @@
     //左のアイコン
     padding-left: rem(105);
     position: relative;
+    @include mq() {
+        font-size: rem(20);
+        padding-left: rem(77);
+    }
 }
 
 .cta-btn__contents::after {
@@ -33,6 +37,10 @@
     width: rem(95);
     height: rem(95);
     box-shadow: -2px -2px 1px rgba($color: $black2, $alpha: 0.3);
+    @include mq() {
+        width: rem(68);
+        height: rem(68);
+    }
 }
 
 .cta-btn__contents::before {
@@ -43,10 +51,16 @@
     transform: translateY(-50%);
     width: rem(72);
     height: rem(38);
+    aspect-ratio: 72/38;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 2;
+    @include mq() {
+        max-width: rem(51);
+        height: auto;
+        width: 100%;
+    }
 }
 
 .cta-btn__tel {
@@ -54,6 +68,9 @@
     line-height: calc(31 / 40);
     letter-spacing: 0.03em;
     padding-top: rem(11);
+    @include mq() {
+        font-size: rem(32);
+    }
 }
 
 .cta-btn__note {
@@ -61,10 +78,16 @@
     line-height: calc(31 / 22);
     margin-top: rem(11);
     margin-left: rem(-10);
+    @include mq() {
+        font-size: rem(17);
+    }
 }
 
 .cta-btn__note span {
     letter-spacing: 0.06em;
+    @include mq() {
+        letter-spacing: 0.03em;
+    }
 }
 
 .cta-btn--tel {
@@ -72,6 +95,9 @@
     background: -webkit-linear-gradient(45deg, $beige4, $brown1);
     background: linear-gradient(to right, $beige4, $brown1);
     padding: rem(14) rem(27) rem(15) rem(15);
+    @include mq() {
+        padding: rem(14) rem(9);
+    }
 }
 
 .cta-btn--tel .cta-btn__contents::before {
@@ -84,22 +110,25 @@
     background: linear-gradient(to right, $yellow4, $orange3);
     position: relative;
     padding: rem(24) rem(30) rem(24) rem(30);
+    @include mq() {
+        padding: rem(14) rem(15);
+    }
 }
 
 .cta-btn--mail::after {
     content: '';
     position: absolute;
-    right: rem(7);
+    right: rem(24);
     top: 50%;
     transform: translateY(-50%);
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-color: transparent;
-    border-width: rem(10) rem(18);
-    border-left-color: $white;
-    border-radius: rem(3);
-    filter: drop-shadow(2px 2px 0px rgba($color: $black2, $alpha: 0.3));
+    background: transparent url(../images/cta/arrow.webp) no-repeat center center / cover;
+    aspect-ratio: 19 / 21;
+    width: 100%;
+    max-width: rem(19);
+    @include mq() {
+        max-width: rem(15);
+        right: rem(15);
+    }
 }
 
 .cta-btn--mail .cta-btn__contents>span {
@@ -112,6 +141,10 @@
     letter-spacing: 0.05em;
     font-family: $second-font-family;
     text-shadow: 2px 2px 2px rgba($color: $black2, $alpha: 0.3);
+    @include mq() {
+        font-size: rem(28);
+        padding-left: rem(0);
+    }
 }
 
 .cta-btn--mail .cta-btn__contents::before {
