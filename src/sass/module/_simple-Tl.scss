@@ -11,7 +11,7 @@
     letter-spacing: 0.2em;
     @include mq() {
         font-size: rem(24);
-        padding-bottom: rem(22);
+        padding-bottom: rem(16);
     }
 }
 
@@ -27,4 +27,7 @@
     background: -webkit-linear-gradient(left, $yellow2, $orange7);
     background: linear-gradient(to right, $yellow2, $orange7);
     border-radius: rem(1.5);
+    @include mq() {
+        width: rem(50);
+    }
 }
