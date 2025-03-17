@@ -42,5 +42,21 @@ $mainviews = [
     </div>
 </section>
 
+<section class="concept">
+    <div class="concept__inner inner">
+    <div class="concept__title">
+            <h2 class="simple-Tl">経営理念</h2>
+        </div>
+        <div class="concept__body">
+            <h3 class="concept__subTl">「義を見てせざるは勇無きなり」</h3>
+            <ul class="concept__list">
+                <li class="concept__item">お客様のためにあらゆる志事を行います。</li>
+                <li class="concept__item">お客様の立場に立ち、正しい提案と正しい提供を行います。</li>
+            </ul>
+            <div class="concept__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/company/img2.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
+        </div>
+    </div>
+</section>
+
 
 <?php get_footer(); ?>
