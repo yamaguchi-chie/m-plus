@@ -1,0 +1,30 @@
+@use 'global' as *;
+
+.simple-Tl {
+    position: relative;
+    padding-bottom: rem(12);
+    text-align: center;
+    color: $main;
+    font-size: rem(30);
+    font-weight: $regular;
+    line-height: calc(52 / 30);
+    letter-spacing: 0.2em;
+    @include mq() {
+        font-size: rem(24);
+        padding-bottom: rem(22);
+    }
+}
+
+.simple-Tl::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: rem(60);
+    height: rem(3);
+    background: -moz-linear-gradient(left, $yellow2, $orange7);
+    background: -webkit-linear-gradient(left, $yellow2, $orange7);
+    background: linear-gradient(to right, $yellow2, $orange7);
+    border-radius: rem(1.5);
+}
