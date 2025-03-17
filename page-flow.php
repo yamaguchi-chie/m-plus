@@ -28,7 +28,7 @@ $mainviews = [
             <li class="flow__item">
                 <article class="flow__wrap">
                     <div class="flow__top">
-                        <h3 class="flow__title"><span>【理想の暮らしの第一歩】</span>まずはお話を聞かせてください</h3>
+                        <h3 class="flow__title"><span>【理想の暮らしの第一歩】</span>まずはお話を<br class="u-mobile">聞かせてください</h3>
                     </div>
                     <div class="flow__body">
                         <div class="flow__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/flow/1.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
@@ -39,7 +39,7 @@ $mainviews = [
             <li class="flow__item">
                 <article class="flow__wrap">
                     <div class="flow__top">
-                        <h3 class="flow__title"><span>【無理なく理想を叶えるために】</span>一緒に考える予算とスケジュール</h3>
+                        <h3 class="flow__title"><span>【無理なく理想を叶えるために】</span>一緒に考える予算と<br class="u-mobile">スケジュール</h3>
                     </div>
                     <div class="flow__body">
                         <div class="flow__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/flow/2.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
@@ -50,7 +50,7 @@ $mainviews = [
             <li class="flow__item">
                 <article class="flow__wrap">
                     <div class="flow__top">
-                        <h3 class="flow__title"><span>【今の家と向き合う時間】</span>現地調査と暮らしのヒアリング </h3>
+                        <h3 class="flow__title"><span>【今の家と向き合う時間】</span>現地調査と暮らしの<br class="u-mobile">ヒアリング </h3>
                     </div>
                     <div class="flow__body">
                         <div class="flow__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/flow/3.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
@@ -94,7 +94,7 @@ $mainviews = [
             <li class="flow__item">
                 <article class="flow__wrap">
                     <div class="flow__top">
-                        <h3 class="flow__title"><span>【ここからが本当のスタート】</span>完成！新しい暮らしの始まり</h3>
+                        <h3 class="flow__title"><span>【ここからが本当のスタート】</span>完成！<br class="u-mobile">新しい暮らしの始まり</h3>
                     </div>
                     <div class="flow__body">
                         <div class="flow__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/flow/7.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
