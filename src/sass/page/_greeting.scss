@@ -1,7 +1,7 @@
 @use 'global' as *;
 
 .greeting {
-    margin-top: rem(70);
+    margin-top: rem(94);
     margin-bottom: rem(70);
 }
 
@@ -23,7 +23,7 @@
 
 .greeting__body {
     max-width: rem(975);
-    margin: rem(50) auto 0;
+    margin: rem(72) auto 0;
     display: flex;
     gap: rem(44);
 }
