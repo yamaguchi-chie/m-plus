@@ -2,6 +2,9 @@
 
 .overview {
     margin-top: rem(96);
+    @include mq() {
+        margin-top: rem(70);
+    }
 }
 
 .overview__title {
@@ -11,4 +14,8 @@
 .overview__body {
     margin: rem(70) auto 0;
     max-width: rem(770);
+    @include mq() {
+        max-width: rem(600);
+        margin-top: rem(40);
+    }
 }

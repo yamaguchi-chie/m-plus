@@ -6,6 +6,10 @@
     font-size: rem(20);
     font-weight: $regular;
     line-height: calc(40 / 20);
+    @include mq() {
+        font-size: rem(16);
+        flex-direction: column;
+    }
 }
 
 .label__left {
@@ -15,16 +19,29 @@
     background-position: right bottom;
     background-repeat: repeat-y;
     background-size: 3px 7px;
+    @include mq() {
+        background-image: none;
+        width: 100%;
+    }
 }
 
 .label__title {
     padding: rem(15) rem(3);
+    @include mq() {
+        padding: rem(24) rem(11) 0;
+    }
 }
 
 .label__right {
     width: calc(100% - rem(91));
+    @include mq() {
+        width: 100%;
+    }
 }
 
 .label__text {
     padding: rem(15) rem(58);
+    @include mq() {
+        padding: rem(10) rem(11) rem(24);
+    }
 }

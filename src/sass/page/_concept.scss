@@ -4,6 +4,10 @@
     background: transparent url(../images/top/reason-bg.webp) no-repeat center center / cover;
     padding-top: rem(95);
     padding-bottom: rem(82);
+    @include mq() {
+        padding-top: rem(70);
+        padding-bottom: rem(80);
+    }
 }
 
 .concept__inner {
@@ -29,6 +33,9 @@
     right: 10%;
     top: 36%;
     transform: translateY(-50%);
+    @include mq() {
+        max-width: rem(60);
+    }
 }
 
 .simple-Tl {
@@ -41,6 +48,10 @@
     @media screen and (max-width: 1139px) {
         margin: rem(61) auto 0;
     }
+    @include mq() {
+        max-width: rem(520);
+        margin-top: rem(40);
+    }
 }
 
 .concept__subTl {
@@ -48,11 +59,18 @@
     font-size: rem(30);
     line-height: calc(52 / 30);
     letter-spacing: 0.18em;
+    @include mq() {
+        font-size: rem(26);
+    }
 }
 
 .concept__list {
     margin-top: rem(23);
     margin-left: rem(20);
+    @include mq() {
+        margin-top: rem(20);
+        margin-left: rem(15);
+    }
 }
 
 .concept__item {
@@ -61,6 +79,10 @@
     font-weight: $regular;
     line-height: calc(40 / 20);
     padding-left: rem(16);
+    @include mq() {
+        font-size: rem(18);
+        padding-left: rem(14);
+    }
 }
 
 .concept__item::before {
@@ -73,8 +95,8 @@
     width: rem(10);
     height: rem(10);
     @include mq() {
-        width: rem(5);
-        height: rem(5);
+        width: rem(7);
+        height: rem(7);
     }
 }
 
@@ -82,4 +104,7 @@
     margin: rem(40) auto 0;
     aspect-ratio: 311/183;
     max-width: rem(311);
+    @include mq() {
+        margin-top: rem(48);
+    }
 }

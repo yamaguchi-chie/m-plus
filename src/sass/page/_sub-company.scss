@@ -5,6 +5,10 @@
     padding-bottom: rem(75);
     margin-top: rem(-46);
     padding-top: rem(121);
+    @include mq() {
+        padding-top: rem(180);
+        padding-bottom: rem(60);
+    }
 }
 
 .sub-company__inner {
@@ -24,10 +28,17 @@
     @media screen and (max-width: 1139px) {
         margin-right: auto;
     }
+    @include mq() {
+        max-width: rem(500);
+        flex-direction: column;
+    }
 }
 
 .sub-company__contents {
     width: calc(rem(590) / rem(782) * 100%);
+    @include mq() {
+        width: 100%;
+    }
 }
 
 .sub-company__title {
@@ -37,6 +48,10 @@
     letter-spacing: -0.04em;
     padding-left: rem(57);
     position: relative;
+    @include mq() {
+        font-size: rem(22);
+        padding-left: rem(0);
+    }
 }
 
 .sub-company__title::before {
@@ -48,6 +63,10 @@
     position: absolute;
     top: rem(11);
     left: 0;
+    @include mq() {
+        top: rem(-60);
+        max-width: rem(28);
+    }
 }
 
 .sub-company__txt {
@@ -57,11 +76,19 @@
     letter-spacing: -0.04em;
     font-weight: $regular;
     line-height: calc(40 / 18);
+    @include mq() {
+        margin-top: rem(16);
+        padding-left: 0;
+        font-size: rem(16);
+    }
 }
 
 .sub-company__img {
     aspect-ratio: 186/256;
     max-width: rem(186);
     width: calc(rem(186) / rem(782) * 100%);
+    @include mq() {
+        width: 100%;
+    }
 }
 

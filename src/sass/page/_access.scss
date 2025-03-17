@@ -3,6 +3,10 @@
 .access {
     margin-top: rem(95);
     margin-bottom: rem(100);
+    @include mq() {
+        margin-top: rem(70);
+        margin-bottom: rem(80);
+    }
 }
 
 .access__inner {
@@ -16,11 +20,18 @@
 .access__wrap {
     margin: rem(70) auto 0;
     max-width: rem(960);
+    @include mq() {
+        margin-top: rem(40);
+        max-width: rem(600);
+    }
 }
 
 .access__map {
     aspect-ratio: 960/450;
     position: relative;
+    @include mq() {
+        aspect-ratio: 345/230;
+    }
 }
 
 .access__map iframe {
@@ -39,4 +50,9 @@
     font-weight: $regular;
     line-height: calc(40 / 20);
     letter-spacing: 0.05em;
+    @include mq() {
+        text-align: left;
+        font-size: rem(18);
+        margin-top: rem(24);
+    }
 }
