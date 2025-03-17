@@ -126,3 +126,27 @@
         right: rem(-20);
     }
 }
+
+//新着情報一覧
+.sub-mv--news .sub-mv__title {
+    padding: 0 rem(141);
+    @include mq() {
+        padding: 0 rem(70);
+    }
+}
+
+.sub-mv--news .sub-mv__title::before {
+    background-image: url(../images/top/6.webp);
+    left: 0;
+    @include mq() {
+        left: rem(-20);
+    }
+}
+
+.sub-mv--news .sub-mv__title::after {
+    background-image: url(../images/top/7.webp);
+    right: 0;
+    @include mq() {
+        right: rem(-20);
+    }
+}

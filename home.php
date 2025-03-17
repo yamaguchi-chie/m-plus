@@ -1,4 +1,18 @@
 <?php get_header(); ?>
+<?php
+$mainviews = [
+    [
+        'title' => '新着情報一覧',
+        'en' => 'TOPICS',
+    ],
+];
+?>
+<section class="sub-mv <?php if (is_home()) {
+    echo 'sub-mv--news';
+} ?>">
+<?php get_template_part('template/sub-mv', null, ['mainviews' => $mainviews]); ?>
+</section>
+
 <section class="news">
     <div class="news__inner inner">
         <div class="news__body">
