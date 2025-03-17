@@ -13,7 +13,7 @@ $mainviews = [
 <?php get_template_part('template/sub-mv', null, ['mainviews' => $mainviews]); ?>
 </section>
 
-<section class="news">
+<section class="news news--sub">
     <div class="news__inner inner">
         <div class="news__body">
             <div class="news__top fade-in">
@@ -23,7 +23,7 @@ $mainviews = [
             <ul class="news__items">
                 <?php $args = array(
                 'post_type' => 'post',
-                'posts_per_page' => 3,
+                'posts_per_page' => -1,
                 'order' => 'DESC',
                 );
                 $the_query = new WP_Query($args);
