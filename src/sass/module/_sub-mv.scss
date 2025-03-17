@@ -127,7 +127,8 @@
     }
 }
 
-//新着情報一覧
+//新着情報一覧 / 会社情報
+.sub-mv--company .sub-mv__title,
 .sub-mv--news .sub-mv__title {
     padding: 0 rem(163);
     @include mq() {
@@ -135,6 +136,7 @@
     }
 }
 
+.sub-mv--company .sub-mv__title::before,
 .sub-mv--news .sub-mv__title::before {
     background-image: url(../images/top/6.webp);
     left: 0;
@@ -143,6 +145,7 @@
     }
 }
 
+.sub-mv--company .sub-mv__title::after,
 .sub-mv--news .sub-mv__title::after {
     background-image: url(../images/top/7.webp);
     right: 0;
