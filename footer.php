@@ -61,22 +61,18 @@
             <li class="footer__item">
               <p class="footer__subTl">会社情報</p>
               <ul class="footer__contents">
-              <li>
-                  <ul>
-                <li class="footer__link"><a href="<?php echo esc_url(home_url("company")); ?>">代表挨拶</a></li>
-                <li class="footer__link"><a href="<?php echo esc_url(home_url("company")); ?>">経営理念</a></li>
-                <li class="footer__link"><a href="<?php echo esc_url(home_url("company")); ?>">会社概要</a></li>
-                <li class="footer__link"><a href="<?php echo esc_url(home_url("company")); ?>">アクセス</a></li>
-                </ul>
-              </li>
-              <li>
-                  <ul>
-                <li class="footer__link footer__link--circle"><a href="<?php echo esc_url(home_url("news")); ?>">新着情報一覧</a></li>
-                <li class="footer__link footer__link--circle"><a href="<?php echo esc_url(home_url("contact")); ?>">お問い合わせ</a></li>
-                <li class="footer__link footer__link--circle"><a href="<?php echo esc_url(home_url("privacy-policy")); ?>">プライバシーポリシー</a></li>
-                <li class="footer__link footer__link--circle"><a href="<?php echo esc_url(home_url("sitemap")); ?>">サイトマップ</a></li>
-                </ul>
-              </li>
+                  <li class="footer__link"><a href="<?php echo esc_url(home_url("company")); ?>">代表挨拶</a></li>
+                  <li class="footer__link"><a href="<?php echo esc_url(home_url("company")); ?>">経営理念</a></li>
+                  <li class="footer__link"><a href="<?php echo esc_url(home_url("company")); ?>">会社概要</a></li>
+                  <li class="footer__link"><a href="<?php echo esc_url(home_url("company")); ?>">アクセス</a></li>
+              </ul>
+            </li>
+            <li class="footer__item">
+              <ul class="footer__contents">
+                <li class="footer__link footer__link--circle footer__link--black"><a href="<?php echo esc_url(home_url("news")); ?>">新着情報一覧</a></li>
+                <li class="footer__link footer__link--circle footer__link--black"><a href="<?php echo esc_url(home_url("contact")); ?>">お問い合わせ</a></li>
+                <li class="footer__link footer__link--circle footer__link--black"><a class="footer__link--letter" href="<?php echo esc_url(home_url("privacy-policy")); ?>">プライバシーポリシー</a></li>
+                <li class="footer__link footer__link--circle footer__link--black"><a href="<?php echo esc_url(home_url("sitemap")); ?>">サイトマップ</a></li>
               </ul>
             </li>
           </ul>
