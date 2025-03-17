@@ -1,0 +1,110 @@
+@use 'global' as *;
+
+.concept {
+    background: transparent url(../images/top/reason-bg.webp) no-repeat center center / cover;
+    padding-top: rem(95);
+    padding-bottom: rem(82);
+    @include mq() {
+        padding-top: rem(70);
+        padding-bottom: rem(80);
+    }
+}
+
+.concept__inner {
+
+}
+
+.inner {
+
+}
+
+.concept__title {
+    position: relative;
+}
+
+.concept__title::after {
+    content: '';
+    background: transparent url(../images/company/3.webp) no-repeat center center / cover;
+    aspect-ratio: 79/97;
+    max-width: rem(79);
+    width: 100%;
+    position: absolute;
+    position: absolute;
+    right: 10%;
+    top: 36%;
+    transform: translateY(-50%);
+    @include mq() {
+        max-width: rem(60);
+    }
+}
+
+.simple-Tl {
+
+}
+
+.concept__body {
+    margin: rem(61) 0 0 26%;
+    max-width: rem(583);
+    @media screen and (max-width: 1139px) {
+        margin: rem(61) auto 0;
+    }
+    @include mq() {
+        max-width: rem(520);
+        margin-top: rem(40);
+    }
+}
+
+.concept__subTl {
+    color: $main;
+    font-size: rem(30);
+    line-height: calc(52 / 30);
+    letter-spacing: 0.18em;
+    @include mq() {
+        font-size: rem(26);
+    }
+}
+
+.concept__list {
+    margin-top: rem(23);
+    margin-left: rem(20);
+    @include mq() {
+        margin-top: rem(20);
+        margin-left: rem(15);
+    }
+}
+
+.concept__item {
+    position: relative;
+    font-size: rem(20);
+    font-weight: $regular;
+    line-height: calc(40 / 20);
+    padding-left: rem(16);
+    @include mq() {
+        font-size: rem(18);
+        padding-left: rem(14);
+    }
+}
+
+.concept__item::before {
+    content: '';
+    position: absolute;
+    top: rem(15);
+    left: 0;
+    background-color: $orange8;
+    border-radius: 50%;
+    width: rem(10);
+    height: rem(10);
+    @include mq() {
+        width: rem(7);
+        height: rem(7);
+    }
+}
+
+.concept__img {
+    margin: rem(40) auto 0;
+    aspect-ratio: 311/183;
+    max-width: rem(311);
+    @include mq() {
+        margin-top: rem(48);
+    }
+}
