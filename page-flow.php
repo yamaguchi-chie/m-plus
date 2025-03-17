@@ -1,4 +1,17 @@
 <?php get_header(); ?>
+<?php
+$mainviews = [
+    [
+        'title' => 'リフォームの流れ',
+        'en' => 'Flow',
+    ],
+];
+?>
+<section class="sub-mv <?php if (is_page('flow')) {
+    echo 'sub-mv--flow';
+} ?>">
+<?php get_template_part('template/sub-mv', null, ['mainviews' => $mainviews]); ?>
+</section>
 <section class="sub-flow-top">
     <div class="sub-flow-top__inner inner">
         <div class="sub-flow-top__contents">

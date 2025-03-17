@@ -127,6 +127,30 @@
     }
 }
 
+//リフォームの流れ
+.sub-mv--flow .sub-mv__title {
+    padding: 0 rem(141);
+    @include mq() {
+        padding: 0 rem(54);
+    }
+}
+
+.sub-mv--flow .sub-mv__title::before {
+    background-image: url(../images/top/4.webp);
+    left: 0;
+    @include mq() {
+        left: rem(-20);
+    }
+}
+
+.sub-mv--flow .sub-mv__title::after {
+    background-image: url(../images/top/5.webp);
+    right: 0;
+    @include mq() {
+        right: rem(-20);
+    }
+}
+
 //新着情報一覧 / 会社情報
 .sub-mv--company .sub-mv__title,
 .sub-mv--news .sub-mv__title {
