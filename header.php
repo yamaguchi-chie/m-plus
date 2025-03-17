@@ -43,7 +43,7 @@
                 </ul>
               </nav>
               <div class="header__tel">
-                <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/head-tel.webp" alt="" width="75" height="43" loading="lazy" decoding="async">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/head-tel.webp" alt="" loading="lazy" decoding="async">
                 <div class="header__contents">
                   <p class="header__number">0120<span>-</span>857<span>-</span>735</p>
                   <p class="header__copy">【受付】平日9：00〜18：00</p>

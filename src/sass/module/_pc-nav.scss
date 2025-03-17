@@ -17,6 +17,7 @@
 .pc-nav__item {
     height: inherit;
     position: relative;
+    // width: 20%;
     
     @include mq() {
     }
@@ -52,12 +53,16 @@
     line-height: calc(29 / 17);
     transition: .3s;
     position: relative;
-    padding: 0 rem(28);
+    // padding: 0 rem(10);
+    padding: 0 rem(25);
     //上下中央揃え
     height: inherit;
     display: flex;
     justify-content: center;
     align-items: center;
+    @media screen and (max-width: 1775px) {
+        padding: 0 rem(16);
+    }
     @include mq() {
     }
 }
