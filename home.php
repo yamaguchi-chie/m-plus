@@ -17,7 +17,7 @@ $mainviews = [
     <div class="news__inner inner">
         <div class="news__body">
             <div class="news__top fade-in">
-                <h2 class="news__title ">新着情報<span>TOPICS</span></h2>
+                <h2 class="news__title ">新着情報一覧<span>TOPICS</span></h2>
                 <div class="news__btn"><a href="<?php echo esc_url(home_url("news")); ?>" class="news__link">一覧を見る</a></div>
             </div>
             <ul class="news__items">
