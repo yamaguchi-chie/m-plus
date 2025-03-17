@@ -74,6 +74,9 @@
     @media screen and (max-width: 1775px) {
         justify-content: end;
     }
+    @include mq() {
+        display: none;
+    }
 }
 
 .header__catch {
