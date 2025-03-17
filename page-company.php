@@ -124,6 +124,19 @@ $mainviews = [
     </div>
 </section>
 
+<section class="access">
+    <div class="access__inner inner">
+        <div class="access__title">
+            <h2 class="simple-Tl">アクセス</h2>
+        </div>
+        <div class="access__wrap">
+            <div class="access__map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3260.64134541547!2d136.9362837!3d35.1904907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60037103e67ad38f%3A0xa934f430293f6016!2z44CSNDYyLTA4MjUg5oSb55-l55yM5ZCN5Y-k5bGL5biC5YyX5Yy65aSn5pu95qC577yT5LiB55uu77yR77yQ4oiS77yX!5e0!3m2!1sja!2sjp!4v1742193569758!5m2!1sja!2sjp" width="960" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <p class="access__txt">〒462-0825 愛知県名古屋市北区大曽根3-10-7</p>
+    </div>
+</section>
 
 
 <?php get_footer(); ?>
