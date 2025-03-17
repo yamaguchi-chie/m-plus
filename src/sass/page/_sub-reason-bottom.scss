@@ -1,7 +1,6 @@
 @use 'global' as *;
 
 .sub-reason-bottom {
-    margin-top: rem(298);
     margin-bottom: rem(40);
     @include mq() {
         margin-top: rem(70);

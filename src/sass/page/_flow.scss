@@ -1,11 +1,12 @@
 @use 'global' as *;
 
 .flow {
-
-}
-
-.flow__inner.inner {
-    // margin-right: calc(73% - 50vw);
+    margin-top: rem(90);
+    margin-bottom: rem(180);
+    @include mq() {
+        margin-top: rem(70);
+        margin-bottom: rem(100);
+    }
 }
 
 .flow__list {
