@@ -58,5 +58,72 @@ $mainviews = [
     </div>
 </section>
 
+<section class="overview">
+    <div class="overview__inner inner">
+    <div class="overview__title">
+            <h2 class="simple-Tl">会社概要</h2>
+        </div>
+        <dl class="overview__body label-list">
+            <div class="label-list__item label">
+                <dt class="label__left">
+                    <p class="label__title">会社名</p>
+                </dt>
+                <dd class="label__right">
+                    <p class="label__text">エムプラス株式会社</p>
+                </dd>
+            </div>
+            <div class="label-list__item label">
+                <dt class="label__left">
+                    <p class="label__title">住　所</p>
+                </dt>
+                <dd class="label__right">
+                    <p class="label__text">〒462‒0825 愛知県名古屋市北区大曽根3‒10‒7</p>
+                </dd>
+            </div>
+            <div class="label-list__item label">
+                <dt class="label__left">
+                    <p class="label__title">電話・FAX</p>
+                </dt>
+                <dd class="label__right">
+                    <p class="label__text">TEL:0120‒857‒735　 FAX:052‒508‒5032</p>
+                </dd>
+            </div>
+            <div class="label-list__item label">
+                <dt class="label__left">
+                    <p class="label__title">代表者</p>
+                </dt>
+                <dd class="label__right">
+                    <p class="label__text">代表取締役  後藤 淳平</p>
+                </dd>
+            </div>
+            <div class="label-list__item label">
+                <dt class="label__left">
+                    <p class="label__title">事業内容</p>
+                </dt>
+                <dd class="label__right">
+                    <p class="label__text">リフォーム事業、リノベーション事業、<br>新築改装工事、店舗改装工事、<br>マンションリノベーション</p>
+                </dd>
+            </div>
+            <div class="label-list__item label">
+                <dt class="label__left">
+                    <p class="label__title">建設業許可番号</p>
+                </dt>
+                <dd class="label__right">
+                    <p class="label__text">愛知県知事許可（般‒６）第１１１７０５号　</p>
+                </dd>
+            </div>
+            <div class="label-list__item label">
+                <dt class="label__left">
+                    <p class="label__title">取引銀行　</p>
+                </dt>
+                <dd class="label__right">
+                    <p class="label__text">三菱ＵＦＪ銀行</p>
+                </dd>
+            </div>
+        </dl>
+    </div>
+</section>
+
+
 
 <?php get_footer(); ?>

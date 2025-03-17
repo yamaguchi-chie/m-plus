@@ -1,0 +1,30 @@
+@use 'global' as *;
+
+.label {
+    display: flex;
+    color: $black2;
+    font-size: rem(20);
+    font-weight: $regular;
+    line-height: calc(40 / 20);
+}
+
+.label__left {
+    width: rem(214);
+    //ドット
+    background-image: radial-gradient(circle, $beige3 1.5px, transparent 1.5px);
+    background-position: right bottom;
+    background-repeat: repeat-y;
+    background-size: 3px 7px;
+}
+
+.label__title {
+    padding: rem(15) rem(3);
+}
+
+.label__right {
+    width: calc(100% - rem(91));
+}
+
+.label__text {
+    padding: rem(15) rem(58);
+}

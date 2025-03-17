@@ -1,0 +1,13 @@
+@use 'global' as *;
+
+.label-list__item {
+    //ドット
+    background-image: radial-gradient(circle, $beige3 1.5px, transparent 1.5px);
+    background-position: left bottom;
+    background-repeat: repeat-x;
+    background-size: 7px 3px;
+}
+
+.label-list__item:last-child {
+    // border-bottom: 1.5px solid #999;
+}
