@@ -13,17 +13,17 @@ $mainviews = [
 <?php get_template_part('template/sub-mv', null, ['mainviews' => $mainviews]); ?>
 </section>
 
-<section class="news">
+<section class="news news--sub">
     <div class="news__inner inner">
         <div class="news__body">
             <div class="news__top fade-in">
-                <h2 class="news__title ">新着情報<span>TOPICS</span></h2>
+                <h2 class="news__title ">新着情報一覧<span>TOPICS</span></h2>
                 <div class="news__btn"><a href="<?php echo esc_url(home_url("news")); ?>" class="news__link">一覧を見る</a></div>
             </div>
             <ul class="news__items">
                 <?php $args = array(
                 'post_type' => 'post',
-                'posts_per_page' => 3,
+                'posts_per_page' => -1,
                 'order' => 'DESC',
                 );
                 $the_query = new WP_Query($args);
@@ -53,5 +53,6 @@ $mainviews = [
         </div>
     </div>
 </section>
+
 
 <?php get_footer(); ?>
