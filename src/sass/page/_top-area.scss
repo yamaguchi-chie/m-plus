@@ -234,3 +234,12 @@
         font-size: rem(15);
     }
 }
+
+//会社情報ページ
+.top-area--company {
+    padding-bottom: rem(56);
+}
+
+.top-area--company .top-area__line::before {
+    display: none;
+}

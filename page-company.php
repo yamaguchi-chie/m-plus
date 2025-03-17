@@ -138,5 +138,10 @@ $mainviews = [
     </div>
 </section>
 
+<div class="sub-company-bg">
+    <?php get_template_part('template/top-area'); ?>
+    <?php get_template_part('template/cta'); ?>
+</div>
+
 
 <?php get_footer(); ?>
