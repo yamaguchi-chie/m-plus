@@ -3,9 +3,24 @@
 <div class="mv">
     <div class="swiper mySwiper">
         <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/mv1.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
-            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/mv2.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
-            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/mv3.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
+            <div class="swiper-slide">
+                <picture>
+                    <source srcset="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/mv1.webp" media="(min-width: 768px)" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/mv1_sp.webp" alt="" />
+                </picture>
+            </div>
+            <div class="swiper-slide">
+                <picture>
+                    <source srcset="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/mv2.webp" media="(min-width: 768px)" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/mv2_sp.webp" alt="" />
+                </picture>
+            </div>
+            <div class="swiper-slide">
+                <picture>
+                    <source srcset="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/mv3.webp" media="(min-width: 768px)" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/mv3_sp.webp" alt="" />
+                </picture>
+            </div>
         </div>
         <div class="swiper-pagination"></div>
     </div>
