@@ -3,6 +3,7 @@
 .top-menu {
     padding-top: rem(88);
     padding-bottom: rem(108);
+    overflow-x: hidden;
     @include mq() {
         padding-top: rem(60);
         padding-bottom: rem(100);
@@ -21,6 +22,7 @@
 
 .top-menu__title {
     color: $main;
+    font-weight: $medium;
     font-size: rem(30);
     line-height: calc(52 / 30);
     letter-spacing: 0.1em;

@@ -215,15 +215,17 @@
             <h2 class="top-flow__title">リフォームの流れ</h2>
             <p class="top-flow__en">flow</p>
         </div>
-        <p class="top-flow__catch fade-in">お客様のご相談をお聞きした上で、現地調査を行いながらプランをご提案いたします。<br>自社施工なので、お引渡しからアフターフォローまで安心してお任せいただけます。</p>
-        <div class="top-flow__body">
-            <div class="top-flow__contents">
-                <div class="top-flow__deco fade-in"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/flow-deco.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
-                <div class="top-flow__btn fade-in">
-                    <a href="<?php echo esc_url(home_url("flow")); ?>" class="top-btn top-btn--flow"><span>ご依頼までの流れ</span></a>
+        <div class="top-flow__wrap">
+            <p class="top-flow__catch fade-in">お客様のご相談をお聞きした上で、現地調査を行いながらプランをご提案いたします。<br>自社施工なので、お引渡しからアフターフォローまで安心してお任せいただけます。</p>
+            <div class="top-flow__body">
+                <div class="top-flow__contents">
+                    <div class="top-flow__deco fade-in"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/flow-deco.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
+                    <div class="top-flow__btn fade-in">
+                        <a href="<?php echo esc_url(home_url("flow")); ?>" class="top-btn top-btn--flow"><span>ご依頼までの流れ</span></a>
+                    </div>
                 </div>
+                <div class="top-flow__img fade-in"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/flow-img.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
             </div>
-            <div class="top-flow__img fade-in"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/flow-img.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
         </div>
     </div>
 </section>

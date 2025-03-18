@@ -91,6 +91,7 @@
 .top-reason__title {
     font-size: rem(25);
     line-height: calc(40 / 25);
+    font-weight: $medium;
     color: $main;
     @include mq() {
         font-size: rem(21);
