@@ -19,6 +19,10 @@
     object-fit: cover;
   }
 
+  .swiper-pagination {
+    z-index: 2;
+  }
+
   .swiper-pagination-bullet {
     background: $gray7;
     border: 1px solid $beige3;
@@ -28,6 +32,13 @@
     @include mq() {
       width: rem(7);
       height: rem(7);
+    }
+  }
+
+  .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 6%;
+    @include mq() {
+      bottom: -1%;
     }
   }
 
