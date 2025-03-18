@@ -1,9 +1,9 @@
 @use 'global' as *;
 
 .overview {
-    margin-top: rem(96);
+    padding-top: rem(96);
     @include mq() {
-        margin-top: rem(70);
+        padding-top: rem(70);
     }
 }
 

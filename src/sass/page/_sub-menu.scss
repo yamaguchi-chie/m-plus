@@ -1,7 +1,7 @@
 @use 'global' as *;
 
 .sub-menu {
-    margin-top: rem(100);
+    // margin-top: rem(100);
     margin-bottom: rem(112);
     @include mq() {
         
@@ -30,13 +30,18 @@
 }
 
 .sub-menu__item + .sub-menu__item {
-    margin-top: rem(103);
-    @include mq() {
-        margin-top: rem(56);
-    }
+
 }
 
 .sub-menu__item {
+    padding-top: rem(103);
+
+    @include mq() {
+        padding-top: rem(90);
+    }
+}
+
+.sub-menu__box {
     box-shadow: 0 0 6px rgba($color: $gray2, $alpha: 0.2);
     background-color: $white;
     border-radius: rem(12);

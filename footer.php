@@ -38,16 +38,16 @@
               <ul class="footer__contents">
                 <li>
                   <ul>
-                    <li class="footer__link"><a href="<?php echo esc_url(home_url("kitchen")); ?>">キッチンリフォーム</a></li>
-                    <li class="footer__link"><a href="<?php echo esc_url(home_url("bath")); ?>">浴室リフォーム</a></li>
-                    <li class="footer__link"><a href="<?php echo esc_url(home_url("toilet")); ?>">トイレリフォーム</a></li>
+                    <li class="footer__link"><a href="<?php echo esc_url(home_url("reform-menu/#kitchen")); ?>">キッチンリフォーム</a></li>
+                    <li class="footer__link"><a href="<?php echo esc_url(home_url("reform-menu/#bath")); ?>">浴室リフォーム</a></li>
+                    <li class="footer__link"><a href="<?php echo esc_url(home_url("reform-menu/#toilet")); ?>">トイレリフォーム</a></li>
                   </ul>
                 </li>
                 <li>
                   <ul>
-                    <li class="footer__link"><a href="<?php echo esc_url(home_url("washroom")); ?>">洗面リフォーム</a></li>
-                    <li class="footer__link"><a href="<?php echo esc_url(home_url("interior")); ?>">内装リフォーム</a></li>
-                    <li class="footer__link"><a href="<?php echo esc_url(home_url("exterior")); ?>">外装リフォーム</a></li>
+                    <li class="footer__link"><a href="<?php echo esc_url(home_url("reform-menu/#washroom")); ?>">洗面リフォーム</a></li>
+                    <li class="footer__link"><a href="<?php echo esc_url(home_url("reform-menu/#interior")); ?>">内装リフォーム</a></li>
+                    <li class="footer__link"><a href="<?php echo esc_url(home_url("reform-menu/#exterior")); ?>">外装リフォーム</a></li>
                   </ul>
                 </li>
               </ul>
@@ -55,16 +55,16 @@
             <li class="footer__item">
               <p class="footer__subTl">リフォームの流れ</p>
               <ul class="footer__contents">
-                <li class="footer__link"><a href="<?php echo esc_url(home_url("company")); ?>">ご依頼までの流れ</a></li>
+                <li class="footer__link"><a href="<?php echo esc_url(home_url("flow")); ?>">ご依頼までの流れ</a></li>
               </ul>
             </li>
             <li class="footer__item">
               <p class="footer__subTl">会社情報</p>
               <ul class="footer__contents">
-                  <li class="footer__link"><a href="<?php echo esc_url(home_url("company")); ?>">代表挨拶</a></li>
-                  <li class="footer__link"><a href="<?php echo esc_url(home_url("company")); ?>">経営理念</a></li>
-                  <li class="footer__link"><a href="<?php echo esc_url(home_url("company")); ?>">会社概要</a></li>
-                  <li class="footer__link"><a href="<?php echo esc_url(home_url("company")); ?>">アクセス</a></li>
+                  <li class="footer__link"><a href="<?php echo esc_url(home_url("company/#greeting")); ?>">代表挨拶</a></li>
+                  <li class="footer__link"><a href="<?php echo esc_url(home_url("company/#concept")); ?>">経営理念</a></li>
+                  <li class="footer__link"><a href="<?php echo esc_url(home_url("company/#overview")); ?>">会社概要</a></li>
+                  <li class="footer__link"><a href="<?php echo esc_url(home_url("company/#access")); ?>">アクセス</a></li>
               </ul>
             </li>
             <li class="footer__item">
