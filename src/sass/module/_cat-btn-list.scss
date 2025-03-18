@@ -9,6 +9,7 @@
     margin-left: auto;
     @include mq() {
         flex-direction: column;
+        align-items: center;
         gap: rem(32);
         max-width: rem(650);
         padding: 0 rem(15);
@@ -20,6 +21,6 @@
     width:  calc(50% - calc(rem(20) / 2));
     @include mq() {
         width: 100%;
-        max-width: rem(430);
+        max-width: rem(360);
     }
 }

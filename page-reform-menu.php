@@ -192,7 +192,7 @@ $mainviews = [
     </div>
 </section>
 
-<?php get_template_part('template/cta'); ?>
+<div class="cta-wrap"><?php get_template_part('template/cta'); ?></div>
 <?php get_template_part('template/facturer'); ?>
 
 <?php get_footer(); ?>
