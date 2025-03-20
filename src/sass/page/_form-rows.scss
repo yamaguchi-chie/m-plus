@@ -1,0 +1,5 @@
+@use 'global' as *;
+
+.form-rows__item + .form-rows__item {
+    margin-top: rem(68);
+}
