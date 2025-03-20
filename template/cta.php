@@ -1,6 +1,6 @@
 <ul class="cta-btn-list">
     <li class="cat-btn-list__item  fade-in">
-        <a href="" class="cta-btn cta-btn--tel">
+        <a href="tel:0120-857-735" class="cta-btn cta-btn--tel">
             <div class="cta-btn__contents">
                 電話で相談する
                 <p class="cta-btn__tel">0120-857-735</p>
@@ -8,5 +8,5 @@
             </div>
         </a>
     </li>
-    <li class="cat-btn-list__item  fade-in"><a href="" class="cta-btn cta-btn--mail"><div class="cta-btn__contents"><span>メールでの<br>お問い合わせ</span></div></a></li>
+    <li class="cat-btn-list__item  fade-in"><a href="<?php echo esc_url(home_url("contact")); ?>" class="cta-btn cta-btn--mail"><div class="cta-btn__contents"><span>メールでの<br>お問い合わせ</span></div></a></li>
 </ul>
