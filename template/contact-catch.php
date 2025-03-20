@@ -1,9 +1,9 @@
 <section class="sub-reason-bottom">
     <div class="sub-reason-bottom__inner inner">
-        <div class="sub-reason-bottom__top">
+        <div class="sub-reason-bottom__top fade-in">
             <h2 class="sub-reason-bottom__title"><span>【お見積もり無料】</span>まずはお気軽にご相談ください<span>！</span></h2>
         </div>
-        <div class="sub-reason-bottom__body">
+        <div class="sub-reason-bottom__body fade-in">
             <div class="sub-reason-bottom__box">
                 <div class="sub-reason-bottom__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reason/bottom-img.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
                 <div class="sub-reason-bottom__contents">
