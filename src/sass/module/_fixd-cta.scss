@@ -12,6 +12,9 @@
     top: rem(100);
     right: 0;
     z-index: 999;
+    @include mq() {
+        display: none;
+    }
 }
 
 .fixd-cta__title {
