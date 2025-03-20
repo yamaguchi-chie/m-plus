@@ -1,0 +1,17 @@
+@use 'global' as *;
+
+.btns {
+    display: flex;
+    gap: rem(25);
+    justify-content: center;
+    @include mq() {
+        flex-direction: column;
+        gap: rem(16);
+        align-items: center;
+    }
+}
+
+.btns__item {
+    max-width: rem(250);
+    width: 100%;
+}

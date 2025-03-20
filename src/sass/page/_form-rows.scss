@@ -1,0 +1,8 @@
+@use 'global' as *;
+
+.form-rows__item + .form-rows__item {
+    margin-top: rem(68);
+    @include mq() {
+        margin-top: rem(40);
+    }
+}

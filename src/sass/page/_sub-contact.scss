@@ -1,0 +1,272 @@
+@use 'global' as *;
+
+.sub-contact {
+    margin-top: rem(90);
+    margin-bottom: rem(105);
+    @include mq() {
+        margin-bottom: rem(90);
+    }
+}
+
+.sub-contact__inner.inner {
+    @include mq() {
+        max-width: rem(640);
+    }
+}
+
+.sub-contact__catch {
+    font-size: rem(18);
+    font-weight: $regular;
+    line-height: calc(34 / 18);
+    margin: 0 auto rem(94);
+    max-width: rem(873);
+    @include mq() {
+        font-size: rem(17);
+        margin-bottom: rem(56);
+    }
+}
+
+.sub-contact__body {
+    padding-top: rem(98);
+    //ドット
+    background-image: radial-gradient(circle, $orange3 1px, transparent 1px);
+    background-position: left top;
+    background-repeat: repeat-x;
+    background-size: 7px 2px;
+    max-width: rem(807);
+    margin-right: auto;
+    margin-left: auto;
+    @include mq() {
+        padding-top: rem(60);
+    }
+}
+
+.sub-contact__form {
+
+}
+
+.sub-contact__note {
+    text-align: center;
+    margin-top: rem(59);
+    @include mq() {
+        margin-top: rem(48);
+    }
+}
+
+.sub-contact__note p {
+    font-size: rem(16);
+    font-weight: $regular;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.05em;
+    @include mq() {
+        font-size: rem(15.5);
+    }
+}
+
+.sub-contact__privacy {
+    margin-top: rem(33);
+    text-align: center;
+    @include mq() {
+        margin-top: rem(30);
+    }
+}
+
+.sub-contact__privacy a {
+    font-size: rem(16);
+    font-weight: $regular;
+    line-height: calc(30 / 18);
+    letter-spacing: 0.01em;
+    color: $blue2;
+    text-decoration: underline;
+}
+
+.sub-contact__privacy a:hover {
+    opacity: 0.7;
+}
+
+.sub-contact__check {
+    margin-top: rem(36);
+	   //左右中央
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    @include mq() {
+
+    }
+}
+
+.sub-contact__check label {
+    position: relative;
+}
+
+.wpcf7-list-item-label {
+    position: relative;
+    font-size: rem(18);
+    line-height: calc(30 / 18);
+    letter-spacing: 0.05em;
+    color: $black3;
+    padding-left: rem(35);
+    @include mq() {
+        display: inline-block;
+        font-size: rem(17);
+    }
+}
+
+.wpcf7-list-item-label::before {
+    content: '';
+    border-left: 3px solid $red2;
+    border-bottom: 3px solid $red2;
+    position: absolute;
+    top: 24%;
+    left: rem(6);
+    display: block;
+    transform: translateY(-50%) rotate(-45deg);
+    width: rem(25);
+    height: rem(11);
+    opacity: 0;
+    transition: all .3s ease 0s;
+    z-index: 1;
+    @include mq() {
+        width: rem(20);
+        height: rem(9);
+        left: rem(5);
+        top: rem(1);
+        transform: rotate(-45deg);
+    }
+}
+
+.wpcf7-list-item-label::after {
+    content: '';
+    width: rem(29);
+    height: rem(29);
+    border: 1.2px solid $blue3;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    transition: all .2s ease 0s;
+    z-index: 0;
+    @include mq() {
+        top: rem(1);
+        transform: translateY(0%);
+        width: rem(24);
+        height: rem(24);
+    }
+}
+
+[type='checkbox'] {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+[type='checkbox']:checked + .wpcf7-list-item-label::before {
+    opacity: 1;
+}
+
+[type='checkbox']:focus + .wpcf7-list-item-label::after {
+    outline: 2px $blue2;
+}
+
+[type='checkbox']:checked:focus + .wpcf7-list-item-label::before {
+    outline: none;
+}
+
+.sub-contact__submit {
+    margin-top: rem(63);
+    @include mq() {
+        margin-top: rem(56);
+    }
+}
+
+.sub-contact__bottom {
+    margin: rem(70) auto 0;
+    max-width: rem(800);
+    @include mq() {
+        margin-top: rem(60);
+    }
+}
+
+.sub-contact__box {
+    padding: rem(30) rem(48);
+    background-color: $cream;
+    border-radius: rem(5);
+    border: 1px solid $beige3;
+    @include mq() {
+        padding: rem(24) rem(20);
+    }
+}
+
+.sub-contact__subTl {
+    font-size: rem(20);
+    font-weight: $bold;
+    line-height: calc(44 / 20);
+    letter-spacing: 0.1em;
+    font-family: $second-font-family;
+    color: $main;
+    display: inline-block;
+    @include mq() {
+        display: block;
+        text-align: center;
+        font-size: rem(18);
+        line-height: calc(31 / 18);
+    }
+}
+
+.sub-contact__span {
+    font-size: rem(16);
+    font-weight: $regular;
+    line-height: calc(28 / 16);
+    letter-spacing: 0.06em;
+    font-family: $second-font-family;
+    color: $main;
+    @include mq() {
+        text-align: center;
+        display: block;
+        font-size: rem(15);
+    }
+}
+
+.sub-contact__flex {
+    display: flex;
+    gap: rem(36);
+    margin-top: rem(9);
+    margin-left: rem(11);
+    @include mq() {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: rem(11);
+        margin-left: 0;
+        margin-top: rem(7);
+    }
+}
+
+.sub-contact__tel,
+.sub-contact__fax {
+    display: flex;
+    gap: rem(17);
+    @include mq() {
+        gap: rem(8);
+    }
+}
+
+.sub-contact__tel img {
+    aspect-ratio: 50/29;
+    max-width: rem(50);
+    height: 100%;
+    object-fit: contain;
+}
+
+.sub-contact__tel,
+.sub-contact__fax {
+    font-size: rem(32);
+    font-weight: $bold;
+    line-height: calc(36 / 32);
+    letter-spacing: 0.04em;
+    font-family: $second-font-family;
+    color: $main;
+    @include mq() {
+        font-size: rem(26);
+    }
+}

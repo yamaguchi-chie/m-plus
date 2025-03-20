@@ -91,6 +91,11 @@ function add_taxonomy() {
 }
 add_action('init', 'add_taxonomy');
 
+// Contact Form 7で自動挿入されるPタグ、brタグを削除
+add_filter('wpcf7_autop_or_not', 'wpcf7_autop_return_false');
+function wpcf7_autop_return_false() {
+  return false;
+}
 
   //ページネーション
   // function add_prev_post_link_class($output) {
