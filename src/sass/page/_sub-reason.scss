@@ -80,8 +80,8 @@
 .sub-reason__body {
     margin-top: rem(97);
     @include mq() {
-        max-width: rem(350);
-        margin: rem(42) auto 0;
+        max-width: rem(360);
+        margin: rem(72) auto 0;
     }
 }
 

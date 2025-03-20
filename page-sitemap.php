@@ -7,7 +7,7 @@ $mainviews = [
     ],
 ];
 ?>
-<section class="sub-mv <?php if (is_page('sitemap')) {
+<section class="sub-mv js-mv <?php if (is_page('sitemap')) {
     echo 'sub-mv--privacy';
 } ?>">
 <?php get_template_part('template/sub-mv', null, ['mainviews' => $mainviews]); ?>

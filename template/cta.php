@@ -1,5 +1,5 @@
 <ul class="cta-btn-list">
-    <li class="cat-btn-list__item">
+    <li class="cat-btn-list__item  fade-in">
         <a href="" class="cta-btn cta-btn--tel">
             <div class="cta-btn__contents">
                 電話で相談する
@@ -8,5 +8,5 @@
             </div>
         </a>
     </li>
-    <li class="cat-btn-list__item"><a href="" class="cta-btn cta-btn--mail"><div class="cta-btn__contents"><span>メールでの<br>お問い合わせ</span></div></a></li>
+    <li class="cat-btn-list__item  fade-in"><a href="" class="cta-btn cta-btn--mail"><div class="cta-btn__contents"><span>メールでの<br>お問い合わせ</span></div></a></li>
 </ul>

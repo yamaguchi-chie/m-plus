@@ -9,12 +9,10 @@
     }
 }
 
-.access__inner {
-
-}
-
-.inner {
-
+.access__inner.inner {
+    @include mq() {
+        max-width: rem(640);
+    }
 }
 
 .access__wrap {
@@ -22,7 +20,7 @@
     max-width: rem(960);
     @include mq() {
         margin-top: rem(40);
-        max-width: rem(600);
+        
     }
 }
 

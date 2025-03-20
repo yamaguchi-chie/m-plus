@@ -7,7 +7,7 @@ $mainviews = [
     ],
 ];
 ?>
-<section class="sub-mv <?php if (is_home()) {
+<section class="sub-mv js-mv <?php if (is_home()) {
     echo 'sub-mv--news';
 } ?>">
 <?php get_template_part('template/sub-mv', null, ['mainviews' => $mainviews]); ?>
