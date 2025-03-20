@@ -78,4 +78,22 @@
         </div>
       </div>
     </nav>
+
+    <div class="fixd-cta">
+      <h4 class="fixd-cta__title"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/cta-title.webp" alt="" width="" height="" loading="lazy" decoding="async"></h4>
+        <div class="fixd-cta__body">
+          <ul class="fixd-cta__list">
+            <li class="fixd-cta__item fixd-cta__item--tel">
+              <a href="tel:0120-857-735" class="fixd-cta__link">
+                  <div class="fixd-cta__contents">
+                      フリーダイヤル
+                      <p class="fixd-cta__tel">0120-857-735</p>
+                      <p class="fixd-cta__note">【受付】<span>平日9：00〜18：00</span></p>
+                  </div>
+              </a>
+            </li>
+            <li class="fixd-cta__item fixd-cta__item--mail"><a href="<?php echo esc_url(home_url("contact")); ?>" class="fixd-cta__link"><div class="fixd-cta__contents"><span>メールでの<br>お問い合わせ</span></div></a></li>
+          </ul>
+        </div>
+    </div>
   <main>

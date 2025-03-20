@@ -1,0 +1,206 @@
+@use 'global' as *;
+
+.fixd-cta {
+    background: -moz-linear-gradient(45deg, $yellow4, $orange3);
+    background: -webkit-linear-gradient(45deg, $yellow4, $orange3);
+    background: linear-gradient(to right, $yellow4, $orange3);
+    padding: rem(47) rem(9) rem(8);
+    box-shadow: 2px 2px 0px rgba($color: $brown3, $alpha: 0.5);
+    border: 1px solid $white;
+    border-radius: 0 0 0 rem(20);
+    position: fixed;
+    top: rem(100);
+    right: 0;
+    z-index: 999;
+    @include mq() {
+        display: none;
+    }
+}
+
+.fixd-cta__title {
+    aspect-ratio: 110/12;
+    max-width: rem(110);
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: rem(21);
+    position: relative;
+}
+
+.fixd-cta__title::after {
+    content: '';
+    background-color: $white;
+    width: rem(24);
+    height: rem(2);
+    border-radius: rem(3);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.fixd-cta__body {
+    margin-top: rem(14);
+}
+
+.fixd-cta__list {
+
+}
+
+.fixd-cta__item:first-child {
+    //ドット
+    background-image: radial-gradient(circle, $white 1px, transparent 1px);
+    background-position: left bottom;
+    background-repeat: repeat-x;
+    background-size: 7px 2px;
+}
+
+.fixd-cta__item + .fixd-cta__item {
+    margin-top: rem(16);
+}
+
+.fixd-cta__link {
+    display: inline-block;
+    width: 100%;
+    color: $white;
+    transition: all .3s ease 0s;
+    cursor: pointer;
+    padding-right: rem(5);
+    padding-bottom: rem(17);
+}
+
+.fixd-cta__contents,
+.fixd-cta__contents>span {
+    text-shadow: 1px 1px 0 rgba($color: $gray3, $alpha: 0.5);
+    font-weight: $bold;
+    font-family: $second-font-family;
+    text-shadow: 1.7px 1.7px 0px rgba($color: $black2, $alpha: 0.3);
+    //左のアイコン
+    position: relative;
+    padding-left: rem(36);
+    @include mq() {
+        font-size: rem(20);
+        padding-left: rem(77);
+    }
+}
+
+.fixd-cta__item--tel .fixd-cta__contents {
+    font-size: rem(8);
+    line-height: calc(14 / 8);
+}
+
+.fixd-cta__item--mail .fixd-cta__contents>span {
+    display: inline-block;
+    padding-left: rem(6);
+    font-size: rem(15);
+    line-height: calc(21 / 15);
+    letter-spacing: 0.2em;
+}
+
+// .fixd-cta__contents::after {
+//     content: "";
+//     background-color: $white;
+//     border-radius: 50%;
+//     position: absolute;
+//     top: 50%;
+//     left: 0;
+//     transform: translateY(-50%);
+//     width: rem(95);
+//     height: rem(95);
+//     box-shadow: -2px -2px 1px rgba($color: $black2, $alpha: 0.3);
+//     @include mq() {
+//         width: rem(68);
+//         height: rem(68);
+//     }
+// }
+
+.fixd-cta__contents::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    aspect-ratio: 28/43;
+    max-width: rem(28);
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+    @include mq() {
+        max-width: rem(20);
+        height: auto;
+        width: 100%;
+    }
+}
+
+.fixd-cta__item--mail .fixd-cta__contents::before {
+    aspect-ratio: 34/41;
+    max-width: rem(30);
+}
+
+.fixd-cta__tel {
+    font-family: $second-font-family;
+    font-size: rem(18);
+    line-height: 1;
+    letter-spacing: 0.02em;
+    @include mq() {
+        font-size: rem(16);
+    }
+}
+
+.fixd-cta__note {
+    font-family: $second-font-family;
+    font-size: rem(10);
+    line-height: calc(18 / 10);
+    margin-top: rem(3);
+    @include mq() {
+        font-size: rem(9);
+    }
+}
+
+.fixd-cta__note span {
+    letter-spacing: 0.06em;
+    @include mq() {
+        letter-spacing: 0.03em;
+    }
+}
+
+// .fixd-cta--tel {
+//     background: -moz-linear-gradient(45deg, $beige4, $brown1);
+//     background: -webkit-linear-gradient(45deg, $beige4, $brown1);
+//     background: linear-gradient(to right, $beige4, $brown1);
+//     padding: rem(14) rem(27) rem(15) rem(15);
+//     @include mq() {
+//         padding: rem(14) rem(9);
+//     }
+// }
+
+.fixd-cta__item--tel .fixd-cta__contents::before {
+    background-image: url(../images/common/tel-ico.webp);
+}
+
+.fixd-cta__item--mail {
+    position: relative;
+    @include mq() {
+    }
+}
+
+.fixd-cta__item--mail::after {
+    content: '';
+    position: absolute;
+    right: rem(7);
+    top: 41%;
+    transform: translateY(-50%);
+    background: transparent url(../images/cta/arrow.webp) no-repeat center center / cover;
+    aspect-ratio: 8 / 9;
+    width: 100%;
+    max-width: rem(9);
+    @include mq() {
+        max-width: rem(15);
+        right: rem(15);
+    }
+}
+
+.fixd-cta__item--mail .fixd-cta__contents::before {
+    background-image: url(../images/common/foot-ico.webp);
+}
