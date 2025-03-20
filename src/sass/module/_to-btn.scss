@@ -1,0 +1,50 @@
+@use 'global' as *;
+
+.to-btn {
+    position: fixed;
+    bottom: rem(50);
+    right: rem(20);
+    z-index: 999;
+    transform: translateY(rem(100));
+    
+    @include mq() {
+        transform: translateY(rem(100));
+        right: rem(10);
+    }
+}
+
+.to-btn__link {
+    display: block;
+    width: rem(45);
+    height: rem(45);
+    background: transparent url(../images/common/top-btn.webp) no-repeat center center / cover;
+}
+
+
+.to-btn.UpMove{
+    animation: UpAnime 0.5s forwards;
+}
+@keyframes UpAnime{
+    from {
+        opacity: 0;
+        transform: translateY(rem(100));
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.to-btn.DownMove{
+    animation: DownAnime 0.5s forwards;
+  }
+  @keyframes DownAnime{
+    from {
+      opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+      opacity: 1;
+        transform: translateY(rem(110));
+    }
+  }

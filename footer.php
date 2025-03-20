@@ -85,6 +85,11 @@
   </div>
 </footer>
 
+<!-- to-btn -->
+<div class="to-btn">
+  <a href="#" class="to-btn__link"></a>
+</div>
+
 <?php wp_footer(); ?>
 
 </body>
