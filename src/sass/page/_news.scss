@@ -1,12 +1,16 @@
 @use 'global' as *;
 
 .news {
-    padding-top: rem(105);
+    padding-top: rem(66);
     margin-bottom: rem(100);
     @include mq() {
         padding-top: rem(80);
         margin-bottom: rem(80);
     }
+}
+
+.news--top .news__inner {
+    position: relative;
 }
 
 .news--sub {

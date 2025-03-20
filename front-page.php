@@ -23,6 +23,8 @@
             </div>
         </div>
         <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
         <div class="mv__wave wave-container">
             <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 140">
                 <!-- PCの波 -->
@@ -46,11 +48,9 @@
     </div>
 </div>
 
-
-
-
-<section class="news">
+<section class="news news--top">
     <div class="news__inner inner">
+        <?php get_template_part('template/scroll-deco'); ?>
         <div class="news__body">
             <div class="news__top fade-in">
                 <h2 class="news__title ">新着情報<span>TOPICS</span></h2>
@@ -69,7 +69,7 @@
                     <li class="news__item fade-in">
                         <a href="<?php the_permalink(); ?>">
                             <div class="news__meta">
-                                <time datetime="<?php the_time('c'); ?>" class="news__time"><?php the_modified_date('Y.m.d'); ?></time>
+                                <time datetime="<?php the_time('c'); ?>" class="news__time"><?php the_time('Y.m.d'); ?></time>
                             </div>
                             <div class="news__contents">
                                 <p class="news__txt txt"><?php

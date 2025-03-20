@@ -1,0 +1,142 @@
+@use 'global' as *;
+
+.deatil-news {
+    padding-top: rem(66);
+    margin-bottom: rem(100);
+    @include mq() {
+        padding-top: rem(80);
+        margin-bottom: rem(80);
+    }
+}
+
+.deatil-news__inner.inner {
+    max-width: rem(900);
+    @include mq() {
+        max-width: rem(650);
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+.deatil-news__time {
+    font-size: rem(16);
+    letter-spacing: 0.04em;
+    @include mq() {
+    
+    }
+}
+
+.deatil-news__title {
+    margin-top: rem(6);
+    font-size: rem(24);
+    line-height: calc(48 / 24);
+    font-weight: $medium;
+    letter-spacing: 0.2em;
+    color: $black3;
+    position: relative;
+    @include mq() {
+        font-size: rem(23);
+    }
+}
+
+.deatil-news__body {
+    margin-top: rem(48);
+    @include mq() {
+        margin-top: rem(32);
+    }
+}
+
+.deatil-news__body figure {
+    max-width: rem(900);
+    margin-right: auto;
+    margin-left: auto;
+    @include mq() {
+        max-width: rem(500);
+    }
+}
+
+.deatil-news__body figure img {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.deatil-news__body h2 {
+    margin-top: rem(32);
+    margin-bottom: rem(12);
+    font-size: rem(26);
+    font-weight: $medium;
+    letter-spacing: 0.05em;
+    padding-left: rem(16);
+    border-left: 2px solid $orange3;
+    @include mq() {
+        font-size: rem(21);
+    }
+}
+
+.deatil-news__body h3 {
+    margin-top: rem(32);
+    margin-bottom: rem(12);
+    font-size: rem(22);
+    font-weight: $medium;
+    letter-spacing: 0.05em;
+    padding-left: rem(8);
+    padding-bottom: rem(10);
+    border-bottom: 2px solid $gray7;
+    position: relative;
+    @include mq() {
+        font-size: rem(20);
+    }
+}
+
+.deatil-news__body h3::after {
+    content: '';
+    width: 40%;
+    height: 2px;
+    background-color: $orange3;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+}
+
+.deatil-news__body>p {
+    margin-bottom: rem(32);
+    @include mq() {
+        margin-top: rem(24);
+    }
+}
+
+.deatil-news__body p,
+.deatil-news__body li {
+    font-size: rem(18);
+    letter-spacing: 0.05em;
+    @include mq() {
+        font-size: rem(16);
+    }
+}
+
+.deatil-news__body .wp-block-list {
+    list-style: revert-layer;
+    padding-left: 1em;
+}
+
+.deatil-news__body ul,
+.deatil-news__body ol {
+    margin-top: rem(32);
+    @include mq() {
+        margin-top: rem(24);
+    }
+}
+
+.deatil-news__body>blockquote {
+    margin-top: rem(32);
+    background-color: $gray7;
+    padding: rem(30) rem(20);
+    border-radius: rem(5);
+    font-size: rem(16);
+    letter-spacing: 0.05em;
+    @include mq() {
+        padding: rem(24) rem(16);
+        margin-top: rem(24);
+        font-size: rem(15);
+    }
+}
