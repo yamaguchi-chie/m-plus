@@ -48,8 +48,6 @@
     </div>
 </div>
 
-
-
 <section class="news news--top">
     <div class="news__inner inner">
         <?php get_template_part('template/scroll-deco'); ?>
@@ -71,7 +69,7 @@
                     <li class="news__item fade-in">
                         <a href="<?php the_permalink(); ?>">
                             <div class="news__meta">
-                                <time datetime="<?php the_time('c'); ?>" class="news__time"><?php the_modified_date('Y.m.d'); ?></time>
+                                <time datetime="<?php the_time('c'); ?>" class="news__time"><?php the_time('Y.m.d'); ?></time>
                             </div>
                             <div class="news__contents">
                                 <p class="news__txt txt"><?php
