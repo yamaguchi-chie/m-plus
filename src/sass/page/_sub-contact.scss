@@ -44,11 +44,19 @@
 .sub-contact__privacy {
     margin-top: rem(33);
     text-align: center;
+}
+
+.sub-contact__privacy a {
     font-size: rem(16);
     font-weight: $regular;
     line-height: calc(30 / 18);
     letter-spacing: 0.01em;
     color: $blue2;
+    text-decoration: underline;
+}
+
+.sub-contact__privacy a:hover {
+    opacity: 0.7;
 }
 
 .sub-contact__check {
@@ -63,7 +71,7 @@
     position: relative;
 }
 
-.sub-contact__link {
+.wpcf7-list-item-label {
     position: relative;
     font-size: rem(18);
     line-height: calc(30 / 18);
@@ -72,7 +80,7 @@
     padding-left: rem(35);
 }
 
-.sub-contact__link::before {
+.wpcf7-list-item-label::before {
     content: '';
     border-left: 3px solid $red2;
     border-bottom: 3px solid $red2;
@@ -88,7 +96,7 @@
     z-index: 1;
 }
 
-.sub-contact__link::after {
+.wpcf7-list-item-label::after {
     content: '';
     width: rem(29);
     height: rem(29);
@@ -108,15 +116,15 @@
     left: 0;
 }
 
-[type='checkbox']:checked + .sub-contact__link::before {
+[type='checkbox']:checked + .wpcf7-list-item-label::before {
     opacity: 1;
 }
 
-[type='checkbox']:focus + .sub-contact__link::after {
+[type='checkbox']:focus + .wpcf7-list-item-label::after {
     outline: 2px $blue2;
 }
 
-[type='checkbox']:checked:focus + .sub-contact__link::before {
+[type='checkbox']:checked:focus + .wpcf7-list-item-label::before {
     outline: none;
 }
 
@@ -148,19 +156,6 @@
 //         border: 2px solid $main-black;
 //     }
 // }
-
-.wpcf7-list-item-label a {
-    color: $blue2;
-    font-size: rem(16);
-    font-weight: $regular;
-    line-height: calc(30 / 16);
-    letter-spacing: 0.01em;
-    text-decoration: underline;
-}
-
-.wpcf7-list-item-label a:hover {
-    opacity: 0.7;
-}
 
 .sub-contact__submit {
     margin-top: rem(63);

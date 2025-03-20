@@ -16,6 +16,67 @@ $(".js-header-hamburger").click(function () {
 
 });
 
+// jQuery(function($){
+//   $('.js-adress-number').attr('pattern', '^[0-9]{7}$');
+// });
+
+jQuery(function($){
+  $('.js-adress-number').each(function() {
+    const $input = $(this);
+    
+    // エラーメッセージ用の要素を追加
+    const $errorMsg = $('<span class="error-message" style="color: #dc3232; font-weight: normal; display: none;">ハイフンなしでご入力ください</span>');
+    $input.after($errorMsg);
+    
+    // 入力時にハイフンをチェック
+    $input.on('input', function() {
+      const value = $(this).val();
+      if (value.includes('-')) {
+        $errorMsg.show();
+      } else {
+        $errorMsg.hide();
+      }
+    });
+
+    // フォーム送信時のバリデーション
+    $input.closest('form').on('submit', function(e) {
+      if ($input.val().includes('-')) {
+        e.preventDefault(); // 送信を阻止
+        $errorMsg.show();
+      }
+    });
+  });
+});
+
+jQuery(function($){
+  $('.js-tel').each(function() {
+    const $input = $(this);
+    
+    // エラーメッセージ用の要素を追加
+    const $errorMsg = $('<span class="error-message" style="color: #dc3232; font-weight: normal; display: none;">ハイフンなしでご入力ください</span>');
+    $input.after($errorMsg);
+    
+    // 入力時にハイフンをチェック
+    $input.on('input', function() {
+      const value = $(this).val();
+      if (value.includes('-')) {
+        $errorMsg.show();
+      } else {
+        $errorMsg.hide();
+      }
+    });
+
+    // フォーム送信時のバリデーション
+    $input.closest('form').on('submit', function(e) {
+      if ($input.val().includes('-')) {
+        e.preventDefault(); // 送信を阻止
+        $errorMsg.show();
+      }
+    });
+  });
+});
+
+
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
     loop: true,
