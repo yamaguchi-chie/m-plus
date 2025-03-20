@@ -2,6 +2,8 @@
 
 .sub-reason {
     margin-top: rem(97);
+    margin-bottom: rem(298);
+
     @include mq() {
         margin-top: rem(100);
         overflow: hidden;
