@@ -16,7 +16,7 @@ $mainviews = [
 <div class="thanks">
     <div class="thanks__inner inner">
         <h2 class="thanks__title">お探しのページは<br class="u-mobile">見つかりませんでした</h2>
-        <div class="thanks__btn"><a href="<?php echo esc_url(home_url()); ?>" class="btn">トップへ戻る</a></div>
+        <div class="thanks__btn"><a href="<?php echo esc_url(home_url()); ?>" class="btn">HOMEへ戻る</a></div>
     </div>
 </div>
 <?php get_footer(); ?>
