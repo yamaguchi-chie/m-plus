@@ -18,7 +18,7 @@ $mainviews = [
         <div class="sub-reason-top__contents fade-in">
             <h3 class="sub-reason-top__title">何でも相談できる街のリフォーム屋さん</h3>
             <p class="sub-reason-top__text">私たちは、「リフォームやリノベーションってどこに頼めばいいの？」と<br>お悩みの方のための、 身近で気軽に相談できる街のリフォーム屋さんです。<br>「こんな小さなことでもいいのかな？」「予算が決まってないけど大丈夫？」<br>「どんなリフォームがいいのか分からない…」など<br>おうちのお悩みを、気軽に話せる雰囲気を大切にしています。<br>そんな “ちょっとしたお困りごと” や “お家の未来の相談” に、<br>私たちがしっかり寄り添い、理想の住まいづくりを全力でサポートします。<br>「ちょっと話を聞いてみたいな」「まだ決めてないけど相談していい？」もちろん大歓迎です！<br>いつでも、どんなことでも、お気軽にご相談ください。</p>
-            <div class="sub-reason-top__img fade-in"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reason/img.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
+            <div class="sub-reason-top__img"><div class="fade-in"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reason/img.webp" alt="" width="" height="" loading="lazy" decoding="async"></div></div>
         </div>
     </div>
 </section>
