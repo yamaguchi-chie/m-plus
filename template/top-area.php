@@ -1,4 +1,6 @@
-<section class="top-area top-area--company">
+<section class="top-area <?php if (is_page('company')) {
+    echo 'top-area--company';
+} ?>">
     <div class="top-area__inner inner">
         <div class="top-area__body">
             <h3 class="top-area__title fade-in">対応地域</h3>

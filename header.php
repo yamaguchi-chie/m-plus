@@ -63,6 +63,7 @@
     <nav class="sp-nav">
       <p class="sp-nav__catch">名古屋市・春日井市・小牧市の<br>リフォーム・リノベーションのことなら<br>エムプラスへ！</p>
       <ul class="sp-nav__items">
+        <li class="sp-nav__item"><a href="<?php echo esc_url(home_url()); ?>">HOMEへ</a></li>
         <li class="sp-nav__item"><a href="<?php echo esc_url(home_url("reason")); ?>">選ばれる理由</a></li>
         <li class="sp-nav__item"><a href="<?php echo esc_url(home_url("reform-menu")); ?>">リフォームメニュー</a></li>
         <li class="sp-nav__item"><a href="<?php echo esc_url(home_url("flow")); ?>">リフォームの流れ</a></li>
