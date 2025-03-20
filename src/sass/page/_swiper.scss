@@ -60,6 +60,10 @@
     background-color:rgba($color:  $orange3, $alpha: 0.5);
     width: rem(40);
     height: rem(40);
+    @include mq() {
+      width: rem(25);
+      height: rem(25);
+    }
  }
 
 //矢印
@@ -72,7 +76,10 @@
     width: rem(10);
     height: rem(22);
     transform: translateY(-50%);
-
+  @include mq() {
+    width: rem(7);
+    height: rem(13);
+  }
 }
 
 .swiper-button-next:after {
