@@ -23,6 +23,8 @@
             </div>
         </div>
         <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
         <div class="mv__wave wave-container">
             <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 140">
                 <!-- PCの波 -->

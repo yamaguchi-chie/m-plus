@@ -52,3 +52,33 @@
   .swiper-pagination-bullet-active {
     background: $orange3;
   }
+
+  //背景
+.swiper-button-next,
+.swiper-button-prev {
+    border-radius: 50%;
+    background-color:rgba($color:  $orange3, $alpha: 0.5);
+    width: rem(40);
+    height: rem(40);
+ }
+
+//矢印
+.swiper-button-next:after, 
+.swiper-button-prev:after {
+		content: ""; //元のnextの矢印を削除
+    background: transparent url(../images/common/arrow.webp) no-repeat center center / cover;
+    position: absolute;
+    top: 56%;
+    width: rem(10);
+    height: rem(22);
+    transform: translateY(-50%);
+
+}
+
+.swiper-button-next:after {
+  top: 50%;
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.swiper-button-prev:after {
+}
