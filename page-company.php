@@ -7,7 +7,7 @@ $mainviews = [
     ],
 ];
 ?>
-<section class="sub-mv <?php if (is_page('company')) {
+<section class="sub-mv js-mv <?php if (is_page('company')) {
     echo 'sub-mv--company';
 } ?>">
 <?php get_template_part('template/sub-mv', null, ['mainviews' => $mainviews]); ?>
