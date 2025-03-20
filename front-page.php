@@ -48,9 +48,9 @@
 
 
 
-
-<section class="news">
+<section class="news news--top">
     <div class="news__inner inner">
+        <?php get_template_part('template/scroll-deco'); ?>
         <div class="news__body">
             <div class="news__top fade-in">
                 <h2 class="news__title ">新着情報<span>TOPICS</span></h2>
