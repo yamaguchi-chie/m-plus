@@ -1,3 +1,4 @@
+</main>
 <footer class="footer">
   <div class="footer__inner inner">
     <div class="footer__body">
@@ -84,7 +85,7 @@
       </div>
   </div>
 </footer>
-
+</div>
 <!-- to-btn -->
 <div class="to-btn">
   <a href="#" class="to-btn__link"></a>

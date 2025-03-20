@@ -21,7 +21,7 @@
 
 <body>
   <?php wp_body_open(); ?>
-
+  <div class="main-wrap">
     <!-- header  -->
    <header class="header js-header">
       <div class="header__inner">
@@ -77,3 +77,4 @@
         </div>
       </div>
     </nav>
+  <main>
