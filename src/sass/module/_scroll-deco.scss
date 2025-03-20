@@ -19,6 +19,9 @@
     @media screen and (max-width: 1399px) {
         left: 0;
     }
+    @include mq() {
+        top: -18%;
+    }
 }
 
 .scroll-deco__txt {
@@ -27,6 +30,9 @@
     line-height: 1;
     color: $white;
     text-shadow: 0 0 1px rgba($color: $brown4, $alpha: .9);
+    @include mq() {
+        font-size: rem(13);
+    }
 }
 
 .scroll-deco__line {
@@ -36,6 +42,9 @@
     border-bottom: rem(1) solid $brown5;
     background-color: $brown5;
     margin-bottom: rem(2);
+    @include mq() {
+        width: rem(50);
+    }
 }
 
 .scroll-deco__line::after {
@@ -46,6 +55,9 @@
     left: 0;
     width: rem(40);
     animation: identifier 3s ease-in infinite alternate;
+    @include mq() {
+        width: rem(25);
+    }
 }
 
 @keyframes identifier {
@@ -81,4 +93,7 @@
     height: rem(16);
     bottom: 0;
     right: rem(2);
+    @include mq() {
+        right: rem(0);
+    }
 }
