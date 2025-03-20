@@ -4,7 +4,7 @@
     <div class="footer__body">
         <div class="footer__main">
           <div class="footer__meta">
-            <div class="footer__logo"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/foot-logo.webp" alt="ロゴ" width="" height="" loading="lazy" decoding="async"></div>
+            <div class="footer__logo"><a href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/foot-logo.webp" alt="ロゴ" width="" height="" loading="lazy" decoding="async"></a></div>
             <div class="footer__info">
               <p class="footer__adress">〒462-0825 愛知県名古屋市北区大曽根3-10-7</p>
               <div class="footer__info-tel">
@@ -83,7 +83,6 @@
       <div class="footer__copyright">
         <small>Copyright &copy; M-plus  ALL Right Reserved.</small>
       </div>
-  </div>
 </footer>
 <!-- to-btn -->
 <div class="to-btn">

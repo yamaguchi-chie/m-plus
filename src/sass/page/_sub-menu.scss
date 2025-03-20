@@ -251,7 +251,7 @@
 }
 
 .sub-menu__checks--wrap .sub-menu__check:nth-child(odd) {
-    width: rem(212);
+    width: rem(211);
     @include mq() {
         width: 50%;
         white-space: nowrap;

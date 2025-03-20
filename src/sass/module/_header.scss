@@ -84,7 +84,7 @@
     font-size: rem(17);
     line-height: calc(30 / 17);
     
-    @media screen and (max-width: 1775px) {
+    @media screen and (max-width: 1635px) {
         display: none;
     }
 }
@@ -94,7 +94,7 @@
     margin-left: 2.4%;
     // margin-left: 1.8vw;
     // width: 47.6%;
-    @media screen and (max-width: 1775px) {
+    @media screen and (max-width: 1635px) {
         margin-left: 0;
     }
     @include mq() {

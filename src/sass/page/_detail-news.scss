@@ -168,9 +168,3 @@
 
     }
 }
-
-.detail-news__btn .btn {
-    @include mq() {
-        font-size: rem(22);
-    }
-}

@@ -26,7 +26,7 @@ $mainviews = [
         <?php next_post_link('%link', '次の記事へ'); ?>
     </div>
     <div class="detail-news__btn fade-in">
-        <a href="<?php echo esc_url(home_url("works")); ?>" class="btn btn--works">HOMEへ戻る</a>
+        <a href="<?php echo esc_url(home_url("news")); ?>" class="btn btn--news">記事一覧へ戻る</a>
     </div>
   </div>
 </section>

@@ -221,7 +221,7 @@
                 </li>
             </ul>
             <div class="top-menu__btn fade-in">
-            <a href="<?php echo esc_url(home_url("menu")); ?>" class="top-btn top-btn--menu"><span>リフォームメニュー<br>一覧を見る</span></a>
+            <a href="<?php echo esc_url(home_url("reform-menu")); ?>" class="top-btn top-btn--menu"><span>リフォームメニュー<br>一覧を見る</span></a>
             </div>
         </div>
     </div>
