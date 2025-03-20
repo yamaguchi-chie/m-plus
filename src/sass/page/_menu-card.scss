@@ -157,6 +157,8 @@
 }
 
 .menu-card__txt {
+    color: $black2;
+    font-family: $second-font-family;
     font-size: rem(20);
     font-weight: $bold;
     line-height: calc(19 / 20);

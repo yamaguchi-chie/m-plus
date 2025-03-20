@@ -80,6 +80,7 @@
 }
 
 .header__catch {
+    color: $main;
     font-size: rem(17);
     line-height: calc(30 / 17);
     
@@ -124,12 +125,14 @@
 }
 
 .header__number {
+    color: $main;
     font-size: rem(23);
     line-height: calc(29 / 23);
     letter-spacing: 0.06em;
 }
 
 .header__copy {
+    color: $main;
     font-size: rem(12);
     line-height: calc(23 / 12);
     letter-spacing: 0.06em;

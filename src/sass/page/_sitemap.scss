@@ -65,6 +65,7 @@
     text-align: center;
     color: $orange3;
     font-size: rem(26);
+    font-weight: $medium;
     line-height: calc(46 / 26);
     padding: 0 rem(2) rem(6);
     //ドット
@@ -123,7 +124,9 @@
     position: relative;
     text-transform: uppercase;
     display: inline-block;
+    color: $brown1;
     font-size: rem(20);
+    font-weight: $regular;
     line-height: calc(42 / 20);
     padding: rem(1) 0 rem(1) rem(14);
     transition: all .3s ease 0s;

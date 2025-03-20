@@ -1,8 +1,20 @@
 @use 'global' as *;
 
 .cta-wrap {
-    margin-bottom: rem(130);
+    padding-bottom: rem(130);
+    background-color: $beige5;
+    padding-top: rem(94);
     @include mq() {
-        margin-bottom: rem(90);
+        padding-top: rem(80);
+        padding-bottom: rem(90);
+    }
+}
+
+.cta-wrap--menu {
+    background-color: $white;
+    padding-top: rem(20);
+    @include mq() {
+        padding-top: rem(0);
+        padding-bottom: rem(100);
     }
 }

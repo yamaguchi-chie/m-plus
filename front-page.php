@@ -102,7 +102,7 @@
                 <div class="top-reason__btn fade-in"><a href="<?php echo esc_url(home_url("reason")); ?>" class="top-btn"><span>選ばれる理由</span></a></div>
             </div>
             <div class="top-reason__img fade-in">
-                <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/reason.webp" alt="" width="" height="" loading="lazy" decoding="async">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/reason.webp" alt="男の人が相談に乗っているイメージ" width="" height="" loading="lazy" decoding="async">
             </div>
         </div>
     </div>
@@ -123,7 +123,7 @@
                             <h3 class="menu-card__title"><span>使いにくい・せまい・古くなってきた</span>キッチンリフォーム</h3>
                         </div>
                         <div class="menu-card__img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/menu/1.webp" alt="" width="" height="" loading="lazy" decoding="async">
+                            <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/menu/1.webp" alt="キッチンリフォームのイメージ" width="" height="" loading="lazy" decoding="async">
                         </div>
                         <div class="menu-card__contents">
                             <h4 class="menu-card__subTl">工事費込［総額］</h4>
@@ -140,7 +140,7 @@
                             <h3 class="menu-card__title"><span>カビが気になる、節水したい、浴室が寒い</span>浴室リフォーム</h3>
                         </div>
                         <div class="menu-card__img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/menu/2.webp" alt="" width="" height="" loading="lazy" decoding="async">
+                            <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/menu/2.webp" alt="浴室リフォームのイメージ" width="" height="" loading="lazy" decoding="async">
                         </div>
                         <div class="menu-card__contents">
                             <h4 class="menu-card__subTl">工事費込［総額］</h4>
@@ -157,7 +157,7 @@
                             <h3 class="menu-card__title"><span>汚れが目立つ・和式から洋式に変えたい</span>トイレリフォーム</h3>
                         </div>
                         <div class="menu-card__img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/menu/3.webp" alt="" width="" height="" loading="lazy" decoding="async">
+                            <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/menu/3.webp" alt="トイレリフォームのイメージ" width="" height="" loading="lazy" decoding="async">
                         </div>
                         <div class="menu-card__contents">
                             <h4 class="menu-card__subTl">工事費込［総額］</h4>
@@ -174,7 +174,7 @@
                             <h3 class="menu-card__title"><span>さびが気になる、使い勝手が悪い</span>洗面リフォーム</h3>
                         </div>
                         <div class="menu-card__img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/menu/4.webp" alt="" width="" height="" loading="lazy" decoding="async">
+                            <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/menu/4.webp" alt="洗面リフォームのイメージ" width="" height="" loading="lazy" decoding="async">
                         </div>
                         <div class="menu-card__contents">
                             <h4 class="menu-card__subTl">工事費込［総額］</h4>
@@ -191,7 +191,7 @@
                             <h3 class="menu-card__title"><span>張り替えしたい・和室を洋室に変えたい</span>内装リフォーム</h3>
                         </div>
                         <div class="menu-card__img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/menu/5.webp" alt="" width="" height="" loading="lazy" decoding="async">
+                            <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/menu/5.webp" alt="内装リフォームのイメージ" width="" height="" loading="lazy" decoding="async">
                         </div>
                         <div class="menu-card__contents">
                             <h4 class="menu-card__subTl">工事費込［総額］</h4>
@@ -208,7 +208,7 @@
                             <h3 class="menu-card__title"><span>壁のひび割れ、遮熱工事がしたい</span>外装リフォーム</h3>
                         </div>
                         <div class="menu-card__img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/menu/6.webp" alt="" width="" height="" loading="lazy" decoding="async">
+                            <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/menu/6.webp" alt="外装リフォームのイメージ" width="" height="" loading="lazy" decoding="async">
                         </div>
                         <div class="menu-card__contents">
                             <h4 class="menu-card__subTl">工事費込［総額］</h4>
@@ -242,7 +242,7 @@
                         <a href="<?php echo esc_url(home_url("flow")); ?>" class="top-btn top-btn--flow"><span>ご依頼までの流れ</span></a>
                     </div>
                 </div>
-                <div class="top-flow__img fade-in"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/flow-img.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
+                <div class="top-flow__img fade-in"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/flow-img.webp" alt="流れを説明する男性のイメージ" width="" height="" loading="lazy" decoding="async"></div>
             </div>
         </div>
     </div>

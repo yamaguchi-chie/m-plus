@@ -1,10 +1,9 @@
 @use 'global' as *;
 
 .sub-menu {
-    // margin-top: rem(100);
     margin-bottom: rem(112);
     @include mq() {
-        
+        margin-bottom: rem(100);
     }
 }
 
@@ -76,6 +75,7 @@
 .sub-menu__title {
     color: $main;
     font-size: rem(36);
+    font-weight: $medium;
     line-height: calc(63 / 36);
     text-align: center;
     padding-bottom: rem(26);
@@ -198,6 +198,7 @@
     text-align: center;
     color: $orange3;
     font-size: rem(18);
+    font-weight: $medium;
     line-height: calc(32 / 18);
     padding: rem(1);
     @include mq() {

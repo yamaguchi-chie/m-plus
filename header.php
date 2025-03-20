@@ -28,7 +28,7 @@
         <div class="header__body">
           <!-- logo  -->
           <h1 class="header__logo">
-            <a href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/head-logo.webp" alt="" width="" height="" loading="lazy" decoding="async"></a>
+            <a href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/head-logo.webp" alt="ロゴ" width="" height="" loading="lazy" decoding="async"></a>
           </h1>
           <div class="header__main">
             <p class="header__catch">名古屋市・春日井市・小牧市の<br>リフォーム・リノベーションのことならエムプラスへ！</p>
@@ -43,7 +43,7 @@
                 </ul>
               </nav>
               <div class="header__tel">
-                <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/head-tel.webp" alt="" loading="lazy" decoding="async">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/head-tel.webp" alt="フリーダイヤルを表すイメージ" loading="lazy" decoding="async">
                 <div class="header__contents">
                   <p class="header__number">0120<span>-</span>857<span>-</span>735</p>
                   <p class="header__copy">【受付】平日9：00〜18：00</p>
@@ -71,7 +71,7 @@
         <li class="sp-nav__item"><a href="<?php echo esc_url(home_url("contact")); ?>">お問い合わせ</a></li>
       </ul>
       <div class="sp-nav__tel">
-        <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/head-tel.webp" alt="" width="75" height="43" loading="lazy" decoding="async">
+        <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/head-tel.webp" alt="フリーダイヤルを表すイメージ" width="75" height="43" loading="lazy" decoding="async">
         <div class="sp-nav__contents">
           <p class="sp-nav__number">0120<span>-</span>857<span>-</span>735</p>
           <p class="sp-nav__copy">【受付】平日9：00〜18：00</p>
@@ -80,7 +80,7 @@
     </nav>
 
     <div class="fixd-cta">
-      <h4 class="fixd-cta__title"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/cta-title.webp" alt="" width="" height="" loading="lazy" decoding="async"></h4>
+      <h4 class="fixd-cta__title"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/cta-title.webp" alt="contact" width="" height="" loading="lazy" decoding="async"></h4>
         <div class="fixd-cta__body">
           <ul class="fixd-cta__list">
             <li class="fixd-cta__item fixd-cta__item--tel">

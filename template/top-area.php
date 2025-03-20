@@ -8,7 +8,7 @@
                 <div class="top-area__deco fade-in">
                     <picture>
                     <source srcset="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/area/area.webp" media="(min-width: 768px)" />
-                    <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/area/area_sp.webp" alt="" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/area/area_sp.webp" alt="愛知県の担当地域を示したイラスト" />
                 </picture>
                 </div>
                 <div class="top-area__contents fade-in">

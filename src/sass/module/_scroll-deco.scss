@@ -63,10 +63,9 @@
 @keyframes identifier {
     0% {
 
-        transform: 0;
+        transform: translateX(0%);
     }
     100% {
-
         transform: translateX(100%);
     }
 }

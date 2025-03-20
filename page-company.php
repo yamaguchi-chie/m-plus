@@ -32,7 +32,7 @@ $mainviews = [
         </div>
         <div class="greeting__body fade-in">
             <div class="greeting__left">
-                <div class="greeting__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/company/img.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
+                <div class="greeting__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/company/img.webp" alt="代表者のイメージ画像" width="" height="" loading="lazy" decoding="async"></div>
                 <h3 class="greeting__name"><span>代 表</span>後藤 淳平</h3>
             </div>
             <div class="greeting__contents">
@@ -53,7 +53,7 @@ $mainviews = [
                 <li class="concept__item">お客様のためにあらゆる志事を行います。</li>
                 <li class="concept__item">お客様の立場に立ち、正しい提案と正しい提供を行います。</li>
             </ul>
-            <div class="concept__img fade-in"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/company/img2.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
+            <div class="concept__img fade-in"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/company/img2.webp" alt="経営理念をイメージさせる画像" width="" height="" loading="lazy" decoding="async"></div>
         </div>
     </div>
 </section>
