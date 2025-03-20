@@ -57,6 +57,7 @@
 .concept__subTl {
     color: $main;
     font-size: rem(30);
+    font-weight: $medium;
     line-height: calc(52 / 30);
     letter-spacing: 0.18em;
     @include mq() {
@@ -75,6 +76,7 @@
 
 .concept__item {
     position: relative;
+    color: $black3;
     font-size: rem(20);
     font-weight: $regular;
     line-height: calc(40 / 20);

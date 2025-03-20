@@ -2,7 +2,7 @@
 
 .sub-reason {
     margin-top: rem(97);
-    margin-bottom: rem(298);
+    margin-bottom: rem(198);
 
     @include mq() {
         margin-top: rem(100);
@@ -32,6 +32,7 @@
     color: $orange3;
     text-align: center;
     font-size: rem(30);
+    font-weight: $medium;
     line-height: calc(52 / 30);
     letter-spacing: 0.1em;
     position: relative;

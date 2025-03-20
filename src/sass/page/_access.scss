@@ -44,13 +44,14 @@
 .access__txt {
     margin-top: rem(38);
     text-align: center;
+    color: $black2;
     font-size: rem(20);
     font-weight: $regular;
     line-height: calc(40 / 20);
     letter-spacing: 0.05em;
     @include mq() {
         text-align: left;
-        font-size: rem(18);
+        font-size: rem(16);
         margin-top: rem(24);
     }
 }

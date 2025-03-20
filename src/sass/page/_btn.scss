@@ -26,3 +26,9 @@
 .btn--reset {
     background-color: $gray4;
 }
+.btn--news {
+    font-size: rem(18);
+    @include mq() {
+        font-size: rem(16);
+    }
+}

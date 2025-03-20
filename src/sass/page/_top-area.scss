@@ -18,6 +18,7 @@
 }
 
 .top-area__body {
+    background-color: $white;
     padding: rem(0) rem(15) rem(42) rem(0);
     border: 2px solid $orange3;
     border-radius: rem(20);
@@ -117,6 +118,7 @@
 }
 
 .top-area__txt {
+    color: $brown1;
     font-size: rem(24);
     font-weight: $regular;
     line-height: calc(40 / 24);
@@ -142,6 +144,7 @@
     font-size: rem(17);
     font-weight: $bold;
     line-height: calc(32 / 17);
+    letter-spacing: 0.06em;
     font-family: $second-font-family;
     @include mq() {
         font-size: rem(16);
@@ -156,6 +159,7 @@
 }
 
 .top-area__area-txt1 {
+    color: $brown1;
     font-size: rem(24);
     font-weight: $regular;
     line-height: calc(47 / 24);

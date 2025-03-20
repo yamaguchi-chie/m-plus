@@ -143,8 +143,6 @@
 }
 
 .top-facturer__item:nth-of-type(even) {
-    // width: calc(100% - rem(356));
-    // width: calc(100% - rem(387));
     width: rem(230);
     @include mq() {
         width: 100%;
@@ -152,6 +150,7 @@
 }
 
 .top-facturer__txt {
+    color: $brown1;
     font-size: rem(20);
     font-weight: $regular;
     line-height: calc(50 / 20);

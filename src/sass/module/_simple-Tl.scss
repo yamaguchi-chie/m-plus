@@ -6,7 +6,7 @@
     text-align: center;
     color: $main;
     font-size: rem(30);
-    font-weight: $regular;
+    font-weight: $medium;
     line-height: calc(52 / 30);
     letter-spacing: 0.2em;
     @include mq() {

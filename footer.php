@@ -4,7 +4,7 @@
     <div class="footer__body">
         <div class="footer__main">
           <div class="footer__meta">
-            <div class="footer__logo"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/foot-logo.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
+            <div class="footer__logo"><a href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/foot-logo.webp" alt="ロゴ" width="" height="" loading="lazy" decoding="async"></a></div>
             <div class="footer__info">
               <p class="footer__adress">〒462-0825 愛知県名古屋市北区大曽根3-10-7</p>
               <div class="footer__info-tel">
@@ -15,7 +15,7 @@
           </div>
           <div class="footer__flex">
             <div class="footer__tel">
-                <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/foot-tel.webp" alt="" loading="lazy" decoding="async">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/foot-tel.webp" alt="電話番号を表す画像" loading="lazy" decoding="async">
                 <div class="footer__tel-wrap">
                   <p class="footer__number">0120<span>-</span>857<span>-</span>735</p>
                   <p class="footer__note">【受付】平日9：00〜18：00</p>
@@ -83,7 +83,6 @@
       <div class="footer__copyright">
         <small>Copyright &copy; M-plus  ALL Right Reserved.</small>
       </div>
-  </div>
 </footer>
 <!-- to-btn -->
 <div class="to-btn">

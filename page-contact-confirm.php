@@ -23,7 +23,7 @@ $mainviews = [
             <div class="sub-contact__box">
                 <h3 class="sub-contact__subTl">【 電話・FAXでのお問い合わせはこちらまで 】</h3><span class="sub-contact__span">※受付：平日9：00〜18：00</span>
                 <div class="sub-contact__flex">
-                    <div class="sub-contact__tel"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/foot-tel.webp" alt="" loading="lazy" decoding="async"><span>:0120-857-735</span></div>
+                    <div class="sub-contact__tel"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/foot-tel.webp" alt="フリーダイヤルを表す画像" loading="lazy" decoding="async"><span>:0120-857-735</span></div>
                     <p class="sub-contact__fax">FAX<span>:052-508-5032</span></p>
                 </div>
             </div>

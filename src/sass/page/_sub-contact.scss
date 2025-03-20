@@ -15,6 +15,7 @@
 }
 
 .sub-contact__catch {
+    color: $black3;
     font-size: rem(18);
     font-weight: $regular;
     line-height: calc(34 / 18);
@@ -230,7 +231,7 @@
 
 .sub-contact__flex {
     display: flex;
-    gap: rem(36);
+    gap: rem(28);
     margin-top: rem(9);
     margin-left: rem(11);
     @include mq() {
@@ -245,7 +246,7 @@
 .sub-contact__tel,
 .sub-contact__fax {
     display: flex;
-    gap: rem(17);
+    // gap: rem(17);
     @include mq() {
         gap: rem(8);
     }

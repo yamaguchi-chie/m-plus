@@ -1,12 +1,22 @@
 <?php get_header(); ?>
-<main class="l-main">
-  <div class="p-404">
-    <div class="p-404__inner l-inner">
-      <h2 class ="p-404__title c-common-title">お探しのページは見つかりませんでした。</h2>
-      <div class="p-404__btn">
-        <a class="c-btn" href="<?php page_path(''); ?>">TOPページへ</a>
-      </div>
+<?php
+$mainviews = [
+    [
+        'title' => 'お探しのページは見つかりませんでした',
+        'en' => 'Not Found',
+    ],
+];
+?>
+<section class="sub-mv js-mv <?php if (is_page('contact')) {
+    echo 'sub-mv--contact';
+} ?>">
+<?php get_template_part('template/sub-mv', null, ['mainviews' => $mainviews]); ?>
+</section>
+
+<div class="thanks">
+    <div class="thanks__inner inner">
+        <h2 class="thanks__title">お探しのページは<br class="u-mobile">見つかりませんでした</h2>
+        <div class="thanks__btn"><a href="<?php echo esc_url(home_url()); ?>" class="btn">HOMEへ戻る</a></div>
     </div>
-  </div>
-</main>
+</div>
 <?php get_footer(); ?>

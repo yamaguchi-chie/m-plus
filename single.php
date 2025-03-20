@@ -14,12 +14,19 @@ $mainviews = [
 <?php get_template_part('template/sub-mv', null, ['mainviews' => $mainviews]); ?>
 </section>
 
-<section class="deatil-news">
-  <div class="deatil-news__inner inner">
-    <time datetime="<?php the_time('c'); ?>" class="deatil-news__time"><?php the_modified_date('Y.m.d'); ?></time>
-    <h2 class="deatil-news__title"><?php the_title(); ?></h2>
-    <div class="deatil-news__body">
+<section class="detail-news">
+  <div class="detail-news__inner inner">
+    <time datetime="<?php the_time('c'); ?>" class="detail-news__time"><?php the_modified_date('Y.m.d'); ?></time>
+    <h2 class="detail-news__title"><?php the_title(); ?></h2>
+    <div class="detail-news__body">
       <?php the_content(); ?>
+    </div>
+    <div class="detail-news__pagination">
+        <?php previous_post_link('%link', '前の記事へ'); ?>
+        <?php next_post_link('%link', '次の記事へ'); ?>
+    </div>
+    <div class="detail-news__btn fade-in">
+        <a href="<?php echo esc_url(home_url("news")); ?>" class="btn btn--news">記事一覧へ戻る</a>
     </div>
   </div>
 </section>
