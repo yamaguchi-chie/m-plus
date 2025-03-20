@@ -11,12 +11,14 @@
     }
 }
 
-.form-row__text,
-.form-row__input {
+.form-row__text {
     font-size: rem(18);
     line-height: calc(22 / 18);
     letter-spacing: 0.2em;
     color: $black3;
+    @include mq() {
+        font-size: rem(17);
+    }
 }
 
 .form-row__note {
@@ -26,6 +28,10 @@
     line-height: calc(22 / 18);
     letter-spacing: 0.2em;
     color: $black3;
+    @include mq() {
+        font-size: rem(16);
+        margin-top: rem(10);
+    }
 }
 
 .form-row__required,
@@ -34,6 +40,7 @@
     padding-right: calc(rem(8) + rem(40));
 
     @include mq() {
+        padding-right: calc(rem(2) + rem(40));
     }
 }
 
@@ -46,7 +53,11 @@
     color: $white;
     font-size: rem(14);
     line-height: 1;
-    padding: rem(2) rem(3);
+    padding: rem(2) rem(2) rem(2) rem(3);
+    @include mq() {
+        font-size: rem(13);
+        padding: rem(2) rem(2) rem(3) rem(3);
+    }
 }
 
 .form-row__required::after {
@@ -77,10 +88,18 @@ input {
     transition: all .3s ease 0s;
 }
 
+span.wpcf7-spinner {
+    display: none;
+}
+
 [type="text"],
 [type="email"],
 [type="tel"],
 textarea {
+    font-size: rem(18);
+    line-height: calc(22 / 18);
+    letter-spacing: 0.2em;
+    color: $black3;
     border: 1px solid $beige3;
     background-color: $cream;
     width: 100%;
@@ -89,6 +108,7 @@ textarea {
     padding: rem(17) rem(19);
 
     @include mq() {
+        font-size: rem(16);
         padding: rem(15) rem(16);
     }
 }
@@ -96,6 +116,9 @@ textarea {
 textarea {
     resize: none;
     height: rem(400);
+    @include mq() {
+        height: rem(330);
+    }
 }
 
 .form-row__input {

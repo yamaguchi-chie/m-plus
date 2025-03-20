@@ -91,32 +91,11 @@ function add_taxonomy() {
 }
 add_action('init', 'add_taxonomy');
 
-
-
-// add_filter( 'wpcf7_validate', 'wpcf7_validate_spam_message', 10, 2 );
-// function wpcf7_validate_spam_message( $result, $tag ) {
-// $value = str_replace(array(PHP_EOL,' '), ”, esc_attr($_POST['js-adress-number']));
-// if (!empty($value)) {
-// if (preg_match('/^[0-9]{7}$/', $value)) {
-// $result['valid'] = false;
-// $result['reason'] = array('js-adress-number' => '半角のハイフンなしで入力してください');
-// }
-// }
-// return $result;
-// }
-
-// add_filter( 'wpcf7_validate_postal', 'custom_postal_validation_filter', 20, 2 );
-// add_filter( 'wpcf7_validate_postal*', 'custom_postal_validation_filter', 20, 2 );
-// function custom_postal_validation_filter( $result, $tag ) {
-// $name = $tag['name'];
-// if ( $name == 'js-adress-number' ) {
-// $value = isset( $_POST[$name] ) ? trim( $_POST[$name] ) : ”;
-// if ( ! preg_match( '/^[0-9]{3}-?[0-9]{4}$/', $value ) ) {
-// $result->invalidate( $tag, “半角数字で入力してください。” );
-// }
-// }
-// return $result;
-// }
+// Contact Form 7で自動挿入されるPタグ、brタグを削除
+add_filter('wpcf7_autop_or_not', 'wpcf7_autop_return_false');
+function wpcf7_autop_return_false() {
+  return false;
+}
 
   //ページネーション
   // function add_prev_post_link_class($output) {
