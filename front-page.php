@@ -3,33 +3,51 @@
 <div class="mv">
     <div class="swiper mySwiper">
         <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/mv1.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
-            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/mv2.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
-            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/mv3.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
+            <div class="swiper-slide">
+                <picture>
+                    <source srcset="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/mv1.webp" media="(min-width: 768px)" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/mv1_sp.webp" alt="" />
+                </picture>
+            </div>
+            <div class="swiper-slide">
+                <picture>
+                    <source srcset="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/mv2.webp" media="(min-width: 768px)" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/mv2_sp.webp" alt="" />
+                </picture>
+            </div>
+            <div class="swiper-slide">
+                <picture>
+                    <source srcset="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/mv3.webp" media="(min-width: 768px)" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/mv3_sp.webp" alt="" />
+                </picture>
+            </div>
         </div>
         <div class="swiper-pagination"></div>
+        <div class="mv__wave wave-container">
+            <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 140">
+                <!-- PCの波 -->
+                <path class="wave1 u-desktop" fill="#fff">
+                    <animate attributeName="d" values="
+                            M0,50 Q320,0 640,50 T1280,50 T1920,50 V100 H0 Z;
+                            M0,50 Q320,100 640,50 T1280,50 T1920,50 V100 H0 Z;
+                            M0,50 Q320,0 640,50 T1280,50 T1920,50 V100 H0 Z
+                        " dur="10s" repeatCount="indefinite" keyTimes="0;0.5;1" calcMode="spline" keySplines=".25,.1,.25,1; .25,.1,.25,1"/>
+                </path>
+                <!-- SPの波 -->
+                <path class="wave1 u-mobile" fill="#fff">
+                    <animate attributeName="d" values="
+                    M0,70 Q320,0 640,70 T1280,70 T1920,70 V140 H0 Z;
+                    M0,70 Q320,140 640,70 T1280,70 T1920,70 V140 H0 Z;
+                    M0,70 Q320,0 640,70 T1280,70 T1920,70 V140 H0 Z
+                " dur="6s" repeatCount="indefinite" keyTimes="0;0.5;1" calcMode="spline" keySplines=".25,.1,.25,1; .25,.1,.25,1"/>
+                </path>
+            </svg>
+        </div>
     </div>
 </div>
 
-<div class="wave">
-    <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/" version="1.1" viewBox="0 0 1920 255.1"> -->
-    <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/" version="1.1" viewBox="0 0 1920 300" width="1920" height="300">
-    <defs>
-        <clipPath id="clippath">
-          <rect width="1920" height="255.1" style="fill: none;"/>
-          <rect width="900" height="300" style="fill: none;"/>
-        </clipPath>
-      </defs>
-      <g id="_新着情報">
-        <g style="clip-path: url(#clippath);">
-          <path d="M1003.9,20.7C581.7,63.5,406.5,77.7-37.5,33.3v222.6h2000V46.5c-199.3-33.7-537.2-68.6-958.6-25.8Z"/>
-        </g>
-      </g>
-    </svg> -->
-    <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/" version="1.1" viewBox="0 0 1920 255" width="1920" height="255">
-        <path d="M1003.9,20.7C581.7,63.5,406.5,77.7-37.5,33.3v222.6h2000V46.5c-199.3-33.7-537.2-68.6-958.6-25.8Z"/>
-    </svg> -->
-</div>
+
+
 
 <section class="news">
     <div class="news__inner inner">
@@ -215,15 +233,17 @@
             <h2 class="top-flow__title">リフォームの流れ</h2>
             <p class="top-flow__en">flow</p>
         </div>
-        <p class="top-flow__catch fade-in">お客様のご相談をお聞きした上で、現地調査を行いながらプランをご提案いたします。<br>自社施工なので、お引渡しからアフターフォローまで安心してお任せいただけます。</p>
-        <div class="top-flow__body">
-            <div class="top-flow__contents">
-                <div class="top-flow__deco fade-in"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/flow-deco.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
-                <div class="top-flow__btn fade-in">
-                    <a href="<?php echo esc_url(home_url("flow")); ?>" class="top-btn top-btn--flow"><span>ご依頼までの流れ</span></a>
+        <div class="top-flow__wrap">
+            <p class="top-flow__catch fade-in">お客様のご相談をお聞きした上で、現地調査を行いながらプランをご提案いたします。<br>自社施工なので、お引渡しからアフターフォローまで安心してお任せいただけます。</p>
+            <div class="top-flow__body">
+                <div class="top-flow__contents">
+                    <div class="top-flow__deco fade-in"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/flow-deco.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
+                    <div class="top-flow__btn fade-in">
+                        <a href="<?php echo esc_url(home_url("flow")); ?>" class="top-btn top-btn--flow"><span>ご依頼までの流れ</span></a>
+                    </div>
                 </div>
+                <div class="top-flow__img fade-in"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/flow-img.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
             </div>
-            <div class="top-flow__img fade-in"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/flow-img.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
         </div>
     </div>
 </section>

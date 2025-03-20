@@ -25,7 +25,7 @@ $mainviews = [
     </div>
 </div>
 
-<section class="greeting">
+<section class="greeting" id="greeting">
     <div class="greeting__inner inner">
         <div class="greeting__title">
             <h2 class="simple-Tl">代表挨拶</h2>
@@ -42,7 +42,7 @@ $mainviews = [
     </div>
 </section>
 
-<section class="concept">
+<section class="concept" id="concept">
     <div class="concept__inner inner">
     <div class="concept__title">
             <h2 class="simple-Tl">経営理念</h2>
@@ -58,7 +58,7 @@ $mainviews = [
     </div>
 </section>
 
-<section class="overview">
+<section class="overview" id="overview">
     <div class="overview__inner inner">
     <div class="overview__title">
             <h2 class="simple-Tl">会社概要</h2>
@@ -124,7 +124,7 @@ $mainviews = [
     </div>
 </section>
 
-<section class="access">
+<section class="access" id="access">
     <div class="access__inner inner">
         <div class="access__title">
             <h2 class="simple-Tl">アクセス</h2>

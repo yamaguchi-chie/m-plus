@@ -3,7 +3,12 @@
         <div class="top-area__body">
             <h3 class="top-area__title fade-in">対応地域</h3>
             <div class="top-area__box">
-                <div class="top-area__deco fade-in"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/area/area.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
+                <div class="top-area__deco fade-in">
+                    <picture>
+                    <source srcset="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/area/area.webp" media="(min-width: 768px)" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/area/area_sp.webp" alt="" />
+                </picture>
+                </div>
                 <div class="top-area__contents fade-in">
                     <p class="top-area__txt">名古屋市を中心に愛知県や<br>東海エリアの幅広いエリアにも対応中！</p>
                     <div class="top-area__top">

@@ -194,6 +194,7 @@
     position: relative;
     max-width: rem(407);
     @include mq() {
+        margin-top: rem(-3);
         order: 1;
         max-width: initial;
     }

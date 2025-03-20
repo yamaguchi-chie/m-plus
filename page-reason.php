@@ -71,6 +71,8 @@ $mainviews = [
     </div>
 </section>
 
-<?php get_template_part('template/contact-catch'); ?>
-<?php get_template_part('template/cta'); ?>
+<div class="cta-wrap">
+    <?php get_template_part('template/contact-catch'); ?>
+    <?php get_template_part('template/cta'); ?>
+</div>
 <?php get_footer(); ?>

@@ -153,7 +153,7 @@
     background: transparent url(../images/top/menu/arrow.webp) no-repeat center center / cover;
     width: rem(7.5);
     height: rem(4);
-    bottom: rem(3);
+    bottom: rem(6);
     z-index: 3;
     @include mq() {
         bottom: rem(5);
