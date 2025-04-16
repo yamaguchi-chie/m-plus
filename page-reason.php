@@ -35,7 +35,7 @@ $mainviews = [
                     <div class="sub-reason__contents fade-in">
                         <div class="sub-reason__subTl">
                             <div class="sub-reason__point"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reason/point1.webp" alt="point1" width="" height="" loading="lazy" decoding="async"></div>
-                            <h3 class="sub-reason__h3">信頼</h3>
+                            <h3 class="sub-reason__h3"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reason/sub-reason1.webp" alt="" loading="lazy" decoding="async"></h3>
                         </div>
                         <p class="sub-reason__catch">どんな小さなことでも気軽に相談OK！</p>
                         <p class="sub-reason__text">「こんなことで相談しても大丈夫かな？」と迷うようなことも、どうぞ気にせずお話しください！<br>ドアのガタつきや水漏れ修理、壁紙のちょっとした張り替えなど、 どんな小さなお困りごとでも大歓迎！<br>「こうしたいなぁ…」というぼんやりしたイメージでも大丈夫です。お客様と一緒に考えながら、 ピッタリの解決策をご提案します。</p>
@@ -47,7 +47,7 @@ $mainviews = [
                     <div class="sub-reason__contents fade-in">
                         <div class="sub-reason__subTl">
                             <div class="sub-reason__point"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reason/point2.webp" alt="point2" width="" height="" loading="lazy" decoding="async"></div>
-                            <h3 class="sub-reason__h3">速さ</h3>
+                            <h3 class="sub-reason__h3"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reason/sub-reason2.webp" alt="" loading="lazy" decoding="async"></h3>
                         </div>
                         <p class="sub-reason__catch">スピード重視、丁寧に迅速対応します！</p>
                         <p class="sub-reason__text">「すぐに直したい！」「この日までに終わるかな？」そんなときもお任せください！<br>地域密着だからこそ、 スピーディーに対応できるのが強みです。<br>でも、スピードだけが売りではありません。<br>しっかり丁寧に作業して、ずっと安心できる仕上がり にします。「頼んでよかった！」と思っていただけるよう、心を込めて対応いたします。</p>
@@ -59,12 +59,12 @@ $mainviews = [
                     <div class="sub-reason__contents fade-in">
                         <div class="sub-reason__subTl">
                             <div class="sub-reason__point"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reason/point3.webp" alt="point3" width="" height="" loading="lazy" decoding="async"></div>
-                            <h3 class="sub-reason__h3">金額</h3>
+                            <h3 class="sub-reason__h3"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reason/sub-reason3.webp" alt="" loading="lazy" decoding="async"></h3>
                         </div>
                         <p class="sub-reason__catch">ムリなくできる、安心価格のリフォーム！</p>
                         <p class="sub-reason__text">「リフォームって高そう…」<br>そんな不安、ありませんか？<br>私たちは、 本当に必要な工事だけを、お手頃な価格でご提案。 ムリな営業は絶対にしません！<br>ご予算に合わせて、 できること・できないことを正直にお伝えしながら、一番いい方法を一緒に考えます。<br>「思っていたより気軽にできた！」と<br>喜んでいただけるよう、全力でサポートします。</p>
                     </div>
-                    <div class="sub-reason__deco fade-in"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reason/deco3.webp" alt="相談する様子のイメージ画像" width="" height="" loading="lazy" decoding="async"></div>
+                    <div class="sub-reason__deco fade-in"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reason/deco3.webp" alt="相談する様子のイメージ画像" loading="lazy" decoding="async"></div>
                 </li>
             </ul>
         </div>

@@ -186,14 +186,23 @@
 }
 
 .sub-reason__h3 {
-    font-size: rem(50);
-    font-weight: $bold;
-    font-family: $second-font-family;
-    color: $orange3;
+    // font-size: rem(50);
+    // font-weight: $bold;
+    // font-family: $second-font-family;
+    // color: $orange3;
     position: relative;
     transform: translateY(-5%);
     @include mq() {
-        font-size: rem(34);
+        // font-size: rem(34);
+    }
+}
+
+.sub-reason__h3>img {
+    max-width: rem(96);
+    margin-top: 13%;
+    @include mq() {
+        max-width: rem(57);
+        margin-top: 20%;
     }
 }
 
