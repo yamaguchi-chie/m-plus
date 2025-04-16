@@ -91,13 +91,17 @@
             <li class="fixd-cta__item fixd-cta__item--tel">
               <a href="tel:0120-857-735" class="fixd-cta__link">
                   <div class="fixd-cta__contents">
-                      <span class="fixd-cta__span">フリーダイヤル</span>
+                      <!-- <span class="fixd-cta__span">フリーダイヤル</span>
                       <p class="fixd-cta__tel">0120-857-735</p>
-                      <p class="fixd-cta__note">【受付】<span>平日9：00〜18：00</span></p>
+                      <p class="fixd-cta__note">【受付】<span>平日9：00〜18：00</span></p> -->
+                      <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/fixd-cta-tel.webp" alt="フリーダイヤルの情報イメージ" loading="lazy" decoding="async">
                   </div>
               </a>
             </li>
-            <li class="fixd-cta__item fixd-cta__item--mail"><a href="<?php echo esc_url(home_url("contact")); ?>" class="fixd-cta__link"><div class="fixd-cta__contents"><span>メールでの<br>お問い合わせ</span></div></a></li>
+            <li class="fixd-cta__item fixd-cta__item--mail"><a href="<?php echo esc_url(home_url("contact")); ?>" class="fixd-cta__link"><div class="fixd-cta__contents">
+              <!-- <span>メールでの<br>お問い合わせ</span> -->
+              <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/fixd-cta-mail.webp" alt="メールでのお問い合わせイメージ" loading="lazy" decoding="async">
+            </div></a></li>
           </ul>
         </div>
     </div>

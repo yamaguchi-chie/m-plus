@@ -4,7 +4,7 @@
     background: -moz-linear-gradient(45deg, $yellow4, $orange3);
     background: -webkit-linear-gradient(45deg, $yellow4, $orange3);
     background: linear-gradient(135deg, $yellow4, $orange3);
-    padding: rem(47) rem(9) rem(8);
+    padding: rem(47) rem(9) rem(2);
     box-shadow: 2px 2px 0px rgba($color: $brown3, $alpha: 0.5);
     border: 1px solid $white;
     border-radius: 0 0 0 rem(20);
@@ -38,7 +38,7 @@
 }
 
 .fixd-cta__body {
-    margin-top: rem(14);
+    margin-top: rem(18);
 }
 
 .fixd-cta__list {
@@ -64,36 +64,36 @@
     transition: all .3s ease 0s;
     cursor: pointer;
     padding-right: rem(5);
-    padding-bottom: rem(17);
+    padding-bottom: rem(15);
 }
 
-.fixd-cta__contents,
-.fixd-cta__contents>span:not(.fixd-cta__span) {
-    text-shadow: 1px 1px 0 rgba($color: $gray3, $alpha: 0.5);
-    font-weight: $bold;
-    font-family: $second-font-family;
+.fixd-cta__contents {
+// .fixd-cta__contents>span:not(.fixd-cta__span) {
+    // text-shadow: 1px 1px 0 rgba($color: $gray3, $alpha: 0.5);
+    // font-weight: $bold;
+    // font-family: $second-font-family;
     //左のアイコン
     position: relative;
     padding-left: rem(36);
     @include mq() {
-        font-size: rem(20);
+        // font-size: rem(20);
         padding-left: rem(77);
     }
 }
 
 // .fixd-cta__item--tel span
-.fixd-cta__span {
-    font-size: rem(10);
-    line-height: calc(14 / 8);
-}
+// .fixd-cta__span {
+//     font-size: rem(10);
+//     line-height: calc(14 / 8);
+// }
 
-.fixd-cta__item--mail .fixd-cta__contents>span:not(.fixd-cta__span) {
-    display: inline-block;
-    padding-left: rem(6);
-    font-size: rem(15);
-    line-height: calc(21 / 15);
-    letter-spacing: 0.2em;
-}
+// .fixd-cta__item--mail .fixd-cta__contents>span:not(.fixd-cta__span) {
+//     display: inline-block;
+//     padding-left: rem(6);
+//     font-size: rem(15);
+//     line-height: calc(21 / 15);
+//     letter-spacing: 0.2em;
+// }
 
 // .fixd-cta__contents::after {
 //     content: "";
@@ -137,32 +137,32 @@
     max-width: rem(30);
 }
 
-.fixd-cta__tel {
-    font-family: $second-font-family;
-    font-size: rem(18);
-    line-height: 1;
-    letter-spacing: 0.02em;
-    @include mq() {
-        font-size: rem(16);
-    }
-}
+// .fixd-cta__tel {
+//     font-family: $second-font-family;
+//     font-size: rem(18);
+//     line-height: 1;
+//     letter-spacing: 0.02em;
+//     @include mq() {
+//         font-size: rem(16);
+//     }
+// }
 
-.fixd-cta__note {
-    font-family: $second-font-family;
-    font-size: rem(10);
-    line-height: calc(18 / 10);
-    margin-top: rem(3);
-    @include mq() {
-        font-size: rem(9);
-    }
-}
+// .fixd-cta__note {
+//     font-family: $second-font-family;
+//     font-size: rem(10);
+//     line-height: calc(18 / 10);
+//     margin-top: rem(3);
+//     @include mq() {
+//         font-size: rem(9);
+//     }
+// }
 
-.fixd-cta__note span {
-    letter-spacing: 0.06em;
-    @include mq() {
-        letter-spacing: 0.03em;
-    }
-}
+// .fixd-cta__note span {
+//     letter-spacing: 0.06em;
+//     @include mq() {
+//         letter-spacing: 0.03em;
+//     }
+// }
 
 // .fixd-cta--tel {
 //     background: -moz-linear-gradient(45deg, $beige4, $brown1);
@@ -176,6 +176,10 @@
 
 .fixd-cta__item--tel .fixd-cta__contents::before {
     background-image: url(../images/common/tel-ico.webp);
+}
+
+.fixd-cta__item .fixd-cta__contents>img {
+    max-width: rem(138);
 }
 
 .fixd-cta__item--mail {
