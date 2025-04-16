@@ -3,7 +3,7 @@
 } ?>">
     <div class="top-area__inner inner">
         <div class="top-area__body">
-            <h3 class="top-area__title fade-in">対応地域</h3>
+            <h3 class="top-area__title fade-in"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/top-area-Tl.webp" alt="" loading="lazy" decoding="async"></h3>
             <div class="top-area__box">
                 <div class="top-area__deco fade-in">
                     <picture>

@@ -36,20 +36,28 @@
     display: inline-block;
     background-color: $orange3;
     padding-left: calc(rem(63) + rem(26));
-    padding-top: rem(9);
-    padding-bottom: rem(9);
+    // padding-top: rem(9);
+    padding-top: rem(20);
+    padding-bottom: rem(23);
     padding-right: rem(82);
     position: relative;
-    color: $white;
-    font-size: rem(30);
-    font-weight: $bold;
-    line-height: calc(52 / 30);
-    letter-spacing: 0.2em;
-    font-family: $second-font-family;
+    // color: $white;
+    // font-size: rem(30);
+    // font-weight: $bold;
+    // line-height: calc(52 / 30);
+    // letter-spacing: 0.2em;
+    // font-family: $second-font-family;
     @include mq() {
-        font-size: rem(21);
-        padding: rem(8) rem(43) rem(7) rem(60);
+        // font-size: rem(21);
+        padding: rem(14) rem(43) rem(17) rem(60);
         margin-bottom: rem(16);
+    }
+}
+
+.top-area__title>img {
+    max-width: rem(135);
+    @include mq() {
+        max-width: rem(105);
     }
 }
 
@@ -79,7 +87,7 @@
     right: rem(-53);
     @include mq() {
         right: rem(-38);
-        width: rem(39);
+        width: rem(34);
         height: rem(53);
         top: rem(-1);
     }
