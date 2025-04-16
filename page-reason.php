@@ -62,7 +62,7 @@ $mainviews = [
                             <h3 class="sub-reason__h3"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reason/sub-reason3.webp" alt="" loading="lazy" decoding="async"></h3>
                         </div>
                         <p class="sub-reason__catch">ムリなくできる、安心価格のリフォーム！</p>
-                        <p class="sub-reason__text">「リフォームって高そう…」<br>そんな不安、ありませんか？<br>私たちは、 本当に必要な工事だけを、お手頃な価格でご提案。 ムリな営業は絶対にしません！<br>ご予算に合わせて、 できること・できないことを正直にお伝えしながら、一番いい方法を一緒に考えます。<br>「思っていたより気軽にできた！」と<br>喜んでいただけるよう、全力でサポートします。</p>
+                        <p class="sub-reason__text">「リフォームって高そう…」<br>そんな不安、ありませんか？<br>私たちは、 本当に必要な工事だけを、お手頃な価格でご提案。 ムリな営業は絶対にしません！<br>ご予算に合わせて、 できること・できないことを正直にお伝えしながら、一番いい方法を一緒に考えます。<br>「思っていたより気軽にできた！」と<br class="u-desktop">喜んでいただけるよう、全力でサポートします。</p>
                     </div>
                     <div class="sub-reason__deco fade-in"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reason/deco3.webp" alt="相談する様子のイメージ画像" loading="lazy" decoding="async"></div>
                 </li>

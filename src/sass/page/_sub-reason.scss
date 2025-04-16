@@ -140,7 +140,7 @@
     margin-left: auto;
     margin-right: rem(35);
     @include mq() {
-        padding: rem(10) rem(25) rem(50);
+        padding: rem(52) rem(25) rem(50);
         width: 100%;
         margin: 0;
         aspect-ratio: initial;
@@ -149,8 +149,8 @@
 
 .sub-reason__contents::after {
     content: '';
-    background: transparent url(../images/reason/bg.webp) no-repeat center center / cover;
-    aspect-ratio: 596/548;
+    background: transparent url(../images/reason/bg.webp) no-repeat center center / 100% 100%;
+    // aspect-ratio: 596/548;
     max-width: rem(596);
     width: 100%;
     position: absolute;
@@ -158,12 +158,14 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: -1;
+    height: 100%;
     // @media screen and (min-width:549px) and (max-width:767px) {
     //     aspect-ratio: 600/410;
     //     background-image: url(../images/reason/bg_tab.webp);
     // }
     @include mq() {
-        aspect-ratio: 335/580;
+        // aspect-ratio: 335/580;
+        // aspect-ratio: 335/640;
         background-image: url(../images/reason/bg_sp.webp);
     }
 }
@@ -272,7 +274,7 @@
     margin-left: rem(35);
     padding: rem(61) rem(97) rem(15) rem(40);
     @include mq() {
-        padding: rem(52) rem(25) rem(50);
+        padding: rem(52) rem(25) rem(64);
         margin: 0;
     }
 }
