@@ -16,7 +16,7 @@ $mainviews = [
 
 <section class="privacy-policy">
     <div class="privacy-policy__inner inner">
-        <h2 class="privacy-policy__title">プライバシーポリシー<span>[ 個人情報保護方針 ]</span></h2>
+        <h2 class="privacy-policy__title"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/privacy-policy/Tl.webp" alt="" width="" height="" loading="lazy" decoding="async"></h2>
         <div class="privacy-policy__body">
             <p class="privacy-policy__catch">エムプラス株式会社<span>（以下「当社」といいます）</span>は、本ウェブサイト上で提供するサービス<span>（以下「本サービス」といいます）</span>におけるユーザーの個人情報の取扱いについて、以下のとおりプライバシーポリシー<span>（以下「本ポリシー」といいます）</span>を定めます。</p>
             <dl class="privacy-policy__label">
