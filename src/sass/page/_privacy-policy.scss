@@ -159,18 +159,6 @@
     }
 }
 
-.privacy-policy__list-txt p:nth-child(1) {
-    @include mq() {
-        // width: rem(20);
-    }
-}
-
-.privacy-policy__list-txt p:nth-child(2) {
-    @include mq() {
-        // width: calc(100% - rem(20));
-    }
-}
-
 .privacy-policy__list {
     
 }
@@ -234,5 +222,13 @@
     width: calc(100% - rem(80));
     @include mq() {
         font-size: rem(15);
+    }
+}
+
+.privacy-policy__adress-txt span {
+    display: inline-block;
+    width: rem(38);
+    @include mq() {
+        width: rem(31);
     }
 }

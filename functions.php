@@ -24,6 +24,7 @@ function my_setup() {
 add_action( 'after_setup_theme', 'my_setup' );
 
 function my_script_init() {
+    // wp_enqueue_style('zenkakugothic', 'https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap');
     wp_enqueue_style('kiwi-maru', 'https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@400;500&display=swap');
     wp_enqueue_style("swiper", "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css", array(), filemtime(get_theme_file_path('dist/assets/css/style.css')), "all");
     wp_enqueue_script("swiper", "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js", array("jquery"), filemtime(get_theme_file_path('dist/assets/js/script.js')), true);

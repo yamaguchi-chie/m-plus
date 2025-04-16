@@ -10,7 +10,7 @@
     }
     @include mq() {
         background-image: url(../images/sub-mv/menu_sp.webp);
-        aspect-ratio: 375/650;
+        aspect-ratio: 375/255;
     }
 }
 

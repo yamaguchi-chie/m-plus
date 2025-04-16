@@ -66,6 +66,14 @@ $mediaquerys: (
       display: none;
     }
   }
+
+  //ヘッダーコピー
+  .u-pc {
+    display: none;
+    @media screen and (max-width: 1635px) {
+      display: block;
+    }
+  }
 } @else {
   //pcで表示
   .u-desktop {
@@ -79,6 +87,14 @@ $mediaquerys: (
   .u-mobile {
     display: none;
     @include mq("md") {
+      display: block;
+    }
+  }
+
+  //ヘッダーコピー
+  .u-pc {
+    display: none;
+    @media screen and (max-width: 1635px) {
       display: block;
     }
   }

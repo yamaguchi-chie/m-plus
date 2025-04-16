@@ -98,7 +98,7 @@
                     <h2 class="top-reason__title">リフォームのことなら<br class="u-mobile">エムプラスにお任せ！</h2>
                     <p class="top-reason__subTl">何でも相談できる街のリフォーム屋さん</p>
                 </div>
-                <p class="top-reason__txt fade-in">エムプラスは、相談できる街のリフォーム屋さんです。<br>名古屋市、春日井市、小牧市を中心に町の皆さんのお役にたちたいという想いから、皆さんの家の色んなお困りごとに「お応え」しています。<br>地域密着だからこそ、キメの細かい対応と高品質を実現できます。</p>
+                <p class="top-reason__txt fade-in">エムプラスは、相談できる街のリフォーム屋さんです。<br>名古屋市、春日井市、小牧市を中心に町の皆さんのお役にたちたいという想いから、皆さんの家の色んなお困りごとに「お応え」しています。<br>地域密着で地元をよく知る私たちだからこそ、お客様一人ひとりの暮らしに寄り添った丁寧な対応と、確かな品質をお届けできます。</p>
                 <div class="top-reason__btn fade-in"><a href="<?php echo esc_url(home_url("reason")); ?>" class="top-btn"><span>選ばれる理由</span></a></div>
             </div>
             <div class="top-reason__img fade-in">
@@ -118,7 +118,7 @@
         <div class="top-menu__body">
             <ul class="menu-card-list">
                 <li class="menu-card-list__item fade-in">
-                    <a class=" menu-card">
+                    <a href="<?php echo esc_url(home_url("reform-menu/#kitchen")); ?>" class="menu-card">
                         <div class="menu-card__top">
                             <h3 class="menu-card__title"><span>使いにくい・せまい・古くなってきた</span>キッチンリフォーム</h3>
                         </div>
@@ -135,7 +135,7 @@
                     </a>
                 </li>
                 <li class="menu-card-list__item fade-in">
-                    <a class=" menu-card">
+                    <a href="<?php echo esc_url(home_url("reform-menu/#bath")); ?>" class="menu-card">
                         <div class="menu-card__top">
                             <h3 class="menu-card__title"><span>カビが気になる、節水したい、浴室が寒い</span>浴室リフォーム</h3>
                         </div>
@@ -152,7 +152,7 @@
                     </a>
                 </li>
                 <li class="menu-card-list__item fade-in">
-                    <a class=" menu-card">
+                    <a href="<?php echo esc_url(home_url("reform-menu/#toilet")); ?>" class="menu-card">
                         <div class="menu-card__top">
                             <h3 class="menu-card__title"><span>汚れが目立つ・和式から洋式に変えたい</span>トイレリフォーム</h3>
                         </div>
@@ -169,7 +169,7 @@
                     </a>
                 </li>
                 <li class="menu-card-list__item fade-in">
-                    <a class=" menu-card">
+                    <a href="<?php echo esc_url(home_url("reform-menu/#washroom")); ?>" class="menu-card">
                         <div class="menu-card__top">
                             <h3 class="menu-card__title"><span>さびが気になる、使い勝手が悪い</span>洗面リフォーム</h3>
                         </div>
@@ -186,7 +186,7 @@
                     </a>
                 </li>
                 <li class="menu-card-list__item fade-in">
-                    <a class=" menu-card">
+                    <a href="<?php echo esc_url(home_url("reform-menu/#interior")); ?>" class="menu-card">
                         <div class="menu-card__top">
                             <h3 class="menu-card__title"><span>張り替えしたい・和室を洋室に変えたい</span>内装リフォーム</h3>
                         </div>
@@ -203,7 +203,7 @@
                     </a>
                 </li>
                 <li class="menu-card-list__item fade-in">
-                    <a class=" menu-card">
+                    <a href="<?php echo esc_url(home_url("reform-menu/#exterior")); ?>" class="menu-card">
                         <div class="menu-card__top">
                             <h3 class="menu-card__title"><span>壁のひび割れ、遮熱工事がしたい</span>外装リフォーム</h3>
                         </div>

@@ -16,7 +16,7 @@ $mainviews = [
 <section class="sub-flow-top">
     <div class="sub-flow-top__inner inner">
         <div class="sub-flow-top__contents fade-in">
-            <h3 class="sub-flow-top__title">お客様に寄り添う家づくりで、理想をカタチにする安心リフォームの流れ。</h3>
+            <h3 class="sub-flow-top__title">ご相談からアフターフォローまで安心の一貫対応</h3>
             <p class="sub-flow-top__text">まずは、どんな小さなことでも構いません。夢を膨らませるのが第一歩です！<br>「もっと明るいリビングで家族と過ごしたい」「キッチンを広くして、友達と料理を楽しみたい」<br>「子どもたちがのびのび遊べる空間が欲しい」など、お客様の理想の暮らしをお聞かせください。<br>私たちは、その想いにしっかり寄り添いながら、一緒に未来の家を描いていきます。<br>ご相談をお聞きした上で、現地調査を行いながら最適なプランをご提案いたします。<br>自社施工なので、お引渡しからアフターフォローまで安心してお任せいただけます。</p>
         </div>
         <div class="sub-flow-top__img fade-in"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/flow-img.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
@@ -88,7 +88,7 @@ $mainviews = [
                     </div>
                     <div class="flow__body">
                         <div class="flow__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/flow/6.webp" alt="工事のイメージ画像" width="" height="" loading="lazy" decoding="async"></div>
-                        <p class="flow__txt">工事が始まった後も、お客様と一緒に現場の進み具合を確認していきます。<br>「今、こんなふうに進んでます！」と定期的にご報告し、必要があれば現場を一緒に見ながら調整もできます。<br>途中で気づいたことや「ここ、もう少しこうしたい！」という変更も柔軟に対応します。<br>気になるところがあればすぐにお伝えください。</p>
+                        <p class="flow__txt">工事が始まった後も、お客様と一緒に現場の進み具合を確認していきます。<br>「今、こんなふうに進んでます！」と定期的にご報告し、必要があれば現場を一緒に見ながら調整もできます。<br>途中で気づいたことや「ここ、もう少しこうしたい！」という変更も柔軟に対応します。<br>気になるところがあればその場ですぐにお伝えください。</p>
                     </div>
                 </article>
             </li>

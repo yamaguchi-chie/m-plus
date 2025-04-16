@@ -73,6 +73,14 @@
     }
 }
 
+.footer__info-tel p span {
+    display: inline-block;
+    width: rem(37);
+    @include mq() {
+        width: rem(31);
+    }
+}
+
 .footer__flex {
     display: flex;
     align-items: center;
@@ -290,6 +298,13 @@
     background-size: 7px 2px;
     @include mq() {
         padding-top: rem(12);
+    }
+}
+
+.footer__contents--flex {
+    @include mq() {
+        gap: 47%;
+        justify-content: start;
     }
 }
 

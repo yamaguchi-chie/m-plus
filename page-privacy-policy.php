@@ -116,14 +116,14 @@ $mainviews = [
                     <dt class="privacy-policy__adressTl">《 住 所 》</dt>
                     <dd class="privacy-policy__adress-contents">
                         <p>〒462-0825 愛知県名古屋市北区大曽根3-10-7</p>
-                        <p> TEL:0120-857-735　 <br>FAX:052-508-5032</p>
+                        <p class="privacy-policy__adress-txt"><span>TEL</span>：<a href="tel:0120-857-735">0120-857-735</a>　<br><span>FAX</span>：052-508-5032</p>
                     </dd>
                 </div>
                 <div class="privacy-policy__adress">
                     <dt class="privacy-policy__adressTl">《 社 名 》</dt>
                     <dd class="privacy-policy__adress-contents">
                         <p>エムプラス株式会社</p>
-                        <p>代表取締役　後 藤　亮 平</p>
+                        <p>代表取締役　後 藤　淳 平</p>
                     </dd>
                 </div>
             </dl>

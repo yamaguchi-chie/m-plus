@@ -96,10 +96,6 @@ span.wpcf7-spinner {
 [type="email"],
 [type="tel"],
 textarea {
-    font-size: rem(18);
-    line-height: calc(22 / 18);
-    letter-spacing: 0.2em;
-    color: $black3;
     border: 1px solid $beige3;
     background-color: $cream;
     width: 100%;
@@ -108,7 +104,6 @@ textarea {
     padding: rem(17) rem(19);
 
     @include mq() {
-        font-size: rem(16);
         padding: rem(15) rem(16);
     }
 }
@@ -122,5 +117,12 @@ textarea {
 }
 
 .form-row__input {
-    margin-top: rem(12);
+    font-size: rem(18);
+    line-height: calc(22 / 18);
+    letter-spacing: 0.2em;
+    color: $black3;
+    margin-top: rem(15);
+    @include mq() {
+        font-size: rem(16);
+    }
 }

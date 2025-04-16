@@ -8,19 +8,21 @@
             <div class="footer__info">
               <p class="footer__adress">〒462-0825 愛知県名古屋市北区大曽根3-10-7</p>
               <div class="footer__info-tel">
-                <p>TEL:090-7867-1165</p>
-                <p>FAX:052-508-5032</p>
+                <p><a href="tel:0120-857-735"><span>TEL</span>：0120-857-735</a></p>
+                <p><span>FAX</span>：052-508-5032</p>
               </div>
             </div>
           </div>
           <div class="footer__flex">
-            <div class="footer__tel">
-                <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/foot-tel.webp" alt="電話番号を表す画像" loading="lazy" decoding="async">
-                <div class="footer__tel-wrap">
-                  <p class="footer__number">0120<span>-</span>857<span>-</span>735</p>
-                  <p class="footer__note">【受付】平日9：00〜18：00</p>
-                </div>
-            </div>
+            <a href="tel:0120-857-735">
+              <div class="footer__tel">
+                  <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/foot-tel.webp" alt="電話番号を表す画像" loading="lazy" decoding="async">
+                  <div class="footer__tel-wrap">
+                    <p class="footer__number">0120<span>-</span>857<span>-</span>735</p>
+                    <p class="footer__note">【受付】平日9：00〜18：00</p>
+                  </div>
+              </div>
+            </a>
             <div class="footer__btn">
               <a href="<?php echo esc_url(home_url("contact")); ?>" class="footer__contact"><span>お気軽にお問い合わせください</span><br>メールでのお問い合わせ<span class="footer__contact-arrow"></span></a>
             </div>
@@ -61,11 +63,19 @@
             </li>
             <li class="footer__item">
               <p class="footer__subTl">会社情報</p>
-              <ul class="footer__contents">
+              <ul class="footer__contents footer__contents--flex">
+              <li>
+              <ul>
                   <li class="footer__link"><a href="<?php echo esc_url(home_url("company/#greeting")); ?>">代表挨拶</a></li>
                   <li class="footer__link"><a href="<?php echo esc_url(home_url("company/#concept")); ?>">経営理念</a></li>
+                  </ul>
+                  </li>
+                  <li>
+                  <ul>
                   <li class="footer__link"><a href="<?php echo esc_url(home_url("company/#overview")); ?>">会社概要</a></li>
                   <li class="footer__link"><a href="<?php echo esc_url(home_url("company/#access")); ?>">アクセス</a></li>
+                  </ul>
+                  </li>
               </ul>
             </li>
             <li class="footer__item">

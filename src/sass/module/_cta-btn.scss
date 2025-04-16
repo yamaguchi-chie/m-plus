@@ -21,8 +21,8 @@
     padding-left: rem(105);
     position: relative;
     @include mq() {
-        font-size: rem(20);
-        padding-left: rem(77);
+        font-size: rem(17);
+        padding-left: rem(53);
     }
 }
 
@@ -38,8 +38,8 @@
     height: rem(95);
     box-shadow: -2px -2px 1px rgba($color: $black2, $alpha: 0.3);
     @include mq() {
-        width: rem(68);
-        height: rem(68);
+        width: rem(43);
+        height: rem(43);
     }
 }
 
@@ -57,7 +57,8 @@
     background-size: cover;
     z-index: 2;
     @include mq() {
-        max-width: rem(51);
+        max-width: rem(37);
+        left: rem(3);
         height: auto;
         width: 100%;
     }
@@ -69,7 +70,7 @@
     letter-spacing: 0.03em;
     padding-top: rem(11);
     @include mq() {
-        font-size: rem(32);
+        font-size: rem(24);
     }
 }
 
@@ -79,7 +80,7 @@
     margin-top: rem(11);
     margin-left: rem(-10);
     @include mq() {
-        font-size: rem(17);
+        font-size: rem(12);
     }
 }
 
@@ -126,7 +127,7 @@
     width: 100%;
     max-width: rem(19);
     @include mq() {
-        max-width: rem(15);
+        max-width: rem(10);
         right: rem(15);
     }
 }
@@ -142,7 +143,7 @@
     font-family: $second-font-family;
     text-shadow: 2px 2px 2px rgba($color: $black2, $alpha: 0.3);
     @include mq() {
-        font-size: rem(28);
+        font-size: rem(18);
         padding-left: rem(0);
     }
 }

@@ -96,7 +96,7 @@
     box-shadow: 3px 3px 0 rgba($color: $black2, $alpha: 0.3);
     position: relative;
     @include mq() {
-        padding: rem(38) rem(15) rem(0);
+        padding: rem(45) rem(15) rem(0);
         flex-direction: column-reverse;
     }
 }

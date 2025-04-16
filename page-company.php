@@ -85,7 +85,7 @@ $mainviews = [
                     <p class="label__title">電話・FAX</p>
                 </dt>
                 <dd class="label__right">
-                    <p class="label__text">TEL:0120‒857‒735　 FAX:052‒508‒5032</p>
+                    <div class="label__text"><p><a href="tel:0120-857-735"><span>TEL</span>：0120-857-735　</a><br class="u-mobile"><span>FAX</span>：052-508-5032</p></div>
                 </dd>
             </div>
             <div class="label-list__item label fade-in">
