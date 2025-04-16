@@ -24,7 +24,10 @@
               </div>
             </a>
             <div class="footer__btn">
-              <a href="<?php echo esc_url(home_url("contact")); ?>" class="footer__contact"><span>お気軽にお問い合わせください</span><br>メールでのお問い合わせ<span class="footer__contact-arrow"></span></a>
+              <a href="<?php echo esc_url(home_url("contact")); ?>" class="footer__contact">
+                 <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/footer-mail.webp" alt="" loading="lazy" decoding="async">
+                <span class="footer__contact-arrow"></span>
+              </a>
             </div>
           </div>
         </div>
