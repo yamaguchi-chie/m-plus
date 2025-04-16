@@ -122,7 +122,7 @@
             <ul class="menu-card-list">
                 <li class="menu-card-list__item fade-in">
                     <a href="<?php echo esc_url(home_url("reform-menu/#kitchen")); ?>" class="menu-card">
-                        <div class="menu-card__top">
+                        <!-- <div class="menu-card__top">
                             <h3 class="menu-card__title"><span>使いにくい・せまい・古くなってきた</span>キッチンリフォーム</h3>
                         </div>
                         <div class="menu-card__img">
@@ -134,12 +134,13 @@
                                 <p class="menu-card__price">45</p>
                                 <div class="menu-card__txt"><span>（税込）</span>万円～</div>
                             </div>
-                        </div>
+                        </div> -->
+                        <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/menu/menu1.webp" alt="" loading="lazy" decoding="async">
                     </a>
                 </li>
                 <li class="menu-card-list__item fade-in">
                     <a href="<?php echo esc_url(home_url("reform-menu/#bath")); ?>" class="menu-card">
-                        <div class="menu-card__top">
+                        <!-- <div class="menu-card__top">
                             <h3 class="menu-card__title"><span>カビが気になる、節水したい、浴室が寒い</span>浴室リフォーム</h3>
                         </div>
                         <div class="menu-card__img">
@@ -151,12 +152,13 @@
                                 <p class="menu-card__price">42</p>
                                 <div class="menu-card__txt"><span>（税込）</span>万円～</div>
                             </div>
-                        </div>
+                        </div> -->
+                        <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/menu/menu2.webp" alt="" loading="lazy" decoding="async">
                     </a>
                 </li>
                 <li class="menu-card-list__item fade-in">
                     <a href="<?php echo esc_url(home_url("reform-menu/#toilet")); ?>" class="menu-card">
-                        <div class="menu-card__top">
+                        <!-- <div class="menu-card__top">
                             <h3 class="menu-card__title"><span>汚れが目立つ・和式から洋式に変えたい</span>トイレリフォーム</h3>
                         </div>
                         <div class="menu-card__img">
@@ -168,12 +170,13 @@
                                 <p class="menu-card__price">14</p>
                                 <div class="menu-card__txt"><span>（税込）</span>万円～</div>
                             </div>
-                        </div>
+                        </div> -->
+                        <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/menu/menu3.webp" alt="" loading="lazy" decoding="async">
                     </a>
                 </li>
                 <li class="menu-card-list__item fade-in">
                     <a href="<?php echo esc_url(home_url("reform-menu/#washroom")); ?>" class="menu-card">
-                        <div class="menu-card__top">
+                        <!-- <div class="menu-card__top">
                             <h3 class="menu-card__title"><span>さびが気になる、使い勝手が悪い</span>洗面リフォーム</h3>
                         </div>
                         <div class="menu-card__img">
@@ -185,12 +188,13 @@
                                 <p class="menu-card__price">12</p>
                                 <div class="menu-card__txt"><span>（税込）</span>万円～</div>
                             </div>
-                        </div>
+                        </div> -->
+                        <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/menu/menu4.webp" alt="" loading="lazy" decoding="async">
                     </a>
                 </li>
                 <li class="menu-card-list__item fade-in">
                     <a href="<?php echo esc_url(home_url("reform-menu/#interior")); ?>" class="menu-card">
-                        <div class="menu-card__top">
+                        <!-- <div class="menu-card__top">
                             <h3 class="menu-card__title"><span>張り替えしたい・和室を洋室に変えたい</span>内装リフォーム</h3>
                         </div>
                         <div class="menu-card__img">
@@ -202,12 +206,13 @@
                                 <p class="menu-card__price">35</p>
                                 <div class="menu-card__txt"><span>（税込）</span>万円～</div>
                             </div>
-                        </div>
+                        </div> -->
+                        <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/menu/menu5.webp" alt="" loading="lazy" decoding="async">
                     </a>
                 </li>
                 <li class="menu-card-list__item fade-in">
                     <a href="<?php echo esc_url(home_url("reform-menu/#exterior")); ?>" class="menu-card">
-                        <div class="menu-card__top">
+                        <!-- <div class="menu-card__top">
                             <h3 class="menu-card__title"><span>壁のひび割れ、遮熱工事がしたい</span>外装リフォーム</h3>
                         </div>
                         <div class="menu-card__img">
@@ -219,7 +224,8 @@
                                 <p class="menu-card__price">70</p>
                                 <div class="menu-card__txt"><span>（税込）</span>万円～</div>
                             </div>
-                        </div>
+                        </div> -->
+                        <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/menu/menu6.webp" alt="" loading="lazy" decoding="async">
                     </a>
                 </li>
             </ul>
