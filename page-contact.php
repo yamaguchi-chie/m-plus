@@ -21,12 +21,26 @@ $mainviews = [
         </div>
         <div class="sub-contact__bottom fade-in">
             <div class="sub-contact__box">
-                <h3 class="sub-contact__subTl">【 電話・FAXでのお問い合わせはこちらまで 】</h3><span class="sub-contact__span">※受付：平日9：00〜18：00</span>
+                <h3 class="sub-contact__subTl">
+                    <picture>
+                        <source srcset="<?php echo get_template_directory_uri(); ?>/dist/assets/images/contact/sub-contact-subTl.webp" media="(min-width: 768px)" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/contact/sub-contact-subTl_sp.webp" alt="" />
+                    </picture>
+                </h3>
+                <!-- <span class="sub-contact__span">※受付：平日9：00〜18：00</span> -->
                 <div class="sub-contact__flex">
                     <a href="tel:0120-857-735">
-                        <div class="sub-contact__tel"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/foot-tel.webp" alt="フリーダイヤルを表す画像" loading="lazy" decoding="async"><span>:0120-857-735</span></div>
+                        <div class="sub-contact__tel">
+                            <picture>
+                                <source srcset="<?php echo get_template_directory_uri(); ?>/dist/assets/images/contact/sub-contact-tel.webp" media="(min-width: 768px)" />
+                                <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/contact/sub-contact-tel_sp.webp" alt="" />
+                            </picture>
+                        </div>
                     </a>
-                    <p class="sub-contact__fax">FAX<span>:052-508-5032</span></p>
+                    <p class="sub-contact__fax">
+                        <!-- FAX<span>:052-508-5032</span> -->
+                        <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/contact/sub-contact-fax.webp" alt="FAXを表す画像" loading="lazy" decoding="async">
+                    </p>
                 </div>
             </div>
         </div>

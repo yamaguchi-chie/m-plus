@@ -186,11 +186,13 @@
     max-width: rem(800);
     @include mq() {
         margin-top: rem(60);
+        max-width: rem(470);
     }
 }
 
 .sub-contact__box {
-    padding: rem(30) rem(48);
+    // padding: rem(30) rem(48);
+    padding: rem(39) rem(48) rem(34);
     background-color: $cream;
     border-radius: rem(5);
     border: 1px solid $beige3;
@@ -200,74 +202,86 @@
 }
 
 .sub-contact__subTl {
-    font-size: rem(20);
-    font-weight: $bold;
-    line-height: calc(44 / 20);
-    letter-spacing: 0.1em;
-    font-family: $second-font-family;
-    color: $main;
-    display: inline-block;
+    // font-size: rem(20);
+    // font-weight: $bold;
+    // line-height: calc(44 / 20);
+    // letter-spacing: 0.1em;
+    // font-family: $second-font-family;
+    // color: $main;
+    max-width: rem(679);
+    margin-right: auto;
+    margin-left: 2%;
     @include mq() {
-        display: block;
-        text-align: center;
-        font-size: rem(18);
-        line-height: calc(31 / 18);
+        max-width: rem(252);
+        margin-right: auto;
+        margin-left: auto;
     }
 }
 
-.sub-contact__span {
-    font-size: rem(16);
-    font-weight: $regular;
-    line-height: calc(28 / 16);
-    letter-spacing: 0.06em;
-    font-family: $second-font-family;
-    color: $main;
-    @include mq() {
-        text-align: center;
-        display: block;
-        font-size: rem(15);
-    }
-}
+// .sub-contact__span {
+//     font-size: rem(16);
+//     font-weight: $regular;
+//     line-height: calc(28 / 16);
+//     letter-spacing: 0.06em;
+//     font-family: $second-font-family;
+//     color: $main;
+//     @include mq() {
+//         text-align: center;
+//         display: block;
+//         font-size: rem(15);
+//     }
+// }
 
 .sub-contact__flex {
     display: flex;
-    gap: rem(28);
-    margin-top: rem(9);
+    gap: rem(36);
+    margin-top: rem(21);
     margin-left: rem(11);
     @include mq() {
         justify-content: center;
         flex-wrap: wrap;
         gap: rem(11);
         margin-left: 0;
-        margin-top: rem(7);
+        margin-top: rem(16);
+    }
+}
+
+// .sub-contact__tel,
+// .sub-contact__fax {
+//     display: flex;
+//     // gap: rem(17);
+//     @include mq() {
+//         gap: rem(8);
+//     }
+// }
+
+// .sub-contact__tel img {
+//     // aspect-ratio: 50/29;
+//     // max-width: rem(50);
+//     height: 100%;
+//     object-fit: contain;
+// }
+
+.sub-contact__tel {
+    max-width: rem(315);
+}
+
+.sub-contact__fax {
+    max-width: rem(326);
+    @include mq() {
+        max-width: rem(315);
     }
 }
 
 .sub-contact__tel,
 .sub-contact__fax {
-    display: flex;
-    // gap: rem(17);
-    @include mq() {
-        gap: rem(8);
-    }
-}
-
-.sub-contact__tel img {
-    aspect-ratio: 50/29;
-    max-width: rem(50);
-    height: 100%;
-    object-fit: contain;
-}
-
-.sub-contact__tel,
-.sub-contact__fax {
-    font-size: rem(32);
-    font-weight: $bold;
-    line-height: calc(36 / 32);
-    letter-spacing: 0.04em;
-    font-family: $second-font-family;
-    color: $main;
-    @include mq() {
-        font-size: rem(26);
-    }
+    // font-size: rem(32);
+    // font-weight: $bold;
+    // line-height: calc(36 / 32);
+    // letter-spacing: 0.04em;
+    // font-family: $second-font-family;
+    // color: $main;
+    // @include mq() {
+    //     font-size: rem(26);
+    // }
 }
