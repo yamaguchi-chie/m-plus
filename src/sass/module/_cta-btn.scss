@@ -12,17 +12,19 @@
 }
 
 .cta-btn__contents {
-    font-size: rem(24);
-    font-weight: $bold;
-    line-height: calc(31 / 24);
-    font-family: $second-font-family;
-    text-shadow: 1.7px 1.7px 0px rgba($color: $black2, $alpha: 0.3);
     //左のアイコン
-    padding-left: rem(105);
+    padding-left: rem(109);
     position: relative;
     @include mq() {
         font-size: rem(17);
         padding-left: rem(53);
+    }
+}
+
+.cta-btn__contents>img {
+    max-width: rem(294);
+    @include mq() {
+        max-width: rem(170);
     }
 }
 
@@ -64,38 +66,12 @@
     }
 }
 
-.cta-btn__tel {
-    font-size: rem(40);
-    line-height: calc(31 / 40);
-    letter-spacing: 0.03em;
-    padding-top: rem(11);
-    @include mq() {
-        font-size: rem(24);
-    }
-}
-
-.cta-btn__note {
-    font-size: rem(22);
-    line-height: calc(31 / 22);
-    margin-top: rem(11);
-    margin-left: rem(-10);
-    @include mq() {
-        font-size: rem(12);
-    }
-}
-
-.cta-btn__note span {
-    letter-spacing: 0.06em;
-    @include mq() {
-        letter-spacing: 0.03em;
-    }
-}
-
 .cta-btn--tel {
     background: -moz-linear-gradient(45deg, $beige4, $brown1);
     background: -webkit-linear-gradient(45deg, $beige4, $brown1);
     background: linear-gradient(to right, $beige4, $brown1);
-    padding: rem(14) rem(27) rem(15) rem(15);
+    // padding: rem(14) rem(27) rem(15) rem(15);
+    padding: rem(23) rem(27) rem(15) rem(25);
     @include mq() {
         padding: rem(14) rem(9);
     }
@@ -110,7 +86,7 @@
     background: -webkit-linear-gradient(45deg, $yellow4, $orange3);
     background: linear-gradient(to right, $yellow4, $orange3);
     position: relative;
-    padding: rem(24) rem(30) rem(24) rem(30);
+    padding: rem(24) rem(26) rem(17) rem(26);
     @include mq() {
         padding: rem(14) rem(15);
     }
@@ -129,22 +105,6 @@
     @include mq() {
         max-width: rem(10);
         right: rem(15);
-    }
-}
-
-.cta-btn--mail .cta-btn__contents>span {
-    display: inline-block;
-    padding-left: rem(6);
-    text-align: center;
-    font-size: rem(34);
-    font-weight: $bold;
-    line-height: calc(48 / 34);
-    letter-spacing: 0.05em;
-    font-family: $second-font-family;
-    text-shadow: 2px 2px 2px rgba($color: $black2, $alpha: 0.3);
-    @include mq() {
-        font-size: rem(18);
-        padding-left: rem(0);
     }
 }
 
