@@ -46,13 +46,13 @@
 }
 
 .menu-card__title {
-    color: $main;
+    // color: $main;
     text-align: center;
-    font-size: rem(24);
-    font-weight: $bold;
-    line-height: 1;
-    letter-spacing: 0.05em;
-    font-family: $second-font-family;
+    // font-size: rem(24);
+    // font-weight: $bold;
+    // line-height: 1;
+    // letter-spacing: 0.05em;
+    // font-family: $second-font-family;
     @include mq() {
         font-size: rem(22);
     }
@@ -116,65 +116,65 @@
     }
 }
 
-.menu-card__subTl {
-    background-color: $main;
-    padding: rem(3) rem(4) rem(3) rem(9);
-    text-align: center;
-    border-radius: rem(12);
-    color: $white;
-    font-size: rem(15);
-    font-weight: $bold;
-    line-height: calc(20 / 15);
-    font-family: $second-font-family;
-    @include mq() {
-        font-size: rem(15);
-        padding: rem(4) rem(10);
-    }
-}
+// .menu-card__subTl {
+//     background-color: $main;
+//     padding: rem(3) rem(4) rem(3) rem(9);
+//     text-align: center;
+//     border-radius: rem(12);
+    // color: $white;
+    // font-size: rem(15);
+    // font-weight: $bold;
+    // line-height: calc(20 / 15);
+    // font-family: $second-font-family;
+//     @include mq() {
+//         font-size: rem(15);
+//         padding: rem(4) rem(10);
+//     }
+// }
 
-.menu-card__meta {
-    display: flex;
-    align-items: end;
-    gap: rem(6);
-    margin-top: rem(7);
-    @include mq() {
-        gap: rem(7);
-        margin-top: rem(10);
-        margin-left: rem(10);
-    }
-}
+// .menu-card__meta {
+//     display: flex;
+//     align-items: end;
+//     gap: rem(6);
+//     margin-top: rem(7);
+//     @include mq() {
+//         gap: rem(7);
+//         margin-top: rem(10);
+//         margin-left: rem(10);
+//     }
+// }
 
-.menu-card__price {
-    color: $black2;
-    font-size: rem(42);
-    font-weight: $bold;
-    line-height: 0.7;
-    letter-spacing: 0.02em;
-    font-family: $second-font-family;
-    @include mq() {
-        font-size: rem(42);
-    }
-}
+// .menu-card__price {
+    // color: $black2;
+    // font-size: rem(42);
+    // font-weight: $bold;
+    // line-height: 0.7;
+    // letter-spacing: 0.02em;
+    // font-family: $second-font-family;
+    // @include mq() {
+    //     font-size: rem(42);
+    // }
+// }
 
-.menu-card__txt {
-    color: $black2;
-    font-family: $second-font-family;
-    font-size: rem(20);
-    font-weight: $bold;
-    line-height: calc(19 / 20);
-    letter-spacing: 0.02em;
-    @include mq() {
-        font-size: rem(18);
-    }
-}
+// .menu-card__txt {
+//     color: $black2;
+//     font-family: $second-font-family;
+//     font-size: rem(20);
+//     font-weight: $bold;
+//     line-height: calc(19 / 20);
+//     letter-spacing: 0.02em;
+//     @include mq() {
+//         font-size: rem(18);
+//     }
+// }
 
-.menu-card__txt span {
-    display: block;
-    text-align: right;
-    font-size: rem(12);
-    font-weight: $regular;
-    line-height: calc(15 / 12);
-    @include mq() {
-        font-size: rem(11);
-    }
-}
+// .menu-card__txt span {
+//     display: block;
+//     text-align: right;
+//     font-size: rem(12);
+//     font-weight: $regular;
+//     line-height: calc(15 / 12);
+//     @include mq() {
+//         font-size: rem(11);
+//     }
+// }

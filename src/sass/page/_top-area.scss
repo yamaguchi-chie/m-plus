@@ -144,24 +144,28 @@
 
 .top-area__subTl {
     display: inline-block;
+    vertical-align: bottom;
     background-color: $brown1;
-    padding: rem(3) rem(23) rem(3) rem(24);
-    text-align: center;
+    padding: rem(9) rem(23) rem(9) rem(24);
     border-radius: rem(18);
-    color: $white;
-    font-size: rem(17);
-    font-weight: $bold;
-    line-height: calc(32 / 17);
-    letter-spacing: 0.06em;
-    font-family: $second-font-family;
+    // text-align: center;
+    // color: $white;
+    // font-size: rem(17);
+    // font-weight: $bold;
+    // line-height: calc(32 / 17);
+    // letter-spacing: 0.06em;
+    // font-family: $second-font-family;
     @include mq() {
-        font-size: rem(16);
-        padding: rem(3) rem(19);
+        // font-size: rem(16);
+        padding: rem(9) rem(19);
     }
 }
 
+.top-area__subTl>img {
+    max-width: rem(85);
+}
+
 .top-area__subTl--orange {
-    padding: rem(1) rem(23) rem(1) rem(24);
     border-radius: rem(12) rem(12) 0 0;
     background-color: $orange3;
 }
@@ -203,7 +207,6 @@
 
 .top-area__bottom {
     margin-top: rem(51);
-    position: relative;
     max-width: rem(407);
     @include mq() {
         margin-top: rem(-3);
@@ -222,12 +225,13 @@
     width: rem(111);
     height: rem(153);
     position: absolute;
-    top: rem(-118);
+    // top: rem(-118);
+    bottom: 0;
     right: 0;
     @include mq() {
         width: rem(94);
         height: rem(136);
-        top: rem(-98);
+        // top: rem(-98);
     }
 }
 
