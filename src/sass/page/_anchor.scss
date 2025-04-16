@@ -117,15 +117,17 @@
 }
 
 .anchor__title {
-    font-size: rem(18);
-    font-weight: $bold;
-    // line-height: calc(30 / 18);
-    letter-spacing: -0.1em;
-    text-align: center;
-    font-family: $second-font-family;
-    color: $beige6;
     padding-bottom: rem(22);
     position: relative;
+    max-width: rem(139);
+    margin-right: auto;
+    margin-left: auto;
+    @include mq() {
+        max-width: rem(124);
+    }
+}
+
+.anchor__title>img {
 }
 
 .anchor__title::before,
