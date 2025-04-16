@@ -112,5 +112,6 @@
     max-width: rem(467);
     @include mq() {
         margin-top: rem(48);
+        max-width: rem(320);
     }
 }

@@ -99,7 +99,10 @@
                     <p class="top-reason__subTl">何でも相談できる街のリフォーム屋さん</p>
                 </div>
                 <p class="top-reason__txt fade-in">エムプラスは、相談できる街のリフォーム屋さんです。<br>名古屋市、春日井市、小牧市を中心に町の皆さんのお役にたちたいという想いから、皆さんの家の色んなお困りごとに「お応え」しています。<br>地域密着で地元をよく知る私たちだからこそ、お客様一人ひとりの暮らしに寄り添った丁寧な対応と、確かな品質をお届けできます。</p>
-                <div class="top-reason__btn fade-in"><a href="<?php echo esc_url(home_url("reason")); ?>" class="top-btn"><span>選ばれる理由</span></a></div>
+                <div class="top-reason__btn fade-in"><a href="<?php echo esc_url(home_url("reason")); ?>" class="top-btn">
+                    <!-- <span>選ばれる理由</span> -->
+                     <div class="top-btn__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/top-btn-1.webp" alt="" loading="lazy" decoding="async"></div>
+                </a></div>
             </div>
             <div class="top-reason__img fade-in">
                 <img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/reason.webp" alt="男の人が相談に乗っているイメージ" width="" height="" loading="lazy" decoding="async">
@@ -221,7 +224,10 @@
                 </li>
             </ul>
             <div class="top-menu__btn fade-in">
-            <a href="<?php echo esc_url(home_url("reform-menu")); ?>" class="top-btn top-btn--menu"><span>リフォームメニュー<br>一覧を見る</span></a>
+            <a href="<?php echo esc_url(home_url("reform-menu")); ?>" class="top-btn top-btn--menu">
+                <!-- <span>リフォームメニュー<br>一覧を見る</span> -->
+                <div class="top-btn__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/top-btn-2.webp" alt="" loading="lazy" decoding="async"></div>
+            </a>
             </div>
         </div>
     </div>
@@ -239,7 +245,10 @@
                 <div class="top-flow__contents">
                     <div class="top-flow__deco fade-in"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/flow-deco.webp" alt="" width="" height="" loading="lazy" decoding="async"></div>
                     <div class="top-flow__btn fade-in">
-                        <a href="<?php echo esc_url(home_url("flow")); ?>" class="top-btn top-btn--flow"><span>ご依頼までの流れ</span></a>
+                        <a href="<?php echo esc_url(home_url("flow")); ?>" class="top-btn top-btn--flow">
+                            <!-- <span>ご依頼までの流れ</span> -->
+                            <div class="top-btn__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/top-btn-3.webp" alt="" loading="lazy" decoding="async"></div>
+                    </a>
                     </div>
                 </div>
                 <div class="top-flow__img fade-in"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/flow-img.webp" alt="流れを説明する男性のイメージ" width="" height="" loading="lazy" decoding="async"></div>
@@ -256,7 +265,10 @@
         </div>
         <p class="top-company__catch fade-in">名古屋市や春日井市、小牧市を中心とした地域密着の<br class="u-desktop">リフォーム・リノベーション会社・エムプラスです。<br>お客様との出会いとご縁、職人さんとの絆を大切にした<br class="u-desktop">まごころを込めたリフォームを実現します。</p>
         <div class="top-company__btn fade-in">
-            <a href="<?php echo esc_url(home_url("company")); ?>" class="top-btn top-btn--company"><span>会社について</span></a>
+            <a href="<?php echo esc_url(home_url("company")); ?>" class="top-btn top-btn--company">
+                <!-- <span>会社について</span> -->
+                <div class="top-btn__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/top/top-btn-4.webp" alt="" loading="lazy" decoding="async"></div>
+        </a>
         </div>
     </div>
 </section>
