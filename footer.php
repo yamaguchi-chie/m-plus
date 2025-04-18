@@ -7,10 +7,10 @@
             <div class="footer__logo"><a href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/foot-logo.webp" alt="ロゴ" width="" height="" loading="lazy" decoding="async"></a></div>
             <div class="footer__info">
               <p class="footer__adress">〒462-0825 愛知県名古屋市北区大曽根3-10-7</p>
-              <div class="footer__info-tel">
+              <!-- <div class="footer__info-tel">
                 <p><a href="tel:0120-857-735"><span>TEL</span>：0120-857-735</a></p>
                 <p><span>FAX</span>：052-508-5032</p>
-              </div>
+              </div> -->
             </div>
           </div>
           <div class="footer__flex">
