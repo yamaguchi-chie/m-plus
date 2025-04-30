@@ -33,106 +33,30 @@ function my_script_init() {
   }
   add_action("wp_enqueue_scripts", "my_script_init");
 
-  /* ------------------------------------------------------------------------------ 
-ブログ記事をカスタム投稿で出力
------------------------------------------------------------------------------- */
-function add_custom_post() {
-  register_post_type(
-    'works',
-    array(
-      'label' => '施工実績',
-      'public' => true,
-      'has_archive' => true,
-      // ブロックエディターを有効化するするかどうか
-      'show_in_rest' => true,
-      'menu_position' => 5,
-      // 親子関係を持たせるか
-      'hierarchical' => false,
-      'supports' => array(
-        'title',
-        'editor',
-        'thumbnail',
-        'revisions',
-        'excerpt',
-        'custom-fields',
-        'page-attributes',
-        'author',
-      )
-    )
-  );
+  /* ---------- 「投稿」の表記変更 ---------- */
+function Change_menulabel() {
+  global $menu;
+  global $submenu;
+  $name = '記事';
+  $menu[5][0] = $name;
+  $submenu['edit.php'][5][0] = $name.'一覧';
+  $submenu['edit.php'][10][0] = '新規'.$name.'投稿';
 }
-add_action('init', 'add_custom_post');
-/* ------------------------------------------------------------------------------
-カスタム投稿のタクソノミー出力
------------------------------------------------------------------------------- */
-function add_taxonomy() {
-  //施工実績カテゴリ
-  register_taxonomy(
-    // カスタムタクソノミー名
-    'works-cat',
-    // 適応投稿タイプ
-    'works',
-    array(
-      // 管理画面上の名前
-      'label' => '施工実績カテゴリ',
-      'singular_label' => '施工実績カテゴリ',
-      'labels' => array(
-        'add_works_item' => '施工実績カテゴリを追加'
-      ),
-      'public' => true,
-      // 管理画面上に編集画面を表示するか
-      'show_ui' => true,
-      'show_in_nav_menus' => true,
-      // ブロックエディターの管理画面に出力するかどうか
-      'show_in_rest' => true,
-      // カスタムタクソノミーに階層を持たせるか
-      'hierarchical' => true
-    )
-  );
+function Change_objectlabel() {
+  global $wp_post_types;
+  $name = '記事';
+  $labels = &$wp_post_types['post']->labels;
+  $labels->name = $name;
+  $labels->singular_name = $name;
+  $labels->add_new = _x('追加', $name);
+  $labels->add_new_item = $name.'の新規追加';
+  $labels->edit_item = $name.'の編集';
+  $labels->new_item = '新規'.$name;
+  $labels->view_item = $name.'を表示';
+  $labels->search_items = $name.'を検索';
+  $labels->not_found = $name.'が見つかりませんでした';
+  $labels->not_found_in_trash = 'ゴミ箱に'.$name.'は見つかりませんでした';
 }
-add_action('init', 'add_taxonomy');
-
-// Contact Form 7で自動挿入されるPタグ、brタグを削除
-add_filter('wpcf7_autop_or_not', 'wpcf7_autop_return_false');
-function wpcf7_autop_return_false() {
-  return false;
-}
-
-  //ページネーション
-  // function add_prev_post_link_class($output) {
-  //   return str_replace('<a href=', '<a class="pagination__link txt" href=', $output); 
-  //   }
-  //   add_filter( 'previous_post_link', 'add_prev_post_link_class' );
-  //   function add_next_post_link_class($output) {
-  //   return str_replace('<a href=', '<a class="pagination__link txt" href=', $output); 
-  //   }
-  //   add_filter( 'next_post_link', 'add_next_post_link_class' );
-
-//   // pタグとbrタグの自動挿入を解除
-//   remove_filter('the_content', 'wpautop');
-// }
-
-  // function my_preget_posts($query) {
-  //   if (is_admin() || ! $query->is_main_query()){
-  //     return;
-  //   }
-  //   if ($query->is_post_type_archive('works')) {
-  //      $query->set('posts_per_page', 3);
-  //      // $query->set('posts_per_page', 設定したい最大表示件数)
-  //      return;
-  //   }
-  //   if ($query->is_front_page()) {
-  //      $query->set('posts_per_page', 3);
-  //      // $query->set('posts_per_page', 設定したい最大表示件数)
-  //      return;
-  //   }
-  // }
-  // add_action('pre_get_posts', 'my_preget_posts');
-
-  // //メタ
-  // function my_title_separator($separator) {
-  //   $separator = '|';
-  //   return $separator;
-  // }
-  // add_filter('document_title_separator', 'my_title_separator');
+add_action( 'init', 'Change_objectlabel' );
+add_action( 'admin_menu', 'Change_menulabel' );
 ?>
