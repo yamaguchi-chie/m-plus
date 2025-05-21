@@ -34,9 +34,14 @@
 
 .sub-menu__item {
     padding-top: rem(103);
+    // scroll-margin-top: rem(180);
 
     @include mq() {
-        padding-top: rem(90);
+        // padding-top: rem(90);
+        // padding-top: rem(40);
+        // margin-top: rem(50);
+        padding-top: 0;
+        margin-top: rem(90);
     }
 }
 

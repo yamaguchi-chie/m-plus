@@ -19,8 +19,8 @@ $mainviews = [
             <li class="sitemap__item">
                 <h2 class="sitemap__subTl sitemap__subTl--space">T  O  P</h2>
                 <ul class="sitemap__contents sitemap__contents--gap">
-                    <li class="sitemap__link sitemap__link--circle"><a href="<?php echo esc_url(home_url("reason")); ?>">top</a></li>
-                    <li class="sitemap__link sitemap__link--circle"><a href="<?php echo esc_url(home_url("reason")); ?>">新着情報一覧</a></li>
+                    <li class="sitemap__link sitemap__link--circle"><a href="<?php echo esc_url(home_url()); ?>">top</a></li>
+                    <li class="sitemap__link sitemap__link--circle"><a href="<?php echo esc_url(home_url("news")); ?>">新着情報一覧</a></li>
                 </ul>
             </li>
             <li class="sitemap__item">
@@ -34,16 +34,16 @@ $mainviews = [
                 <ul class="sitemap__contents">
                     <li class="sitemap__nav-item">
                         <ul>
-                            <li class="sitemap__link"><a href="<?php echo esc_url(home_url("reform-menu/#kitchen")); ?>">キッチンリフォーム</a></li>
-                            <li class="sitemap__link"><a href="<?php echo esc_url(home_url("reform-menu/#bath")); ?>">浴室リフォーム</a></li>
-                            <li class="sitemap__link"><a href="<?php echo esc_url(home_url("reform-menu/#toilet")); ?>">トイレリフォーム</a></li>
+                            <li class="sitemap__link"><a href="<?php echo esc_url(home_url("reform-menu")); ?>#kitchen">キッチンリフォーム</a></li>
+                            <li class="sitemap__link"><a href="<?php echo esc_url(home_url("reform-menu")); ?>#bath">浴室リフォーム</a></li>
+                            <li class="sitemap__link"><a href="<?php echo esc_url(home_url("reform-menu")); ?>#toilet">トイレリフォーム</a></li>
                         </ul>
                     </li>
                     <li class="sitemap__nav-item">
                     <ul>
-                        <li class="sitemap__link"><a href="<?php echo esc_url(home_url("reform-menu/#washroom")); ?>">洗面リフォーム</a></li>
-                        <li class="sitemap__link"><a href="<?php echo esc_url(home_url("reform-menu/#interior")); ?>">内装リフォーム</a></li>
-                        <li class="sitemap__link"><a href="<?php echo esc_url(home_url("reform-menu/#exterior")); ?>">外装リフォーム</a></li>
+                        <li class="sitemap__link"><a href="<?php echo esc_url(home_url("reform-menu")); ?>#washroom">洗面リフォーム</a></li>
+                        <li class="sitemap__link"><a href="<?php echo esc_url(home_url("reform-menu")); ?>#interior">内装リフォーム</a></li>
+                        <li class="sitemap__link"><a href="<?php echo esc_url(home_url("reform-menu")); ?>#exterior">外装リフォーム</a></li>
                     </ul>
                     </li>
                 </ul>
@@ -57,10 +57,10 @@ $mainviews = [
             <li class="sitemap__item">
                 <h2 class="sitemap__subTl">会社情報</h2>
                 <ul class="sitemap__contents sitemap__contents--gap">
-                    <li class="sitemap__link"><a href="<?php echo esc_url(home_url("company/#greeting")); ?>">代表挨拶</a></li>
-                    <li class="sitemap__link"><a href="<?php echo esc_url(home_url("company/#concept")); ?>">経営理念</a></li>
-                    <li class="sitemap__link"><a href="<?php echo esc_url(home_url("company/#overview")); ?>">会社概要</a></li>
-                    <li class="sitemap__link"><a href="<?php echo esc_url(home_url("company/#access")); ?>">アクセス</a></li>
+                    <li class="sitemap__link"><a href="<?php echo esc_url(home_url("company")); ?>#greeting">代表挨拶</a></li>
+                    <li class="sitemap__link"><a href="<?php echo esc_url(home_url("company")); ?>#concept">経営理念</a></li>
+                    <li class="sitemap__link"><a href="<?php echo esc_url(home_url("company")); ?>#overview">会社概要</a></li>
+                    <li class="sitemap__link"><a href="<?php echo esc_url(home_url("company")); ?>#access">アクセス</a></li>
                 </ul>
             </li>
         </ul>

@@ -44,16 +44,16 @@
               <ul class="footer__contents">
                 <li>
                   <ul>
-                    <li class="footer__link"><a href="<?php echo esc_url(home_url("reform-menu/#kitchen")); ?>">キッチンリフォーム</a></li>
-                    <li class="footer__link"><a href="<?php echo esc_url(home_url("reform-menu/#bath")); ?>">浴室リフォーム</a></li>
-                    <li class="footer__link"><a href="<?php echo esc_url(home_url("reform-menu/#toilet")); ?>">トイレリフォーム</a></li>
+                    <li class="footer__link"><a href="<?php echo esc_url(home_url("reform-menu")); ?>#kitchen">キッチンリフォーム</a></li>
+                    <li class="footer__link"><a href="<?php echo esc_url(home_url("reform-menu")); ?>#bath">浴室リフォーム</a></li>
+                    <li class="footer__link"><a href="<?php echo esc_url(home_url("reform-menu")); ?>#toilet">トイレリフォーム</a></li>
                   </ul>
                 </li>
                 <li>
                   <ul>
-                    <li class="footer__link"><a href="<?php echo esc_url(home_url("reform-menu/#washroom")); ?>">洗面リフォーム</a></li>
-                    <li class="footer__link"><a href="<?php echo esc_url(home_url("reform-menu/#interior")); ?>">内装リフォーム</a></li>
-                    <li class="footer__link"><a href="<?php echo esc_url(home_url("reform-menu/#exterior")); ?>">外装リフォーム</a></li>
+                    <li class="footer__link"><a href="<?php echo esc_url(home_url("reform-menu")); ?>#washroom">洗面リフォーム</a></li>
+                    <li class="footer__link"><a href="<?php echo esc_url(home_url("reform-menu")); ?>#interior">内装リフォーム</a></li>
+                    <li class="footer__link"><a href="<?php echo esc_url(home_url("reform-menu")); ?>#exterior">外装リフォーム</a></li>
                   </ul>
                 </li>
               </ul>
@@ -69,14 +69,14 @@
               <ul class="footer__contents footer__contents--flex">
               <li>
               <ul>
-                  <li class="footer__link"><a href="<?php echo esc_url(home_url("company/#greeting")); ?>">代表挨拶</a></li>
-                  <li class="footer__link"><a href="<?php echo esc_url(home_url("company/#concept")); ?>">経営理念</a></li>
+                  <li class="footer__link"><a href="<?php echo esc_url(home_url("company")); ?>#greeting">代表挨拶</a></li>
+                  <li class="footer__link"><a href="<?php echo esc_url(home_url("company")); ?>#concept">経営理念</a></li>
                   </ul>
                   </li>
                   <li>
                   <ul>
-                  <li class="footer__link"><a href="<?php echo esc_url(home_url("company/#overview")); ?>">会社概要</a></li>
-                  <li class="footer__link"><a href="<?php echo esc_url(home_url("company/#access")); ?>">アクセス</a></li>
+                  <li class="footer__link"><a href="<?php echo esc_url(home_url("company")); ?>#overview">会社概要</a></li>
+                  <li class="footer__link"><a href="<?php echo esc_url(home_url("company")); ?>#access">アクセス</a></li>
                   </ul>
                   </li>
               </ul>
@@ -105,5 +105,32 @@
 
 <?php wp_footer(); ?>
 
+<script>
+window.addEventListener('load', () => {
+  const hash = window.location.hash;
+
+  if (hash) {
+    const target = document.querySelector(hash);
+    if (target) {
+      const scrollToTarget = () => {
+        const headerOffset = 120;
+        const elementPosition = target.getBoundingClientRect().top + window.pageYOffset;
+        const offsetPosition = elementPosition - headerOffset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'auto'
+        });
+      };
+
+      // 1回目: 通常読み込み後
+      setTimeout(scrollToTarget, 600);
+
+      // 2回目: さらにレイアウトが安定するであろうタイミングで再実行
+      setTimeout(scrollToTarget, 1200);
+    }
+  }
+});
+</script>
 </body>
 </html>

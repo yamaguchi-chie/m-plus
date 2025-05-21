@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="format-detection" content="telephone=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/favicon.ico" sizes="64x64" />
   <script>
   (function(d) {
     var config = {
@@ -16,6 +17,7 @@
     h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
   })(document);
 </script>
+  <meta name="google-site-verification" content="QYVvsXLga1vbaK4Cu019emCynvrCV8evHC0vxQR0Z2U" />
   <?php wp_head(); ?>
 </head>
 
@@ -28,7 +30,7 @@
         <div class="header__body">
           <!-- logo  -->
           <h1 class="header__logo">
-            <a href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/head-logo.webp" alt="ロゴ" width="" height="" loading="lazy" decoding="async"></a>
+            <a href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/common/head-logo.webp" alt="ロゴ" ></a>
           </h1>
           <div class="header__main">
             <p class="header__catch">名古屋市・春日井市・小牧市の<br>リフォーム・リノベーションのことなら<br class="u-pc">エムプラスへ！</p>

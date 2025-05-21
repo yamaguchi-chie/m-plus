@@ -20,38 +20,38 @@ $mainviews = [
                 <ul class="anchor__list">
                     <li class="anchor__item fade-in">
                         <a href="#kitchen" class="anchor__link">
-                            <div class="anchor__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/anchor1.webp" alt="キッチンのイメージ画像" loading="lazy" decoding="async"></div>
-                            <h3 class="anchor__title"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/anchor-txt1.webp" alt="" loading="lazy" decoding="async"></h3>
+                            <div class="anchor__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/anchor1.webp" alt="キッチンのイメージ画像"></div>
+                            <h3 class="anchor__title"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/anchor-txt1.webp" alt=""></h3>
                         </a>
                     </li>
                     <li class="anchor__item fade-in">
                         <a href="#bath" class="anchor__link">
-                            <div class="anchor__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/anchor2.webp" alt="浴槽のイメージ画像" loading="lazy" decoding="async"></div>
-                            <h3 class="anchor__title"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/anchor-txt2.webp" alt="" loading="lazy" decoding="async"></h3>
+                            <div class="anchor__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/anchor2.webp" alt="浴槽のイメージ画像"></div>
+                            <h3 class="anchor__title"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/anchor-txt2.webp" alt=""></h3>
                         </a>
                     </li>
                     <li class="anchor__item fade-in">
                         <a href="#toilet" class="anchor__link">
-                            <div class="anchor__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/anchor3.webp" alt="トイレのイメージ画像" loading="lazy" decoding="async"></div>
-                            <h3 class="anchor__title"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/anchor-txt3.webp" alt="" loading="lazy" decoding="async"></h3>
+                            <div class="anchor__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/anchor3.webp" alt="トイレのイメージ画像"></div>
+                            <h3 class="anchor__title"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/anchor-txt3.webp" alt=""></h3>
                         </a>
                     </li>
                     <li class="anchor__item fade-in">
                         <a href="#washroom" class="anchor__link">
-                            <div class="anchor__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/anchor4.webp" alt="洗面のイメージ画像" loading="lazy" decoding="async"></div>
-                            <h3 class="anchor__title"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/anchor-txt4.webp" alt="" loading="lazy" decoding="async"></h3>
+                            <div class="anchor__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/anchor4.webp" alt="洗面のイメージ画像"></div>
+                            <h3 class="anchor__title"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/anchor-txt4.webp" alt=""></h3>
                         </a>
                     </li>
                     <li class="anchor__item fade-in">
                         <a href="#interior" class="anchor__link">
-                            <div class="anchor__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/anchor5.webp" alt="内装のイメージ画像" loading="lazy" decoding="async"></div>
-                            <h3 class="anchor__title"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/anchor-txt5.webp" alt="" loading="lazy" decoding="async"></h3>
+                            <div class="anchor__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/anchor5.webp" alt="内装のイメージ画像"></div>
+                            <h3 class="anchor__title"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/anchor-txt5.webp" alt=""></h3>
                         </a>
                     </li>
                     <li class="anchor__item fade-in">
                         <a href="#exterior" class="anchor__link">
-                            <div class="anchor__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/anchor6.webp" alt="外装のイメージ画像" loading="lazy" decoding="async"></div>
-                            <h3 class="anchor__title"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/anchor-txt6.webp" alt="" loading="lazy" decoding="async"></h3>
+                            <div class="anchor__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/anchor6.webp" alt="外装のイメージ画像"></div>
+                            <h3 class="anchor__title"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/anchor-txt6.webp" alt=""></h3>
                         </a>
                     </li>
                 </ul>
@@ -64,13 +64,13 @@ $mainviews = [
     <div class="sub-menu__inner inner">
         <div class="sub-menu__body">
             <ul class="sub-menu__list">
-                <li class="sub-menu__item fade-in" id="kitchen">
+                <li class="sub-menu__item" id="kitchen">
                     <article class="sub-menu__box">
-                        <div class="sub-menu__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/1.webp" alt="キッチンリフォームのイメージ" loading="lazy" decoding="async"></div>
+                        <div class="sub-menu__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/1.webp" alt="キッチンリフォームのイメージ"></div>
                         <div class="sub-menu__contents">
                             <h2 class="sub-menu__title">キッチンリフォーム</h2>
                             <div class="sub-menu__main">
-                                <h4 class="sub-menu__subTl"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/menu-card-subtitle.webp" alt="" loading="lazy" decoding="async"></h4>
+                                <h4 class="sub-menu__subTl"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/menu-card-subtitle.webp" alt=""></h4>
                                 <div class="sub-menu__meta">
                                     <p class="sub-menu__price">45</p>
                                     <div class="sub-menu__txt">万円～<span>(税込)</span></div>
@@ -86,13 +86,13 @@ $mainviews = [
                         </div>
                     </article>
                 </li>
-                <li class="sub-menu__item fade-in" id="bath">
+                <li class="sub-menu__item" id="bath">
                     <article class="sub-menu__box">
-                        <div class="sub-menu__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/2.webp" alt="浴室リフォームのイメージ" loading="lazy" decoding="async"></div>
+                        <div class="sub-menu__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/2.webp" alt="浴室リフォームのイメージ"></div>
                         <div class="sub-menu__contents">
                             <h2 class="sub-menu__title">浴室リフォーム</h2>
                             <div class="sub-menu__main">
-                                <h4 class="sub-menu__subTl"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/menu-card-subtitle.webp" alt="" loading="lazy" decoding="async"></h4>
+                                <h4 class="sub-menu__subTl"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/menu-card-subtitle.webp" alt=""></h4>
                                 <div class="sub-menu__meta">
                                     <p class="sub-menu__price">42</p>
                                     <div class="sub-menu__txt">万円～<span>(税込)</span></div>
@@ -110,13 +110,13 @@ $mainviews = [
                         </div>
                     </article>
                 </li>
-                <li class="sub-menu__item fade-in" id="toilet">
+                <li class="sub-menu__item" id="toilet">
                     <article class="sub-menu__box">
-                        <div class="sub-menu__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/3.webp" alt="トイレリフォームのイメージ" loading="lazy" decoding="async"></div>
+                        <div class="sub-menu__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/3.webp" alt="トイレリフォームのイメージ"></div>
                         <div class="sub-menu__contents">
                             <h2 class="sub-menu__title">トイレリフォーム</h2>
                             <div class="sub-menu__main">
-                                <h4 class="sub-menu__subTl"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/menu-card-subtitle.webp" alt="" loading="lazy" decoding="async"></h4>
+                                <h4 class="sub-menu__subTl"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/menu-card-subtitle.webp" alt=""></h4>
                                 <div class="sub-menu__meta">
                                     <p class="sub-menu__price">14</p>
                                     <div class="sub-menu__txt">万円～<span>(税込)</span></div>
@@ -132,13 +132,13 @@ $mainviews = [
                         </div>
                     </article>
                 </li>
-                <li class="sub-menu__item fade-in" id="washroom">
+                <li class="sub-menu__item" id="washroom">
                     <article class="sub-menu__box">
-                        <div class="sub-menu__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/4.webp" alt="洗面リフォームのイメージ" loading="lazy" decoding="async"></div>
+                        <div class="sub-menu__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/4.webp" alt="洗面リフォームのイメージ"></div>
                         <div class="sub-menu__contents">
                             <h2 class="sub-menu__title">洗面リフォーム</h2>
                             <div class="sub-menu__main">
-                                <h4 class="sub-menu__subTl"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/menu-card-subtitle.webp" alt="" loading="lazy" decoding="async"></h4>
+                                <h4 class="sub-menu__subTl"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/menu-card-subtitle.webp" alt=""></h4>
                                 <div class="sub-menu__meta">
                                     <p class="sub-menu__price">12</p>
                                     <div class="sub-menu__txt">万円～<span>(税込)</span></div>
@@ -156,13 +156,13 @@ $mainviews = [
                         </div>
                     </article>
                 </li>
-                <li class="sub-menu__item fade-in" id="interior">
+                <li class="sub-menu__item" id="interior">
                     <article class="sub-menu__box">
-                        <div class="sub-menu__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/5.webp" alt="内装リフォームのイメージ" loading="lazy" decoding="async"></div>
+                        <div class="sub-menu__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/5.webp" alt="内装リフォームのイメージ"></div>
                         <div class="sub-menu__contents">
                             <h2 class="sub-menu__title">内装リフォーム</h2>
                             <div class="sub-menu__main">
-                                <h4 class="sub-menu__subTl"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/menu-card-subtitle.webp" alt="" loading="lazy" decoding="async"></h4>
+                                <h4 class="sub-menu__subTl"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/menu-card-subtitle.webp" alt=""></h4>
                                 <div class="sub-menu__meta">
                                     <p class="sub-menu__price">35</p>
                                     <div class="sub-menu__txt">万円～<span>(税込)</span></div>
@@ -178,13 +178,13 @@ $mainviews = [
                         </div>
                     </article>
                 </li>
-                <li class="sub-menu__item fade-in" id="exterior">
+                <li class="sub-menu__item" id="exterior">
                     <article class="sub-menu__box">
-                        <div class="sub-menu__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/6.webp" alt="外装リフォームのイメージ" loading="lazy" decoding="async"></div>
+                        <div class="sub-menu__img"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/6.webp" alt="外装リフォームのイメージ"></div>
                         <div class="sub-menu__contents">
                             <h2 class="sub-menu__title">外装リフォーム</h2>
                             <div class="sub-menu__main">
-                                <h4 class="sub-menu__subTl"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/menu-card-subtitle.webp" alt="" loading="lazy" decoding="async"></h4>
+                                <h4 class="sub-menu__subTl"><img src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/reform-menu/menu-card-subtitle.webp" alt=""></h4>
                                 <div class="sub-menu__meta">
                                     <p class="sub-menu__price">70</p>
                                     <div class="sub-menu__txt">万円～<span>(税込)</span></div>
